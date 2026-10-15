@@ -1,0 +1,23 @@
+{
+  "name": "lesnaya-clinic-demo",
+  "version": "1.7.0",
+  "private": true,
+  "type": "module",
+  "description": "Лесная — сайт ветеринарной клиники",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs",
+    "test": "node scripts/check.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

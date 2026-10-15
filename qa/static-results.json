@@ -1,0 +1,69 @@
+
+> lesnaya-clinic-demo@1.7.0 test
+> node scripts/check.mjs
+
+{
+  "passed": true,
+  "data": "6 services, 3 doctors, consistent references",
+  "assets": "all present",
+  "network": "form has no sending or persistence",
+  "javascriptBytes": 311927,
+  "contrasts": [
+    {
+      "name": "Urgent button",
+      "ratio": 7.59
+    },
+    {
+      "name": "Urgent note",
+      "ratio": 9.13
+    },
+    {
+      "name": "Body",
+      "ratio": 11.62
+    },
+    {
+      "name": "Secondary",
+      "ratio": 5.08
+    },
+    {
+      "name": "Visit card secondary and eyebrow",
+      "ratio": 4.63
+    },
+    {
+      "name": "Featured service secondary",
+      "ratio": 4.77
+    },
+    {
+      "name": "Header urgent",
+      "ratio": 7.59
+    },
+    {
+      "name": "Mobile urgent",
+      "ratio": 7.59
+    },
+    {
+      "name": "Light button",
+      "ratio": 7.55
+    },
+    {
+      "name": "Dark button",
+      "ratio": 12.91
+    },
+    {
+      "name": "Dark metadata",
+      "ratio": 9.53
+    },
+    {
+      "name": "Eyebrow",
+      "ratio": 4.82
+    },
+    {
+      "name": "Form error",
+      "ratio": 6.9
+    },
+    {
+      "name": "Form placeholder",
+      "ratio": 4.77
+    }
+  ]
+}

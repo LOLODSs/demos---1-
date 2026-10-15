@@ -1,0 +1,125 @@
+{
+  "widths": [
+    {
+      "width": 320,
+      "overflow": false,
+      "h2": 34,
+      "team": 952,
+      "gallery": 806,
+      "italicHeadings": 1,
+      "small": [],
+      "assets": 7
+    },
+    {
+      "width": 360,
+      "overflow": false,
+      "h2": 34,
+      "team": 855,
+      "gallery": 822,
+      "italicHeadings": 1,
+      "small": [],
+      "assets": 7
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "h2": 34,
+      "team": 878,
+      "gallery": 845,
+      "italicHeadings": 1,
+      "small": [],
+      "assets": 7
+    },
+    {
+      "width": 480,
+      "overflow": false,
+      "h2": 34,
+      "team": 865,
+      "gallery": 917,
+      "italicHeadings": 1,
+      "small": [],
+      "assets": 7
+    },
+    {
+      "width": 600,
+      "overflow": false,
+      "h2": 42,
+      "team": 874,
+      "gallery": 1051,
+      "italicHeadings": 1,
+      "small": [],
+      "assets": 7
+    },
+    {
+      "width": 760,
+      "overflow": false,
+      "h2": 44,
+      "team": 876,
+      "gallery": 1220,
+      "italicHeadings": 1,
+      "small": [],
+      "assets": 7
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "h2": 36,
+      "team": 759,
+      "gallery": 664,
+      "italicHeadings": 1,
+      "small": [],
+      "assets": 7
+    },
+    {
+      "width": 820,
+      "overflow": false,
+      "h2": 36,
+      "team": 778,
+      "gallery": 664,
+      "italicHeadings": 1,
+      "small": [],
+      "assets": 7
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "h2": 43.008,
+      "team": 833,
+      "gallery": 649,
+      "italicHeadings": 1,
+      "small": [],
+      "assets": 7
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "h2": 53.76,
+      "team": 845,
+      "gallery": 711,
+      "italicHeadings": 1,
+      "small": [],
+      "assets": 7
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "h2": 56,
+      "team": 847,
+      "gallery": 714,
+      "italicHeadings": 1,
+      "small": [],
+      "assets": 7
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "h2": 56,
+      "team": 847,
+      "gallery": 714,
+      "italicHeadings": 1,
+      "small": [],
+      "assets": 7
+    }
+  ],
+  "checks": []
+}

@@ -1,0 +1,1764 @@
+{
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 7044
+    },
+    {
+      "width": 1024,
+      "height": 7622
+    },
+    {
+      "width": 768,
+      "height": 7604
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 320,
+      "height": 844
+    }
+  ],
+  "checks": [
+    {
+      "name": "1440: no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1440: images load",
+      "passed": true
+    },
+    {
+      "name": "1440: no canvas",
+      "passed": true
+    },
+    {
+      "name": "1440: elements within viewport",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1440: all services visible",
+      "passed": true
+    },
+    {
+      "name": "1440: no service tabs",
+      "passed": true
+    },
+    {
+      "name": "1440: no procedural images",
+      "passed": true
+    },
+    {
+      "name": "1440: therapy reason visible",
+      "passed": true
+    },
+    {
+      "name": "1440: therapy price visible",
+      "passed": true
+    },
+    {
+      "name": "1440: therapy keyboard details",
+      "passed": true
+    },
+    {
+      "name": "1440: therapy contents visible",
+      "passed": true
+    },
+    {
+      "name": "1440: therapy booking selected",
+      "passed": true
+    },
+    {
+      "name": "1440: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "1440: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "1440: diagnostics reason visible",
+      "passed": true
+    },
+    {
+      "name": "1440: diagnostics price visible",
+      "passed": true
+    },
+    {
+      "name": "1440: diagnostics keyboard details",
+      "passed": true
+    },
+    {
+      "name": "1440: diagnostics contents visible",
+      "passed": true
+    },
+    {
+      "name": "1440: diagnostics booking selected",
+      "passed": true
+    },
+    {
+      "name": "1440: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "1440: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "1440: surgery reason visible",
+      "passed": true
+    },
+    {
+      "name": "1440: surgery price visible",
+      "passed": true
+    },
+    {
+      "name": "1440: surgery keyboard details",
+      "passed": true
+    },
+    {
+      "name": "1440: surgery contents visible",
+      "passed": true
+    },
+    {
+      "name": "1440: surgery booking selected",
+      "passed": true
+    },
+    {
+      "name": "1440: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "1440: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "1440: dentistry reason visible",
+      "passed": true
+    },
+    {
+      "name": "1440: dentistry price visible",
+      "passed": true
+    },
+    {
+      "name": "1440: dentistry keyboard details",
+      "passed": true
+    },
+    {
+      "name": "1440: dentistry contents visible",
+      "passed": true
+    },
+    {
+      "name": "1440: dentistry booking selected",
+      "passed": true
+    },
+    {
+      "name": "1440: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "1440: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "1440: prevention reason visible",
+      "passed": true
+    },
+    {
+      "name": "1440: prevention price visible",
+      "passed": true
+    },
+    {
+      "name": "1440: prevention keyboard details",
+      "passed": true
+    },
+    {
+      "name": "1440: prevention contents visible",
+      "passed": true
+    },
+    {
+      "name": "1440: prevention booking selected",
+      "passed": true
+    },
+    {
+      "name": "1440: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "1440: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "1440: care reason visible",
+      "passed": true
+    },
+    {
+      "name": "1440: care price visible",
+      "passed": true
+    },
+    {
+      "name": "1440: care keyboard details",
+      "passed": true
+    },
+    {
+      "name": "1440: care contents visible",
+      "passed": true
+    },
+    {
+      "name": "1440: care booking selected",
+      "passed": true
+    },
+    {
+      "name": "1440: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "1440: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "1440: doctor profile 0",
+      "passed": true
+    },
+    {
+      "name": "1440: doctor booking preselected",
+      "passed": true
+    },
+    {
+      "name": "1440: doctor profile 1",
+      "passed": true
+    },
+    {
+      "name": "1440: doctor booking preselected",
+      "passed": true
+    },
+    {
+      "name": "1440: doctor profile 2",
+      "passed": true
+    },
+    {
+      "name": "1440: doctor booking preselected",
+      "passed": true
+    },
+    {
+      "name": "1440: reviews wrap",
+      "passed": true
+    },
+    {
+      "name": "1440: gallery wraps",
+      "passed": true
+    },
+    {
+      "name": "1440: focus in dialog",
+      "passed": true
+    },
+    {
+      "name": "1440: faq 0 opens",
+      "passed": true
+    },
+    {
+      "name": "1440: faq 1 opens",
+      "passed": true
+    },
+    {
+      "name": "1440: faq 2 opens",
+      "passed": true
+    },
+    {
+      "name": "1440: faq 3 opens",
+      "passed": true
+    },
+    {
+      "name": "1440: faq 4 opens",
+      "passed": true
+    },
+    {
+      "name": "1440: map toggle",
+      "passed": true
+    },
+    {
+      "name": "1440: required validation",
+      "passed": true
+    },
+    {
+      "name": "1440: first error focused",
+      "passed": true
+    },
+    {
+      "name": "1440: optional controls visible",
+      "passed": true
+    },
+    {
+      "name": "1440: invalid date reopens options",
+      "passed": true
+    },
+    {
+      "name": "1440: optional date error focused",
+      "passed": true
+    },
+    {
+      "name": "1440: demo success",
+      "passed": true
+    },
+    {
+      "name": "1440: no sending",
+      "passed": true
+    },
+    {
+      "name": "1440: no persistent storage",
+      "passed": true
+    },
+    {
+      "name": "1440: edit keeps values",
+      "passed": true
+    },
+    {
+      "name": "1440: closing discards data",
+      "passed": true
+    },
+    {
+      "name": "1440: no visible AI labels",
+      "passed": true
+    },
+    {
+      "name": "1024: no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1024: images load",
+      "passed": true
+    },
+    {
+      "name": "1024: no canvas",
+      "passed": true
+    },
+    {
+      "name": "1024: elements within viewport",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1024: all services visible",
+      "passed": true
+    },
+    {
+      "name": "1024: no service tabs",
+      "passed": true
+    },
+    {
+      "name": "1024: no procedural images",
+      "passed": true
+    },
+    {
+      "name": "1024: therapy reason visible",
+      "passed": true
+    },
+    {
+      "name": "1024: therapy price visible",
+      "passed": true
+    },
+    {
+      "name": "1024: therapy keyboard details",
+      "passed": true
+    },
+    {
+      "name": "1024: therapy contents visible",
+      "passed": true
+    },
+    {
+      "name": "1024: therapy booking selected",
+      "passed": true
+    },
+    {
+      "name": "1024: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "1024: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "1024: diagnostics reason visible",
+      "passed": true
+    },
+    {
+      "name": "1024: diagnostics price visible",
+      "passed": true
+    },
+    {
+      "name": "1024: diagnostics keyboard details",
+      "passed": true
+    },
+    {
+      "name": "1024: diagnostics contents visible",
+      "passed": true
+    },
+    {
+      "name": "1024: diagnostics booking selected",
+      "passed": true
+    },
+    {
+      "name": "1024: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "1024: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "1024: surgery reason visible",
+      "passed": true
+    },
+    {
+      "name": "1024: surgery price visible",
+      "passed": true
+    },
+    {
+      "name": "1024: surgery keyboard details",
+      "passed": true
+    },
+    {
+      "name": "1024: surgery contents visible",
+      "passed": true
+    },
+    {
+      "name": "1024: surgery booking selected",
+      "passed": true
+    },
+    {
+      "name": "1024: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "1024: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "1024: dentistry reason visible",
+      "passed": true
+    },
+    {
+      "name": "1024: dentistry price visible",
+      "passed": true
+    },
+    {
+      "name": "1024: dentistry keyboard details",
+      "passed": true
+    },
+    {
+      "name": "1024: dentistry contents visible",
+      "passed": true
+    },
+    {
+      "name": "1024: dentistry booking selected",
+      "passed": true
+    },
+    {
+      "name": "1024: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "1024: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "1024: prevention reason visible",
+      "passed": true
+    },
+    {
+      "name": "1024: prevention price visible",
+      "passed": true
+    },
+    {
+      "name": "1024: prevention keyboard details",
+      "passed": true
+    },
+    {
+      "name": "1024: prevention contents visible",
+      "passed": true
+    },
+    {
+      "name": "1024: prevention booking selected",
+      "passed": true
+    },
+    {
+      "name": "1024: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "1024: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "1024: care reason visible",
+      "passed": true
+    },
+    {
+      "name": "1024: care price visible",
+      "passed": true
+    },
+    {
+      "name": "1024: care keyboard details",
+      "passed": true
+    },
+    {
+      "name": "1024: care contents visible",
+      "passed": true
+    },
+    {
+      "name": "1024: care booking selected",
+      "passed": true
+    },
+    {
+      "name": "1024: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "1024: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "1024: doctor profile 0",
+      "passed": true
+    },
+    {
+      "name": "1024: doctor booking preselected",
+      "passed": true
+    },
+    {
+      "name": "1024: doctor profile 1",
+      "passed": true
+    },
+    {
+      "name": "1024: doctor booking preselected",
+      "passed": true
+    },
+    {
+      "name": "1024: doctor profile 2",
+      "passed": true
+    },
+    {
+      "name": "1024: doctor booking preselected",
+      "passed": true
+    },
+    {
+      "name": "1024: reviews wrap",
+      "passed": true
+    },
+    {
+      "name": "1024: gallery wraps",
+      "passed": true
+    },
+    {
+      "name": "1024: focus in dialog",
+      "passed": true
+    },
+    {
+      "name": "1024: faq 0 opens",
+      "passed": true
+    },
+    {
+      "name": "1024: faq 1 opens",
+      "passed": true
+    },
+    {
+      "name": "1024: faq 2 opens",
+      "passed": true
+    },
+    {
+      "name": "1024: faq 3 opens",
+      "passed": true
+    },
+    {
+      "name": "1024: faq 4 opens",
+      "passed": true
+    },
+    {
+      "name": "1024: map toggle",
+      "passed": true
+    },
+    {
+      "name": "1024: required validation",
+      "passed": true
+    },
+    {
+      "name": "1024: first error focused",
+      "passed": true
+    },
+    {
+      "name": "1024: optional controls visible",
+      "passed": true
+    },
+    {
+      "name": "1024: invalid date reopens options",
+      "passed": true
+    },
+    {
+      "name": "1024: optional date error focused",
+      "passed": true
+    },
+    {
+      "name": "1024: demo success",
+      "passed": true
+    },
+    {
+      "name": "1024: no sending",
+      "passed": true
+    },
+    {
+      "name": "1024: no persistent storage",
+      "passed": true
+    },
+    {
+      "name": "1024: edit keeps values",
+      "passed": true
+    },
+    {
+      "name": "1024: closing discards data",
+      "passed": true
+    },
+    {
+      "name": "1024: menu focus trap 0",
+      "passed": true
+    },
+    {
+      "name": "1024: menu focus trap 1",
+      "passed": true
+    },
+    {
+      "name": "1024: menu focus trap 2",
+      "passed": true
+    },
+    {
+      "name": "1024: menu focus trap 3",
+      "passed": true
+    },
+    {
+      "name": "1024: menu focus trap 4",
+      "passed": true
+    },
+    {
+      "name": "1024: menu focus trap 5",
+      "passed": true
+    },
+    {
+      "name": "1024: menu focus trap 6",
+      "passed": true
+    },
+    {
+      "name": "1024: menu focus trap 7",
+      "passed": true
+    },
+    {
+      "name": "1024: menu focus trap 8",
+      "passed": true
+    },
+    {
+      "name": "1024: menu focus trap 9",
+      "passed": true
+    },
+    {
+      "name": "1024: menu closes on navigation",
+      "passed": true
+    },
+    {
+      "name": "1024: correct anchor",
+      "passed": true
+    },
+    {
+      "name": "1024: menu returns focus",
+      "passed": true
+    },
+    {
+      "name": "1024: no visible AI labels",
+      "passed": true
+    },
+    {
+      "name": "768: no page overflow",
+      "passed": true
+    },
+    {
+      "name": "768: images load",
+      "passed": true
+    },
+    {
+      "name": "768: no canvas",
+      "passed": true
+    },
+    {
+      "name": "768: elements within viewport",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "768: all services visible",
+      "passed": true
+    },
+    {
+      "name": "768: no service tabs",
+      "passed": true
+    },
+    {
+      "name": "768: no procedural images",
+      "passed": true
+    },
+    {
+      "name": "768: therapy reason visible",
+      "passed": true
+    },
+    {
+      "name": "768: therapy price visible",
+      "passed": true
+    },
+    {
+      "name": "768: therapy keyboard details",
+      "passed": true
+    },
+    {
+      "name": "768: therapy contents visible",
+      "passed": true
+    },
+    {
+      "name": "768: therapy booking selected",
+      "passed": true
+    },
+    {
+      "name": "768: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "768: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "768: diagnostics reason visible",
+      "passed": true
+    },
+    {
+      "name": "768: diagnostics price visible",
+      "passed": true
+    },
+    {
+      "name": "768: diagnostics keyboard details",
+      "passed": true
+    },
+    {
+      "name": "768: diagnostics contents visible",
+      "passed": true
+    },
+    {
+      "name": "768: diagnostics booking selected",
+      "passed": true
+    },
+    {
+      "name": "768: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "768: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "768: surgery reason visible",
+      "passed": true
+    },
+    {
+      "name": "768: surgery price visible",
+      "passed": true
+    },
+    {
+      "name": "768: surgery keyboard details",
+      "passed": true
+    },
+    {
+      "name": "768: surgery contents visible",
+      "passed": true
+    },
+    {
+      "name": "768: surgery booking selected",
+      "passed": true
+    },
+    {
+      "name": "768: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "768: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "768: dentistry reason visible",
+      "passed": true
+    },
+    {
+      "name": "768: dentistry price visible",
+      "passed": true
+    },
+    {
+      "name": "768: dentistry keyboard details",
+      "passed": true
+    },
+    {
+      "name": "768: dentistry contents visible",
+      "passed": true
+    },
+    {
+      "name": "768: dentistry booking selected",
+      "passed": true
+    },
+    {
+      "name": "768: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "768: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "768: prevention reason visible",
+      "passed": true
+    },
+    {
+      "name": "768: prevention price visible",
+      "passed": true
+    },
+    {
+      "name": "768: prevention keyboard details",
+      "passed": true
+    },
+    {
+      "name": "768: prevention contents visible",
+      "passed": true
+    },
+    {
+      "name": "768: prevention booking selected",
+      "passed": true
+    },
+    {
+      "name": "768: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "768: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "768: care reason visible",
+      "passed": true
+    },
+    {
+      "name": "768: care price visible",
+      "passed": true
+    },
+    {
+      "name": "768: care keyboard details",
+      "passed": true
+    },
+    {
+      "name": "768: care contents visible",
+      "passed": true
+    },
+    {
+      "name": "768: care booking selected",
+      "passed": true
+    },
+    {
+      "name": "768: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "768: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "768: doctor profile 0",
+      "passed": true
+    },
+    {
+      "name": "768: doctor booking preselected",
+      "passed": true
+    },
+    {
+      "name": "768: doctor profile 1",
+      "passed": true
+    },
+    {
+      "name": "768: doctor booking preselected",
+      "passed": true
+    },
+    {
+      "name": "768: doctor profile 2",
+      "passed": true
+    },
+    {
+      "name": "768: doctor booking preselected",
+      "passed": true
+    },
+    {
+      "name": "768: reviews wrap",
+      "passed": true
+    },
+    {
+      "name": "768: gallery wraps",
+      "passed": true
+    },
+    {
+      "name": "768: focus in dialog",
+      "passed": true
+    },
+    {
+      "name": "768: faq 0 opens",
+      "passed": true
+    },
+    {
+      "name": "768: faq 1 opens",
+      "passed": true
+    },
+    {
+      "name": "768: faq 2 opens",
+      "passed": true
+    },
+    {
+      "name": "768: faq 3 opens",
+      "passed": true
+    },
+    {
+      "name": "768: faq 4 opens",
+      "passed": true
+    },
+    {
+      "name": "768: map toggle",
+      "passed": true
+    },
+    {
+      "name": "768: required validation",
+      "passed": true
+    },
+    {
+      "name": "768: first error focused",
+      "passed": true
+    },
+    {
+      "name": "768: optional controls visible",
+      "passed": true
+    },
+    {
+      "name": "768: invalid date reopens options",
+      "passed": true
+    },
+    {
+      "name": "768: optional date error focused",
+      "passed": true
+    },
+    {
+      "name": "768: demo success",
+      "passed": true
+    },
+    {
+      "name": "768: no sending",
+      "passed": true
+    },
+    {
+      "name": "768: no persistent storage",
+      "passed": true
+    },
+    {
+      "name": "768: edit keeps values",
+      "passed": true
+    },
+    {
+      "name": "768: closing discards data",
+      "passed": true
+    },
+    {
+      "name": "768: menu focus trap 0",
+      "passed": true
+    },
+    {
+      "name": "768: menu focus trap 1",
+      "passed": true
+    },
+    {
+      "name": "768: menu focus trap 2",
+      "passed": true
+    },
+    {
+      "name": "768: menu focus trap 3",
+      "passed": true
+    },
+    {
+      "name": "768: menu focus trap 4",
+      "passed": true
+    },
+    {
+      "name": "768: menu focus trap 5",
+      "passed": true
+    },
+    {
+      "name": "768: menu focus trap 6",
+      "passed": true
+    },
+    {
+      "name": "768: menu focus trap 7",
+      "passed": true
+    },
+    {
+      "name": "768: menu focus trap 8",
+      "passed": true
+    },
+    {
+      "name": "768: menu focus trap 9",
+      "passed": true
+    },
+    {
+      "name": "768: menu closes on navigation",
+      "passed": true
+    },
+    {
+      "name": "768: correct anchor",
+      "passed": true
+    },
+    {
+      "name": "768: menu returns focus",
+      "passed": true
+    },
+    {
+      "name": "768: no visible AI labels",
+      "passed": true
+    },
+    {
+      "name": "390: no page overflow",
+      "passed": true
+    },
+    {
+      "name": "390: images load",
+      "passed": true
+    },
+    {
+      "name": "390: no canvas",
+      "passed": true
+    },
+    {
+      "name": "390: elements within viewport",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "390: all services visible",
+      "passed": true
+    },
+    {
+      "name": "390: no service tabs",
+      "passed": true
+    },
+    {
+      "name": "390: no procedural images",
+      "passed": true
+    },
+    {
+      "name": "390: therapy reason visible",
+      "passed": true
+    },
+    {
+      "name": "390: therapy price visible",
+      "passed": true
+    },
+    {
+      "name": "390: therapy keyboard details",
+      "passed": true
+    },
+    {
+      "name": "390: therapy contents visible",
+      "passed": true
+    },
+    {
+      "name": "390: therapy booking selected",
+      "passed": true
+    },
+    {
+      "name": "390: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "390: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "390: diagnostics reason visible",
+      "passed": true
+    },
+    {
+      "name": "390: diagnostics price visible",
+      "passed": true
+    },
+    {
+      "name": "390: diagnostics keyboard details",
+      "passed": true
+    },
+    {
+      "name": "390: diagnostics contents visible",
+      "passed": true
+    },
+    {
+      "name": "390: diagnostics booking selected",
+      "passed": true
+    },
+    {
+      "name": "390: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "390: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "390: surgery reason visible",
+      "passed": true
+    },
+    {
+      "name": "390: surgery price visible",
+      "passed": true
+    },
+    {
+      "name": "390: surgery keyboard details",
+      "passed": true
+    },
+    {
+      "name": "390: surgery contents visible",
+      "passed": true
+    },
+    {
+      "name": "390: surgery booking selected",
+      "passed": true
+    },
+    {
+      "name": "390: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "390: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "390: dentistry reason visible",
+      "passed": true
+    },
+    {
+      "name": "390: dentistry price visible",
+      "passed": true
+    },
+    {
+      "name": "390: dentistry keyboard details",
+      "passed": true
+    },
+    {
+      "name": "390: dentistry contents visible",
+      "passed": true
+    },
+    {
+      "name": "390: dentistry booking selected",
+      "passed": true
+    },
+    {
+      "name": "390: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "390: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "390: prevention reason visible",
+      "passed": true
+    },
+    {
+      "name": "390: prevention price visible",
+      "passed": true
+    },
+    {
+      "name": "390: prevention keyboard details",
+      "passed": true
+    },
+    {
+      "name": "390: prevention contents visible",
+      "passed": true
+    },
+    {
+      "name": "390: prevention booking selected",
+      "passed": true
+    },
+    {
+      "name": "390: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "390: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "390: care reason visible",
+      "passed": true
+    },
+    {
+      "name": "390: care price visible",
+      "passed": true
+    },
+    {
+      "name": "390: care keyboard details",
+      "passed": true
+    },
+    {
+      "name": "390: care contents visible",
+      "passed": true
+    },
+    {
+      "name": "390: care booking selected",
+      "passed": true
+    },
+    {
+      "name": "390: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "390: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "390: doctor profile 0",
+      "passed": true
+    },
+    {
+      "name": "390: doctor booking preselected",
+      "passed": true
+    },
+    {
+      "name": "390: doctor profile 1",
+      "passed": true
+    },
+    {
+      "name": "390: doctor booking preselected",
+      "passed": true
+    },
+    {
+      "name": "390: doctor profile 2",
+      "passed": true
+    },
+    {
+      "name": "390: doctor booking preselected",
+      "passed": true
+    },
+    {
+      "name": "390: reviews wrap",
+      "passed": true
+    },
+    {
+      "name": "390: gallery wraps",
+      "passed": true
+    },
+    {
+      "name": "390: focus in dialog",
+      "passed": true
+    },
+    {
+      "name": "390: faq 0 opens",
+      "passed": true
+    },
+    {
+      "name": "390: faq 1 opens",
+      "passed": true
+    },
+    {
+      "name": "390: faq 2 opens",
+      "passed": true
+    },
+    {
+      "name": "390: faq 3 opens",
+      "passed": true
+    },
+    {
+      "name": "390: faq 4 opens",
+      "passed": true
+    },
+    {
+      "name": "390: map toggle",
+      "passed": true
+    },
+    {
+      "name": "390: required validation",
+      "passed": true
+    },
+    {
+      "name": "390: first error focused",
+      "passed": true
+    },
+    {
+      "name": "390: optional controls visible",
+      "passed": true
+    },
+    {
+      "name": "390: invalid date reopens options",
+      "passed": true
+    },
+    {
+      "name": "390: optional date error focused",
+      "passed": true
+    },
+    {
+      "name": "390: demo success",
+      "passed": true
+    },
+    {
+      "name": "390: no sending",
+      "passed": true
+    },
+    {
+      "name": "390: no persistent storage",
+      "passed": true
+    },
+    {
+      "name": "390: edit keeps values",
+      "passed": true
+    },
+    {
+      "name": "390: closing discards data",
+      "passed": true
+    },
+    {
+      "name": "390: menu focus trap 0",
+      "passed": true
+    },
+    {
+      "name": "390: menu focus trap 1",
+      "passed": true
+    },
+    {
+      "name": "390: menu focus trap 2",
+      "passed": true
+    },
+    {
+      "name": "390: menu focus trap 3",
+      "passed": true
+    },
+    {
+      "name": "390: menu focus trap 4",
+      "passed": true
+    },
+    {
+      "name": "390: menu focus trap 5",
+      "passed": true
+    },
+    {
+      "name": "390: menu focus trap 6",
+      "passed": true
+    },
+    {
+      "name": "390: menu focus trap 7",
+      "passed": true
+    },
+    {
+      "name": "390: menu focus trap 8",
+      "passed": true
+    },
+    {
+      "name": "390: menu focus trap 9",
+      "passed": true
+    },
+    {
+      "name": "390: menu closes on navigation",
+      "passed": true
+    },
+    {
+      "name": "390: correct anchor",
+      "passed": true
+    },
+    {
+      "name": "390: menu returns focus",
+      "passed": true
+    },
+    {
+      "name": "390: no visible AI labels",
+      "passed": true
+    },
+    {
+      "name": "320: no page overflow",
+      "passed": true
+    },
+    {
+      "name": "320: images load",
+      "passed": true
+    },
+    {
+      "name": "320: no canvas",
+      "passed": true
+    },
+    {
+      "name": "320: elements within viewport",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "320: all services visible",
+      "passed": true
+    },
+    {
+      "name": "320: no service tabs",
+      "passed": true
+    },
+    {
+      "name": "320: no procedural images",
+      "passed": true
+    },
+    {
+      "name": "320: therapy reason visible",
+      "passed": true
+    },
+    {
+      "name": "320: therapy price visible",
+      "passed": true
+    },
+    {
+      "name": "320: therapy keyboard details",
+      "passed": true
+    },
+    {
+      "name": "320: therapy contents visible",
+      "passed": true
+    },
+    {
+      "name": "320: therapy booking selected",
+      "passed": true
+    },
+    {
+      "name": "320: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "320: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "320: diagnostics reason visible",
+      "passed": true
+    },
+    {
+      "name": "320: diagnostics price visible",
+      "passed": true
+    },
+    {
+      "name": "320: diagnostics keyboard details",
+      "passed": true
+    },
+    {
+      "name": "320: diagnostics contents visible",
+      "passed": true
+    },
+    {
+      "name": "320: diagnostics booking selected",
+      "passed": true
+    },
+    {
+      "name": "320: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "320: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "320: surgery reason visible",
+      "passed": true
+    },
+    {
+      "name": "320: surgery price visible",
+      "passed": true
+    },
+    {
+      "name": "320: surgery keyboard details",
+      "passed": true
+    },
+    {
+      "name": "320: surgery contents visible",
+      "passed": true
+    },
+    {
+      "name": "320: surgery booking selected",
+      "passed": true
+    },
+    {
+      "name": "320: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "320: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "320: dentistry reason visible",
+      "passed": true
+    },
+    {
+      "name": "320: dentistry price visible",
+      "passed": true
+    },
+    {
+      "name": "320: dentistry keyboard details",
+      "passed": true
+    },
+    {
+      "name": "320: dentistry contents visible",
+      "passed": true
+    },
+    {
+      "name": "320: dentistry booking selected",
+      "passed": true
+    },
+    {
+      "name": "320: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "320: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "320: prevention reason visible",
+      "passed": true
+    },
+    {
+      "name": "320: prevention price visible",
+      "passed": true
+    },
+    {
+      "name": "320: prevention keyboard details",
+      "passed": true
+    },
+    {
+      "name": "320: prevention contents visible",
+      "passed": true
+    },
+    {
+      "name": "320: prevention booking selected",
+      "passed": true
+    },
+    {
+      "name": "320: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "320: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "320: care reason visible",
+      "passed": true
+    },
+    {
+      "name": "320: care price visible",
+      "passed": true
+    },
+    {
+      "name": "320: care keyboard details",
+      "passed": true
+    },
+    {
+      "name": "320: care contents visible",
+      "passed": true
+    },
+    {
+      "name": "320: care booking selected",
+      "passed": true
+    },
+    {
+      "name": "320: options collapsed",
+      "passed": true
+    },
+    {
+      "name": "320: service returns focus",
+      "passed": true
+    },
+    {
+      "name": "320: doctor profile 0",
+      "passed": true
+    },
+    {
+      "name": "320: doctor booking preselected",
+      "passed": true
+    },
+    {
+      "name": "320: doctor profile 1",
+      "passed": true
+    },
+    {
+      "name": "320: doctor booking preselected",
+      "passed": true
+    },
+    {
+      "name": "320: doctor profile 2",
+      "passed": true
+    },
+    {
+      "name": "320: doctor booking preselected",
+      "passed": true
+    },
+    {
+      "name": "320: reviews wrap",
+      "passed": true
+    },
+    {
+      "name": "320: gallery wraps",
+      "passed": true
+    },
+    {
+      "name": "320: focus in dialog",
+      "passed": true
+    },
+    {
+      "name": "320: faq 0 opens",
+      "passed": true
+    },
+    {
+      "name": "320: faq 1 opens",
+      "passed": true
+    },
+    {
+      "name": "320: faq 2 opens",
+      "passed": true
+    },
+    {
+      "name": "320: faq 3 opens",
+      "passed": true
+    },
+    {
+      "name": "320: faq 4 opens",
+      "passed": true
+    },
+    {
+      "name": "320: map toggle",
+      "passed": true
+    },
+    {
+      "name": "320: required validation",
+      "passed": true
+    },
+    {
+      "name": "320: first error focused",
+      "passed": true
+    },
+    {
+      "name": "320: optional controls visible",
+      "passed": true
+    },
+    {
+      "name": "320: invalid date reopens options",
+      "passed": true
+    },
+    {
+      "name": "320: optional date error focused",
+      "passed": true
+    },
+    {
+      "name": "320: demo success",
+      "passed": true
+    },
+    {
+      "name": "320: no sending",
+      "passed": true
+    },
+    {
+      "name": "320: no persistent storage",
+      "passed": true
+    },
+    {
+      "name": "320: edit keeps values",
+      "passed": true
+    },
+    {
+      "name": "320: closing discards data",
+      "passed": true
+    },
+    {
+      "name": "320: menu focus trap 0",
+      "passed": true
+    },
+    {
+      "name": "320: menu focus trap 1",
+      "passed": true
+    },
+    {
+      "name": "320: menu focus trap 2",
+      "passed": true
+    },
+    {
+      "name": "320: menu focus trap 3",
+      "passed": true
+    },
+    {
+      "name": "320: menu focus trap 4",
+      "passed": true
+    },
+    {
+      "name": "320: menu focus trap 5",
+      "passed": true
+    },
+    {
+      "name": "320: menu focus trap 6",
+      "passed": true
+    },
+    {
+      "name": "320: menu focus trap 7",
+      "passed": true
+    },
+    {
+      "name": "320: menu focus trap 8",
+      "passed": true
+    },
+    {
+      "name": "320: menu focus trap 9",
+      "passed": true
+    },
+    {
+      "name": "320: menu closes on navigation",
+      "passed": true
+    },
+    {
+      "name": "320: correct anchor",
+      "passed": true
+    },
+    {
+      "name": "320: menu returns focus",
+      "passed": true
+    },
+    {
+      "name": "320: no visible AI labels",
+      "passed": true
+    },
+    {
+      "name": "Standalone: all images embedded",
+      "passed": true
+    },
+    {
+      "name": "Standalone: reduced motion respected",
+      "passed": true
+    },
+    {
+      "name": "Standalone: booking works without server",
+      "passed": true
+    },
+    {
+      "name": "No JS exceptions",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "No external network requests",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "errors": [],
+  "network": [],
+  "passed": true
+}

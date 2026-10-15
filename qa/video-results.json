@@ -1,0 +1,174 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "autoplay muted inline and loop",
+      "passed": true
+    },
+    {
+      "name": "film loaded",
+      "passed": true
+    },
+    {
+      "name": "hours below film, not over cat",
+      "passed": true
+    },
+    {
+      "name": "pause control works",
+      "passed": true
+    },
+    {
+      "name": "paused frame stays still",
+      "passed": true
+    },
+    {
+      "name": "manual play works",
+      "passed": true
+    },
+    {
+      "name": "offscreen film pauses",
+      "passed": true
+    },
+    {
+      "name": "visible film resumes",
+      "passed": true
+    },
+    {
+      "name": "reduced motion unmounts film",
+      "passed": true
+    },
+    {
+      "name": "poster remains",
+      "passed": true
+    },
+    {
+      "name": "motion preference update works",
+      "passed": true
+    },
+    {
+      "name": "mobile uses no video",
+      "passed": true
+    },
+    {
+      "name": "mobile photo source",
+      "passed": true
+    },
+    {
+      "name": "mobile: no video mounted",
+      "passed": true
+    },
+    {
+      "name": "mobile: no MP4 request",
+      "passed": true
+    },
+    {
+      "name": "reduced: no video mounted",
+      "passed": true
+    },
+    {
+      "name": "reduced: no MP4 request",
+      "passed": true
+    },
+    {
+      "name": "saveData: no video mounted",
+      "passed": true
+    },
+    {
+      "name": "saveData: no MP4 request",
+      "passed": true
+    },
+    {
+      "name": "video failure shows poster",
+      "passed": true
+    },
+    {
+      "name": "standalone embedded MP4 plays",
+      "passed": true
+    },
+    {
+      "name": "320: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "390: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "600: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "760: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "761: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "820: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "1024: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "1030: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "1031: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "1031: both faces inside video frame",
+      "passed": true
+    },
+    {
+      "name": "1100: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "1100: both faces inside video frame",
+      "passed": true
+    },
+    {
+      "name": "1280: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "1280: both faces inside video frame",
+      "passed": true
+    },
+    {
+      "name": "1440: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "1440: both faces inside video frame",
+      "passed": true
+    },
+    {
+      "name": "1920: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "1920: both faces inside video frame",
+      "passed": true
+    },
+    {
+      "name": "2560: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "2560: both faces inside video frame",
+      "passed": true
+    },
+    {
+      "name": "no JS errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

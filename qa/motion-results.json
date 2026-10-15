@@ -1,0 +1,166 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "1440: motion enabled",
+      "passed": true
+    },
+    {
+      "name": "1440: offscreen targets pending",
+      "passed": true
+    },
+    {
+      "name": "1440: real fade progresses",
+      "passed": true
+    },
+    {
+      "name": "1440: revealed target fully visible",
+      "passed": true
+    },
+    {
+      "name": "1440: all targets revealed",
+      "passed": true
+    },
+    {
+      "name": "1440: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "1440: reveal does not replay",
+      "passed": true
+    },
+    {
+      "name": "1440: live reduced-motion switch",
+      "passed": true
+    },
+    {
+      "name": "1440: all visible in reduced mode",
+      "passed": true
+    },
+    {
+      "name": "1440: hero animation disabled",
+      "passed": true
+    },
+    {
+      "name": "1440: printable ticket visible",
+      "passed": true
+    },
+    {
+      "name": "1440: print animations disabled",
+      "passed": true
+    },
+    {
+      "name": "390: motion enabled",
+      "passed": true
+    },
+    {
+      "name": "390: offscreen targets pending",
+      "passed": true
+    },
+    {
+      "name": "390: real fade progresses",
+      "passed": true
+    },
+    {
+      "name": "390: revealed target fully visible",
+      "passed": true
+    },
+    {
+      "name": "390: all targets revealed",
+      "passed": true
+    },
+    {
+      "name": "390: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "390: reveal does not replay",
+      "passed": true
+    },
+    {
+      "name": "390: live reduced-motion switch",
+      "passed": true
+    },
+    {
+      "name": "390: all visible in reduced mode",
+      "passed": true
+    },
+    {
+      "name": "390: hero animation disabled",
+      "passed": true
+    },
+    {
+      "name": "390: printable ticket visible",
+      "passed": true
+    },
+    {
+      "name": "390: print animations disabled",
+      "passed": true
+    },
+    {
+      "name": "320: motion enabled",
+      "passed": true
+    },
+    {
+      "name": "320: offscreen targets pending",
+      "passed": true
+    },
+    {
+      "name": "320: real fade progresses",
+      "passed": true
+    },
+    {
+      "name": "320: revealed target fully visible",
+      "passed": true
+    },
+    {
+      "name": "320: all targets revealed",
+      "passed": true
+    },
+    {
+      "name": "320: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "320: reveal does not replay",
+      "passed": true
+    },
+    {
+      "name": "320: live reduced-motion switch",
+      "passed": true
+    },
+    {
+      "name": "320: all visible in reduced mode",
+      "passed": true
+    },
+    {
+      "name": "320: hero animation disabled",
+      "passed": true
+    },
+    {
+      "name": "320: printable ticket visible",
+      "passed": true
+    },
+    {
+      "name": "320: print animations disabled",
+      "passed": true
+    },
+    {
+      "name": "keyboard focus bypasses hidden state",
+      "passed": true
+    },
+    {
+      "name": "no observer: content stays visible",
+      "passed": true
+    },
+    {
+      "name": "no observer: no pending targets",
+      "passed": true
+    },
+    {
+      "name": "no JS errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

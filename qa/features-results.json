@@ -1,0 +1,1247 @@
+{
+  "checks": [
+    {
+      "name": "320: no overflow",
+      "passed": true
+    },
+    {
+      "name": "320: urgent visible before scrolling",
+      "passed": true
+    },
+    {
+      "name": "320: urgent target >=44",
+      "passed": true
+    },
+    {
+      "name": "320: direct urgent form",
+      "passed": true
+    },
+    {
+      "name": "320: emergency caution visible",
+      "passed": true
+    },
+    {
+      "name": "320: demo caution",
+      "passed": true
+    },
+    {
+      "name": "320: caution receives initial focus",
+      "passed": true
+    },
+    {
+      "name": "320: urgent demo confirmation",
+      "passed": true
+    },
+    {
+      "name": "320: no real booking promise",
+      "passed": true
+    },
+    {
+      "name": "320: urgent returns focus",
+      "passed": true
+    },
+    {
+      "name": "320: normal form not urgent",
+      "passed": true
+    },
+    {
+      "name": "320: no personal fields in card builder",
+      "passed": true
+    },
+    {
+      "name": "320: Кошка/Первый приём heading",
+      "passed": true
+    },
+    {
+      "name": "320: Кошка transport",
+      "passed": true
+    },
+    {
+      "name": "320: Первый приём checklist",
+      "passed": true
+    },
+    {
+      "name": "320: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "320: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "320: Кошка/Повторный heading",
+      "passed": true
+    },
+    {
+      "name": "320: Кошка transport",
+      "passed": true
+    },
+    {
+      "name": "320: Повторный checklist",
+      "passed": true
+    },
+    {
+      "name": "320: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "320: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "320: Собака/Первый приём heading",
+      "passed": true
+    },
+    {
+      "name": "320: Собака transport",
+      "passed": true
+    },
+    {
+      "name": "320: Первый приём checklist",
+      "passed": true
+    },
+    {
+      "name": "320: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "320: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "320: Собака/Повторный heading",
+      "passed": true
+    },
+    {
+      "name": "320: Собака transport",
+      "passed": true
+    },
+    {
+      "name": "320: Повторный checklist",
+      "passed": true
+    },
+    {
+      "name": "320: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "320: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "320: line changes for repeat visit",
+      "passed": true
+    },
+    {
+      "name": "320: keyboard species choice",
+      "passed": true
+    },
+    {
+      "name": "320: keyboard visit choice",
+      "passed": true
+    },
+    {
+      "name": "320: card species preselected",
+      "passed": true
+    },
+    {
+      "name": "320: no inferred medical service",
+      "passed": true
+    },
+    {
+      "name": "320: card selection retained",
+      "passed": true
+    },
+    {
+      "name": "320: print button invokes browser print",
+      "passed": true
+    },
+    {
+      "name": "320: ticket prints",
+      "passed": true
+    },
+    {
+      "name": "320: no controls in print",
+      "passed": true
+    },
+    {
+      "name": "320: no unrelated page in print",
+      "passed": true
+    },
+    {
+      "name": "320: no persistence",
+      "passed": true
+    },
+    {
+      "name": "320: final no overflow",
+      "passed": true
+    },
+    {
+      "name": "390: no overflow",
+      "passed": true
+    },
+    {
+      "name": "390: urgent visible before scrolling",
+      "passed": true
+    },
+    {
+      "name": "390: urgent target >=44",
+      "passed": true
+    },
+    {
+      "name": "390: direct urgent form",
+      "passed": true
+    },
+    {
+      "name": "390: emergency caution visible",
+      "passed": true
+    },
+    {
+      "name": "390: demo caution",
+      "passed": true
+    },
+    {
+      "name": "390: caution receives initial focus",
+      "passed": true
+    },
+    {
+      "name": "390: urgent demo confirmation",
+      "passed": true
+    },
+    {
+      "name": "390: no real booking promise",
+      "passed": true
+    },
+    {
+      "name": "390: urgent returns focus",
+      "passed": true
+    },
+    {
+      "name": "390: normal form not urgent",
+      "passed": true
+    },
+    {
+      "name": "390: no personal fields in card builder",
+      "passed": true
+    },
+    {
+      "name": "390: Кошка/Первый приём heading",
+      "passed": true
+    },
+    {
+      "name": "390: Кошка transport",
+      "passed": true
+    },
+    {
+      "name": "390: Первый приём checklist",
+      "passed": true
+    },
+    {
+      "name": "390: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "390: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "390: Кошка/Повторный heading",
+      "passed": true
+    },
+    {
+      "name": "390: Кошка transport",
+      "passed": true
+    },
+    {
+      "name": "390: Повторный checklist",
+      "passed": true
+    },
+    {
+      "name": "390: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "390: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "390: Собака/Первый приём heading",
+      "passed": true
+    },
+    {
+      "name": "390: Собака transport",
+      "passed": true
+    },
+    {
+      "name": "390: Первый приём checklist",
+      "passed": true
+    },
+    {
+      "name": "390: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "390: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "390: Собака/Повторный heading",
+      "passed": true
+    },
+    {
+      "name": "390: Собака transport",
+      "passed": true
+    },
+    {
+      "name": "390: Повторный checklist",
+      "passed": true
+    },
+    {
+      "name": "390: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "390: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "390: line changes for repeat visit",
+      "passed": true
+    },
+    {
+      "name": "390: keyboard species choice",
+      "passed": true
+    },
+    {
+      "name": "390: keyboard visit choice",
+      "passed": true
+    },
+    {
+      "name": "390: card species preselected",
+      "passed": true
+    },
+    {
+      "name": "390: no inferred medical service",
+      "passed": true
+    },
+    {
+      "name": "390: card selection retained",
+      "passed": true
+    },
+    {
+      "name": "390: print button invokes browser print",
+      "passed": true
+    },
+    {
+      "name": "390: ticket prints",
+      "passed": true
+    },
+    {
+      "name": "390: no controls in print",
+      "passed": true
+    },
+    {
+      "name": "390: no unrelated page in print",
+      "passed": true
+    },
+    {
+      "name": "390: no persistence",
+      "passed": true
+    },
+    {
+      "name": "390: final no overflow",
+      "passed": true
+    },
+    {
+      "name": "768: no overflow",
+      "passed": true
+    },
+    {
+      "name": "768: urgent visible before scrolling",
+      "passed": true
+    },
+    {
+      "name": "768: urgent target >=44",
+      "passed": true
+    },
+    {
+      "name": "768: direct urgent form",
+      "passed": true
+    },
+    {
+      "name": "768: emergency caution visible",
+      "passed": true
+    },
+    {
+      "name": "768: demo caution",
+      "passed": true
+    },
+    {
+      "name": "768: caution receives initial focus",
+      "passed": true
+    },
+    {
+      "name": "768: urgent demo confirmation",
+      "passed": true
+    },
+    {
+      "name": "768: no real booking promise",
+      "passed": true
+    },
+    {
+      "name": "768: urgent returns focus",
+      "passed": true
+    },
+    {
+      "name": "768: normal form not urgent",
+      "passed": true
+    },
+    {
+      "name": "768: no personal fields in card builder",
+      "passed": true
+    },
+    {
+      "name": "768: Кошка/Первый приём heading",
+      "passed": true
+    },
+    {
+      "name": "768: Кошка transport",
+      "passed": true
+    },
+    {
+      "name": "768: Первый приём checklist",
+      "passed": true
+    },
+    {
+      "name": "768: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "768: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "768: Кошка/Повторный heading",
+      "passed": true
+    },
+    {
+      "name": "768: Кошка transport",
+      "passed": true
+    },
+    {
+      "name": "768: Повторный checklist",
+      "passed": true
+    },
+    {
+      "name": "768: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "768: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "768: Собака/Первый приём heading",
+      "passed": true
+    },
+    {
+      "name": "768: Собака transport",
+      "passed": true
+    },
+    {
+      "name": "768: Первый приём checklist",
+      "passed": true
+    },
+    {
+      "name": "768: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "768: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "768: Собака/Повторный heading",
+      "passed": true
+    },
+    {
+      "name": "768: Собака transport",
+      "passed": true
+    },
+    {
+      "name": "768: Повторный checklist",
+      "passed": true
+    },
+    {
+      "name": "768: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "768: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "768: line changes for repeat visit",
+      "passed": true
+    },
+    {
+      "name": "768: keyboard species choice",
+      "passed": true
+    },
+    {
+      "name": "768: keyboard visit choice",
+      "passed": true
+    },
+    {
+      "name": "768: card species preselected",
+      "passed": true
+    },
+    {
+      "name": "768: no inferred medical service",
+      "passed": true
+    },
+    {
+      "name": "768: card selection retained",
+      "passed": true
+    },
+    {
+      "name": "768: print button invokes browser print",
+      "passed": true
+    },
+    {
+      "name": "768: ticket prints",
+      "passed": true
+    },
+    {
+      "name": "768: no controls in print",
+      "passed": true
+    },
+    {
+      "name": "768: no unrelated page in print",
+      "passed": true
+    },
+    {
+      "name": "768: no persistence",
+      "passed": true
+    },
+    {
+      "name": "768: final no overflow",
+      "passed": true
+    },
+    {
+      "name": "1024: no overflow",
+      "passed": true
+    },
+    {
+      "name": "1024: urgent visible before scrolling",
+      "passed": true
+    },
+    {
+      "name": "1024: urgent target >=44",
+      "passed": true
+    },
+    {
+      "name": "1024: direct urgent form",
+      "passed": true
+    },
+    {
+      "name": "1024: emergency caution visible",
+      "passed": true
+    },
+    {
+      "name": "1024: demo caution",
+      "passed": true
+    },
+    {
+      "name": "1024: caution receives initial focus",
+      "passed": true
+    },
+    {
+      "name": "1024: urgent demo confirmation",
+      "passed": true
+    },
+    {
+      "name": "1024: no real booking promise",
+      "passed": true
+    },
+    {
+      "name": "1024: urgent returns focus",
+      "passed": true
+    },
+    {
+      "name": "1024: normal form not urgent",
+      "passed": true
+    },
+    {
+      "name": "1024: no personal fields in card builder",
+      "passed": true
+    },
+    {
+      "name": "1024: Кошка/Первый приём heading",
+      "passed": true
+    },
+    {
+      "name": "1024: Кошка transport",
+      "passed": true
+    },
+    {
+      "name": "1024: Первый приём checklist",
+      "passed": true
+    },
+    {
+      "name": "1024: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "1024: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "1024: Кошка/Повторный heading",
+      "passed": true
+    },
+    {
+      "name": "1024: Кошка transport",
+      "passed": true
+    },
+    {
+      "name": "1024: Повторный checklist",
+      "passed": true
+    },
+    {
+      "name": "1024: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "1024: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "1024: Собака/Первый приём heading",
+      "passed": true
+    },
+    {
+      "name": "1024: Собака transport",
+      "passed": true
+    },
+    {
+      "name": "1024: Первый приём checklist",
+      "passed": true
+    },
+    {
+      "name": "1024: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "1024: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "1024: Собака/Повторный heading",
+      "passed": true
+    },
+    {
+      "name": "1024: Собака transport",
+      "passed": true
+    },
+    {
+      "name": "1024: Повторный checklist",
+      "passed": true
+    },
+    {
+      "name": "1024: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "1024: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "1024: line changes for repeat visit",
+      "passed": true
+    },
+    {
+      "name": "1024: keyboard species choice",
+      "passed": true
+    },
+    {
+      "name": "1024: keyboard visit choice",
+      "passed": true
+    },
+    {
+      "name": "1024: card species preselected",
+      "passed": true
+    },
+    {
+      "name": "1024: no inferred medical service",
+      "passed": true
+    },
+    {
+      "name": "1024: card selection retained",
+      "passed": true
+    },
+    {
+      "name": "1024: print button invokes browser print",
+      "passed": true
+    },
+    {
+      "name": "1024: ticket prints",
+      "passed": true
+    },
+    {
+      "name": "1024: no controls in print",
+      "passed": true
+    },
+    {
+      "name": "1024: no unrelated page in print",
+      "passed": true
+    },
+    {
+      "name": "1024: no persistence",
+      "passed": true
+    },
+    {
+      "name": "1024: final no overflow",
+      "passed": true
+    },
+    {
+      "name": "1100: no overflow",
+      "passed": true
+    },
+    {
+      "name": "1100: urgent visible before scrolling",
+      "passed": true
+    },
+    {
+      "name": "1100: urgent target >=44",
+      "passed": true
+    },
+    {
+      "name": "1100: direct urgent form",
+      "passed": true
+    },
+    {
+      "name": "1100: emergency caution visible",
+      "passed": true
+    },
+    {
+      "name": "1100: demo caution",
+      "passed": true
+    },
+    {
+      "name": "1100: caution receives initial focus",
+      "passed": true
+    },
+    {
+      "name": "1100: urgent demo confirmation",
+      "passed": true
+    },
+    {
+      "name": "1100: no real booking promise",
+      "passed": true
+    },
+    {
+      "name": "1100: urgent returns focus",
+      "passed": true
+    },
+    {
+      "name": "1100: normal form not urgent",
+      "passed": true
+    },
+    {
+      "name": "1100: no personal fields in card builder",
+      "passed": true
+    },
+    {
+      "name": "1100: Кошка/Первый приём heading",
+      "passed": true
+    },
+    {
+      "name": "1100: Кошка transport",
+      "passed": true
+    },
+    {
+      "name": "1100: Первый приём checklist",
+      "passed": true
+    },
+    {
+      "name": "1100: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "1100: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "1100: Кошка/Повторный heading",
+      "passed": true
+    },
+    {
+      "name": "1100: Кошка transport",
+      "passed": true
+    },
+    {
+      "name": "1100: Повторный checklist",
+      "passed": true
+    },
+    {
+      "name": "1100: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "1100: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "1100: Собака/Первый приём heading",
+      "passed": true
+    },
+    {
+      "name": "1100: Собака transport",
+      "passed": true
+    },
+    {
+      "name": "1100: Первый приём checklist",
+      "passed": true
+    },
+    {
+      "name": "1100: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "1100: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "1100: Собака/Повторный heading",
+      "passed": true
+    },
+    {
+      "name": "1100: Собака transport",
+      "passed": true
+    },
+    {
+      "name": "1100: Повторный checklist",
+      "passed": true
+    },
+    {
+      "name": "1100: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "1100: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "1100: line changes for repeat visit",
+      "passed": true
+    },
+    {
+      "name": "1100: keyboard species choice",
+      "passed": true
+    },
+    {
+      "name": "1100: keyboard visit choice",
+      "passed": true
+    },
+    {
+      "name": "1100: card species preselected",
+      "passed": true
+    },
+    {
+      "name": "1100: no inferred medical service",
+      "passed": true
+    },
+    {
+      "name": "1100: card selection retained",
+      "passed": true
+    },
+    {
+      "name": "1100: print button invokes browser print",
+      "passed": true
+    },
+    {
+      "name": "1100: ticket prints",
+      "passed": true
+    },
+    {
+      "name": "1100: no controls in print",
+      "passed": true
+    },
+    {
+      "name": "1100: no unrelated page in print",
+      "passed": true
+    },
+    {
+      "name": "1100: no persistence",
+      "passed": true
+    },
+    {
+      "name": "1100: final no overflow",
+      "passed": true
+    },
+    {
+      "name": "1280: no overflow",
+      "passed": true
+    },
+    {
+      "name": "1280: urgent visible before scrolling",
+      "passed": true
+    },
+    {
+      "name": "1280: urgent target >=44",
+      "passed": true
+    },
+    {
+      "name": "1280: direct urgent form",
+      "passed": true
+    },
+    {
+      "name": "1280: emergency caution visible",
+      "passed": true
+    },
+    {
+      "name": "1280: demo caution",
+      "passed": true
+    },
+    {
+      "name": "1280: caution receives initial focus",
+      "passed": true
+    },
+    {
+      "name": "1280: urgent demo confirmation",
+      "passed": true
+    },
+    {
+      "name": "1280: no real booking promise",
+      "passed": true
+    },
+    {
+      "name": "1280: urgent returns focus",
+      "passed": true
+    },
+    {
+      "name": "1280: normal form not urgent",
+      "passed": true
+    },
+    {
+      "name": "1280: no personal fields in card builder",
+      "passed": true
+    },
+    {
+      "name": "1280: Кошка/Первый приём heading",
+      "passed": true
+    },
+    {
+      "name": "1280: Кошка transport",
+      "passed": true
+    },
+    {
+      "name": "1280: Первый приём checklist",
+      "passed": true
+    },
+    {
+      "name": "1280: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "1280: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "1280: Кошка/Повторный heading",
+      "passed": true
+    },
+    {
+      "name": "1280: Кошка transport",
+      "passed": true
+    },
+    {
+      "name": "1280: Повторный checklist",
+      "passed": true
+    },
+    {
+      "name": "1280: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "1280: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "1280: Собака/Первый приём heading",
+      "passed": true
+    },
+    {
+      "name": "1280: Собака transport",
+      "passed": true
+    },
+    {
+      "name": "1280: Первый приём checklist",
+      "passed": true
+    },
+    {
+      "name": "1280: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "1280: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "1280: Собака/Повторный heading",
+      "passed": true
+    },
+    {
+      "name": "1280: Собака transport",
+      "passed": true
+    },
+    {
+      "name": "1280: Повторный checklist",
+      "passed": true
+    },
+    {
+      "name": "1280: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "1280: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "1280: line changes for repeat visit",
+      "passed": true
+    },
+    {
+      "name": "1280: keyboard species choice",
+      "passed": true
+    },
+    {
+      "name": "1280: keyboard visit choice",
+      "passed": true
+    },
+    {
+      "name": "1280: card species preselected",
+      "passed": true
+    },
+    {
+      "name": "1280: no inferred medical service",
+      "passed": true
+    },
+    {
+      "name": "1280: card selection retained",
+      "passed": true
+    },
+    {
+      "name": "1280: print button invokes browser print",
+      "passed": true
+    },
+    {
+      "name": "1280: ticket prints",
+      "passed": true
+    },
+    {
+      "name": "1280: no controls in print",
+      "passed": true
+    },
+    {
+      "name": "1280: no unrelated page in print",
+      "passed": true
+    },
+    {
+      "name": "1280: no persistence",
+      "passed": true
+    },
+    {
+      "name": "1280: final no overflow",
+      "passed": true
+    },
+    {
+      "name": "1440: no overflow",
+      "passed": true
+    },
+    {
+      "name": "1440: urgent visible before scrolling",
+      "passed": true
+    },
+    {
+      "name": "1440: urgent target >=44",
+      "passed": true
+    },
+    {
+      "name": "1440: direct urgent form",
+      "passed": true
+    },
+    {
+      "name": "1440: emergency caution visible",
+      "passed": true
+    },
+    {
+      "name": "1440: demo caution",
+      "passed": true
+    },
+    {
+      "name": "1440: caution receives initial focus",
+      "passed": true
+    },
+    {
+      "name": "1440: urgent demo confirmation",
+      "passed": true
+    },
+    {
+      "name": "1440: no real booking promise",
+      "passed": true
+    },
+    {
+      "name": "1440: urgent returns focus",
+      "passed": true
+    },
+    {
+      "name": "1440: normal form not urgent",
+      "passed": true
+    },
+    {
+      "name": "1440: no personal fields in card builder",
+      "passed": true
+    },
+    {
+      "name": "1440: Кошка/Первый приём heading",
+      "passed": true
+    },
+    {
+      "name": "1440: Кошка transport",
+      "passed": true
+    },
+    {
+      "name": "1440: Первый приём checklist",
+      "passed": true
+    },
+    {
+      "name": "1440: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "1440: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "1440: Кошка/Повторный heading",
+      "passed": true
+    },
+    {
+      "name": "1440: Кошка transport",
+      "passed": true
+    },
+    {
+      "name": "1440: Повторный checklist",
+      "passed": true
+    },
+    {
+      "name": "1440: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "1440: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "1440: Собака/Первый приём heading",
+      "passed": true
+    },
+    {
+      "name": "1440: Собака transport",
+      "passed": true
+    },
+    {
+      "name": "1440: Первый приём checklist",
+      "passed": true
+    },
+    {
+      "name": "1440: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "1440: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "1440: Собака/Повторный heading",
+      "passed": true
+    },
+    {
+      "name": "1440: Собака transport",
+      "passed": true
+    },
+    {
+      "name": "1440: Повторный checklist",
+      "passed": true
+    },
+    {
+      "name": "1440: exactly two selected choices",
+      "passed": true
+    },
+    {
+      "name": "1440: not a medical prescription",
+      "passed": true
+    },
+    {
+      "name": "1440: line changes for repeat visit",
+      "passed": true
+    },
+    {
+      "name": "1440: keyboard species choice",
+      "passed": true
+    },
+    {
+      "name": "1440: keyboard visit choice",
+      "passed": true
+    },
+    {
+      "name": "1440: card species preselected",
+      "passed": true
+    },
+    {
+      "name": "1440: no inferred medical service",
+      "passed": true
+    },
+    {
+      "name": "1440: card selection retained",
+      "passed": true
+    },
+    {
+      "name": "1440: print button invokes browser print",
+      "passed": true
+    },
+    {
+      "name": "1440: ticket prints",
+      "passed": true
+    },
+    {
+      "name": "1440: no controls in print",
+      "passed": true
+    },
+    {
+      "name": "1440: no unrelated page in print",
+      "passed": true
+    },
+    {
+      "name": "1440: no persistence",
+      "passed": true
+    },
+    {
+      "name": "1440: final no overflow",
+      "passed": true
+    },
+    {
+      "name": "no JS errors",
+      "passed": true
+    },
+    {
+      "name": "no external network",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "network": [],
+  "passed": true
+}
