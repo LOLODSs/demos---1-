@@ -1,4 +1,4 @@
-/* ЛЕСНАЯ · a calm editorial identity. No external fonts, canvas or scroll loops. */
+/* ЛЕСНАЯ · a calm editorial identity. No external fonts or scroll loops; canvas is used only for local PNG export. */
 :root {
   --forest: #163728;
   --forest-deep: #0e251c;
@@ -1306,6 +1306,12 @@ main:focus {
 .dialog::backdrop {
   background: #071a13b8;
   backdrop-filter: blur(5px);
+}
+/* A separate controls row lets long booking forms scroll below the close button. */
+.dialog__controls {
+  position: relative;
+  height: 0;
+  z-index: 10;
 }
 .dialog__box {
   position: relative;
@@ -3096,7 +3102,7 @@ summary:focus-visible {
     padding: 16px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 760px) {
   .service-cards {
     grid-template-columns: 1fr;
   }
@@ -4530,6 +4536,14 @@ h2 {
   }
   .mobile-actions {
     gap: 10px;
+    min-height: 0;
+    padding: 6px 16px calc(6px + env(safe-area-inset-bottom));
+    align-items: center;
+  }
+  .mobile-actions > .button {
+    height: 44px;
+    min-height: 44px;
+    padding-block: 8px;
   }
   .hero__film > picture {
     position: relative;
@@ -4726,4 +4740,22 @@ h2 {
   .visit-ticket__body li {
     font-size: 16px;
   }
+}
+
+/* v1.9.7: keep the close control visible without overlaying form fields. */
+.dialog--booking[open] {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.dialog--booking .dialog__controls {
+  height: 60px;
+  flex: 0 0 60px;
+}
+.dialog--booking .dialog__box {
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding-top: 0;
+  scroll-padding-block: 12px;
 }

@@ -1,0 +1,216 @@
+{
+  "browser": "chromium",
+  "captureMethod": "cdp",
+  "captureSize": [
+    820,
+    1500
+  ],
+  "consoleErrors": [],
+  "document": {
+    "diagnostics": {
+      "clippedOverflow": [],
+      "overlayIntersections": [],
+      "viewportOverflow": {
+        "horizontal": false,
+        "vertical": true
+      }
+    },
+    "documentSize": [
+      820,
+      7984
+    ],
+    "fontStatus": "loaded",
+    "title": "\u041b\u0435\u0441\u043d\u0430\u044f \u2014 \u0431\u0435\u0440\u0435\u0436\u043d\u043e \u043a \u0442\u0435\u043c, \u043a\u0442\u043e \u0432\u0430\u043c \u0434\u043e\u0440\u043e\u0433",
+    "viewportSize": [
+      820,
+      1500
+    ]
+  },
+  "exceptions": [],
+  "failedResources": [],
+  "frameSelector": "#about",
+  "frames": [
+    {
+      "element": "section#about.section.about.visit-builder",
+      "fitsViewport": true,
+      "index": 1,
+      "rect": [
+        0,
+        2716,
+        820,
+        1273
+      ],
+      "actualScroll": [
+        0,
+        2550
+      ],
+      "clippingAncestors": [],
+      "finalRect": [
+        0,
+        166,
+        820,
+        1273
+      ],
+      "fullyVisible": true,
+      "scrollAncestors": [],
+      "viewportSize": [
+        820,
+        1500
+      ],
+      "byteLength": 206454,
+      "diagnostics": {
+        "clippedOverflow": [],
+        "overlayIntersections": [
+          {
+            "content": "p",
+            "overlay": "a.skip-link",
+            "overlap": [
+              168,
+              49
+            ]
+          },
+          {
+            "content": "strong",
+            "overlay": "a.skip-link",
+            "overlap": [
+              193,
+              17
+            ]
+          },
+          {
+            "content": "p",
+            "overlay": "header.header",
+            "overlap": [
+              320,
+              7
+            ]
+          },
+          {
+            "content": "li",
+            "overlay": "header.header",
+            "overlap": [
+              320,
+              23
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              17,
+              17
+            ]
+          },
+          {
+            "content": "li",
+            "overlay": "header.header",
+            "overlap": [
+              320,
+              23
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              17,
+              17
+            ]
+          },
+          {
+            "content": "p",
+            "overlay": "header.header",
+            "overlap": [
+              320,
+              7
+            ]
+          },
+          {
+            "content": "li",
+            "overlay": "header.header",
+            "overlap": [
+              320,
+              23
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              17,
+              17
+            ]
+          },
+          {
+            "content": "li",
+            "overlay": "header.header",
+            "overlap": [
+              320,
+              23
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              17,
+              17
+            ]
+          },
+          {
+            "content": "p",
+            "overlay": "header.header",
+            "overlap": [
+              247,
+              10
+            ]
+          },
+          {
+            "content": "button.text-button",
+            "overlay": "header.header",
+            "overlap": [
+              191,
+              6
+            ]
+          },
+          {
+            "content": "p.section-note",
+            "overlay": "header.header",
+            "overlap": [
+              756,
+              22
+            ]
+          }
+        ],
+        "viewportOverflow": {
+          "horizontal": false,
+          "vertical": true
+        }
+      },
+      "output": "/data/lesnaya-v192/qa/tablet-final-frame-001.png",
+      "screenshotSize": [
+        820,
+        1500
+      ],
+      "sha256": "571d081f4dbc24eaf10f7b8675dcbd6475b3578a7a1e0108301f79cc9bbe6661",
+      "dimensions": [
+        820,
+        1500
+      ],
+      "pixelSha256": "03c7976d69affab7750756b57e850145c9de6fc59a79ddb552fd2ea244f00a11"
+    }
+  ],
+  "fullPage": false,
+  "input": "/data/lesnaya-v192/preview.html",
+  "output": "/data/lesnaya-v192/qa/tablet-final.png",
+  "reducedMotion": true,
+  "byteLength": 382288,
+  "sha256": "fe936cd20eb9e7024b04a21adb4e80d350d8864a017fd7c406d810eaaa2c2c04",
+  "dimensions": [
+    820,
+    1500
+  ],
+  "pixelSha256": "3304fea7eb4efdaf8e8b45ad0dc1d04dc0c3f6e2af9699077e85410bd2dbd1d3",
+  "renderedFrameCount": 1,
+  "distinctFrameCount": 1
+}

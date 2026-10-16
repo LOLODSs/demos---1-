@@ -1,0 +1,67 @@
+/* v1.9.2 — urgent means a phone call, visually and functionally. */
+.button.button--urgent {
+  background: #a3342c;
+  border-color: #a3342c;
+  color: #fffaf5;
+  gap: 8px;
+  box-shadow: none;
+  white-space: nowrap;
+}
+.button.button--urgent:hover {
+  background: #862820;
+  border-color: #862820;
+  color: #fffaf5;
+}
+.button--urgent > svg { flex: none; }
+.header__urgent { min-width: 112px; padding-inline: 16px; }
+.menu-urgent { width: 100%; }
+.urgent-dialog__symbol {
+  display: grid; place-items: center;
+  width: 48px; height: 48px;
+  color: #a3342c; background: #f8e8e3;
+  border-radius: 12px; margin-bottom: 20px;
+}
+.urgent-dialog > .eyebrow { color: #8a332b; font-size: 14px; line-height: 1.5; }
+.urgent-dialog > h2 { padding-right: 0; margin-bottom: 16px; }
+.urgent-dialog__lead { color: var(--muted); font-size: 16px; line-height: 1.6; margin-bottom: 24px; }
+.urgent-dialog__call { min-height: 80px; padding: 16px; justify-content: flex-start; text-align: left; }
+.urgent-dialog__call > span { display: grid; gap: 4px; min-width: 0; }
+.urgent-dialog__call strong { font-size: clamp(19px, 5.3vw, 26px); font-weight: 600; }
+.urgent-dialog__call span span { font-size: 14px; font-weight: 400; }
+.urgent-dialog__unavailable { display: flex; gap: 12px; padding: 16px; border: 1px solid #bd8a7e; border-radius: 8px; background: #fcf0eb; color: #743329; margin-bottom: 16px; }
+.urgent-dialog__unavailable > svg { flex: none; margin-top: 2px; }
+.urgent-dialog__unavailable strong { font-size: 16px; line-height: 1.5; }
+.urgent-dialog__unavailable p { font-size: 14px; line-height: 1.6; margin-top: 8px; }
+.urgent-dialog__hours { margin-top: 16px; font-size: 14px; }
+.urgent-dialog .urgent-notice { margin-bottom: 0; }
+@media (max-width: 760px) {
+  .mobile-actions > .button.button--urgent { flex: 0 0 116px; padding-inline: 12px; }
+  .mobile-actions > .button--amber { min-width: 0; }
+}
+@media (max-width: 370px) {
+  .mobile-actions { padding-inline: 12px; gap: 8px; }
+  .mobile-actions > .button.button--urgent { flex-basis: 108px; padding-inline: 10px; }
+  .mobile-actions > .button--amber { padding-inline: 10px; gap: 8px; }
+  .urgent-dialog__unavailable { padding: 12px; gap: 10px; }
+}
+@media (max-height: 520px) and (min-width: 601px) {
+  .dialog--urgent .dialog__box { padding: 24px; }
+  .urgent-dialog__symbol { display: none; }
+}
+/* Long FAQ labels must shrink inside the flex row, not push the icon out. */
+.faq-question > span { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.faq-question > svg { flex: 0 0 20px; }
+/* Reserve the rotated plus icon's visual bounds in the open FAQ row. */
+.faq-question { padding-right: 6px; }
+/* Tablet: keep the illustration beside the chooser, but give the memo a full row. */
+@media (min-width: 761px) and (max-width: 1000px) {
+  .visit-builder__layout { grid-template-columns: minmax(0,1fr); gap: 32px; }
+  .visit-builder__left { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); column-gap: 32px; align-items: start; }
+  .visit-builder__left > .eyebrow { grid-column: 1 / -1; }
+  .visit-builder__left > h2,
+  .visit-builder__left > .visit-builder__lead,
+  .visit-builder__left > .visit-builder__choices { grid-column: 1; }
+  .visit-builder__left > .visit-scene { grid-column: 2; grid-row: 2 / 5; align-self: center; margin-top: 0; }
+  .visit-builder__left > .visit-builder__choices { width: 100%; }
+  .visit-ticket { width: 100%; }
+}

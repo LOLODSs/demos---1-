@@ -1,0 +1,278 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "320: plus next to text",
+      "passed": true
+    },
+    {
+      "name": "320: hit target at least 44px",
+      "passed": true
+    },
+    {
+      "name": "320: opening animates",
+      "passed": true
+    },
+    {
+      "name": "320: open content visible",
+      "passed": true
+    },
+    {
+      "name": "320: closing animates before native hide",
+      "passed": true
+    },
+    {
+      "name": "320: close finishes cleanly",
+      "passed": true
+    },
+    {
+      "name": "320: rapid toggle settles open",
+      "passed": true
+    },
+    {
+      "name": "320: keyboard opens",
+      "passed": true
+    },
+    {
+      "name": "320: keyboard closes",
+      "passed": true
+    },
+    {
+      "name": "320: live reduced motion settles",
+      "passed": true
+    },
+    {
+      "name": "320: reduced motion closes immediately",
+      "passed": true
+    },
+    {
+      "name": "320: reduced motion opens immediately",
+      "passed": true
+    },
+    {
+      "name": "320: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "390: plus next to text",
+      "passed": true
+    },
+    {
+      "name": "390: hit target at least 44px",
+      "passed": true
+    },
+    {
+      "name": "390: opening animates",
+      "passed": true
+    },
+    {
+      "name": "390: open content visible",
+      "passed": true
+    },
+    {
+      "name": "390: closing animates before native hide",
+      "passed": true
+    },
+    {
+      "name": "390: close finishes cleanly",
+      "passed": true
+    },
+    {
+      "name": "390: rapid toggle settles open",
+      "passed": true
+    },
+    {
+      "name": "390: keyboard opens",
+      "passed": true
+    },
+    {
+      "name": "390: keyboard closes",
+      "passed": true
+    },
+    {
+      "name": "390: live reduced motion settles",
+      "passed": true
+    },
+    {
+      "name": "390: reduced motion closes immediately",
+      "passed": true
+    },
+    {
+      "name": "390: reduced motion opens immediately",
+      "passed": true
+    },
+    {
+      "name": "390: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "715: plus next to text",
+      "passed": true
+    },
+    {
+      "name": "715: hit target at least 44px",
+      "passed": true
+    },
+    {
+      "name": "715: opening animates",
+      "passed": true
+    },
+    {
+      "name": "715: open content visible",
+      "passed": true
+    },
+    {
+      "name": "715: closing animates before native hide",
+      "passed": true
+    },
+    {
+      "name": "715: close finishes cleanly",
+      "passed": true
+    },
+    {
+      "name": "715: rapid toggle settles open",
+      "passed": true
+    },
+    {
+      "name": "715: keyboard opens",
+      "passed": true
+    },
+    {
+      "name": "715: keyboard closes",
+      "passed": true
+    },
+    {
+      "name": "715: live reduced motion settles",
+      "passed": true
+    },
+    {
+      "name": "715: reduced motion closes immediately",
+      "passed": true
+    },
+    {
+      "name": "715: reduced motion opens immediately",
+      "passed": true
+    },
+    {
+      "name": "715: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "820: plus next to text",
+      "passed": true
+    },
+    {
+      "name": "820: hit target at least 44px",
+      "passed": true
+    },
+    {
+      "name": "820: opening animates",
+      "passed": true
+    },
+    {
+      "name": "820: open content visible",
+      "passed": true
+    },
+    {
+      "name": "820: closing animates before native hide",
+      "passed": true
+    },
+    {
+      "name": "820: close finishes cleanly",
+      "passed": true
+    },
+    {
+      "name": "820: rapid toggle settles open",
+      "passed": true
+    },
+    {
+      "name": "820: keyboard opens",
+      "passed": true
+    },
+    {
+      "name": "820: keyboard closes",
+      "passed": true
+    },
+    {
+      "name": "820: live reduced motion settles",
+      "passed": true
+    },
+    {
+      "name": "820: reduced motion closes immediately",
+      "passed": true
+    },
+    {
+      "name": "820: reduced motion opens immediately",
+      "passed": true
+    },
+    {
+      "name": "820: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "1440: plus next to text",
+      "passed": true
+    },
+    {
+      "name": "1440: hit target at least 44px",
+      "passed": true
+    },
+    {
+      "name": "1440: opening animates",
+      "passed": true
+    },
+    {
+      "name": "1440: open content visible",
+      "passed": true
+    },
+    {
+      "name": "1440: closing animates before native hide",
+      "passed": true
+    },
+    {
+      "name": "1440: close finishes cleanly",
+      "passed": true
+    },
+    {
+      "name": "1440: rapid toggle settles open",
+      "passed": true
+    },
+    {
+      "name": "1440: keyboard opens",
+      "passed": true
+    },
+    {
+      "name": "1440: keyboard closes",
+      "passed": true
+    },
+    {
+      "name": "1440: live reduced motion settles",
+      "passed": true
+    },
+    {
+      "name": "1440: reduced motion closes immediately",
+      "passed": true
+    },
+    {
+      "name": "1440: reduced motion opens immediately",
+      "passed": true
+    },
+    {
+      "name": "1440: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "static fallback opens",
+      "passed": true
+    },
+    {
+      "name": "static fallback closes",
+      "passed": true
+    },
+    {
+      "name": "no JS errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

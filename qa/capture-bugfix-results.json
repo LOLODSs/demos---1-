@@ -1,0 +1,128 @@
+{
+  "browser": "chromium",
+  "captureMethod": "cdp",
+  "captureSize": [
+    1440,
+    1300
+  ],
+  "consoleErrors": [],
+  "document": {
+    "diagnostics": {
+      "clippedOverflow": [],
+      "overlayIntersections": [],
+      "viewportOverflow": {
+        "horizontal": false,
+        "vertical": true
+      }
+    },
+    "documentSize": [
+      1440,
+      7393
+    ],
+    "fontStatus": "loaded",
+    "title": "\u041b\u0435\u0441\u043d\u0430\u044f \u2014 \u0431\u0435\u0440\u0435\u0436\u043d\u043e \u043a \u0442\u0435\u043c, \u043a\u0442\u043e \u0432\u0430\u043c \u0434\u043e\u0440\u043e\u0433",
+    "viewportSize": [
+      1440,
+      1300
+    ]
+  },
+  "exceptions": [],
+  "failedResources": [],
+  "frameSelector": "#contacts",
+  "frames": [
+    {
+      "element": "section#contacts.section.contacts",
+      "fitsViewport": true,
+      "index": 1,
+      "rect": [
+        0,
+        6110,
+        1440,
+        1019
+      ],
+      "actualScroll": [
+        0,
+        5917
+      ],
+      "clippingAncestors": [],
+      "finalRect": [
+        0,
+        193,
+        1440,
+        1019
+      ],
+      "fullyVisible": true,
+      "scrollAncestors": [],
+      "viewportSize": [
+        1440,
+        1300
+      ],
+      "byteLength": 144399,
+      "diagnostics": {
+        "clippedOverflow": [],
+        "overlayIntersections": [
+          {
+            "content": "button#faq-question-3.faq-question",
+            "overlay": "header.header",
+            "overlap": [
+              635,
+              22
+            ]
+          },
+          {
+            "content": "button#faq-question-4.faq-question",
+            "overlay": "header.header",
+            "overlap": [
+              635,
+              61
+            ]
+          },
+          {
+            "content": "span",
+            "overlay": "header.header",
+            "overlap": [
+              585,
+              27
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              20,
+              24
+            ]
+          }
+        ],
+        "viewportOverflow": {
+          "horizontal": false,
+          "vertical": true
+        }
+      },
+      "output": "/data/lesnaya-v196/qa/bugfix-contacts-final-frame-001.png",
+      "screenshotSize": [
+        1440,
+        1300
+      ],
+      "sha256": "47129178711fa7971c66b55509dd11945155ada37cd5860a46180044b9f118e3",
+      "dimensions": [
+        1440,
+        1300
+      ],
+      "pixelSha256": "39364f9c2a9cd653c71c817901d925de812c730da56d82b22e1fbd15c1ba47e2"
+    }
+  ],
+  "fullPage": false,
+  "input": "/data/lesnaya-v196/preview.html",
+  "output": "/data/lesnaya-v196/qa/bugfix-contacts-final.png",
+  "reducedMotion": true,
+  "byteLength": 536257,
+  "sha256": "484020df50c2113ba5df678640381699341e3e1615bceaba7488d2c984450162",
+  "dimensions": [
+    1440,
+    1300
+  ],
+  "pixelSha256": "7170fbcf7dc9c546179ad58533f96b7fb13f8ddde21c38c310c84b83288a099e",
+  "renderedFrameCount": 1,
+  "distinctFrameCount": 1
+}

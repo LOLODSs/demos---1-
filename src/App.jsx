@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import {
   clinic,
   navigation,
@@ -15,7 +15,14 @@ import Modal from "./components/Modal";
 import Booking from "./components/Booking";
 import VisitCard from "./components/VisitCard";
 import HeroMedia from "./components/HeroMedia";
+import UrgentAction from "./components/UrgentAction";
+import ServiceDetails from "./components/ServiceDetails";
 import useMotion from "./hooks/useMotion";
+import useHashNavigation from "./hooks/useHashNavigation";
+import useChangeMotion from "./hooks/useChangeMotion";
+import MotionCollapse from "./components/MotionCollapse";
+import ThreadMark from "./components/ThreadMark";
+import MobileDisclosure from "./components/MobileDisclosure";
 
 function SectionTitle({ label, children, text, light = false }) {
   return (
@@ -34,10 +41,10 @@ function MapIllustration({ mode }) {
       className="map-illustration"
       viewBox="0 0 640 460"
       role="img"
-      aria-labelledby="map-title map-description"
+      aria-labelledby={`map-title-${mode} map-description-${mode}`}
     >
-      <title id="map-title">Схема расположения «Лесной»</title>
-      <desc id="map-description">
+      <title id={`map-title-${mode}`}>Схема расположения «Лесной»</title>
+      <desc id={`map-description-${mode}`}>
         Схема расположения клиники рядом с парком и набережной.{" "}
         {mode === "walk"
           ? "Пешеходный путь отмечен пунктиром."
@@ -188,26 +195,40 @@ function MapIllustration({ mode }) {
 }
 export default function App() {
   useMotion();
+  useHashNavigation();
   const [overlay, setOverlay] = useState(null);
   const [reviewIndex, setReviewIndex] = useState(0);
   const [faqOpen, setFaqOpen] = useState(0);
   const [mapMode, setMapMode] = useState("walk");
   const review = reviews[reviewIndex];
-  const close = () => setOverlay(null);
+  const modalRef = useRef(null),
+    reviewRef = useRef(null),
+    routeRef = useRef(null);
+  useChangeMotion(reviewRef, reviewIndex);
+  useChangeMotion(routeRef, mapMode);
+  const close = () =>
+    modalRef.current ? modalRef.current.dismiss() : setOverlay(null);
+  const openOverlay = (next) => {
+    if (overlay && overlay.kind !== next.kind && modalRef.current)
+      modalRef.current.dismiss(() => setOverlay(next));
+    else setOverlay(next);
+  };
   const book = (serviceId = "", doctorId = "", options = {}) =>
-    setOverlay({ kind: "booking", serviceId, doctorId, ...options });
-  const urgentBook = () => book("", "", { urgent: true });
+    openOverlay({ kind: "booking", serviceId, doctorId, ...options });
+  const urgentHelp = () => openOverlay({ kind: "urgent" });
   const scrollTo = (event, id) => {
     event.preventDefault();
-    setOverlay(null);
-    requestAnimationFrame(() => {
-      document.getElementById(id)?.scrollIntoView({
-        behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
-          ? "instant"
-          : "smooth",
+    const go = () =>
+      requestAnimationFrame(() => {
+        document.getElementById(id)?.scrollIntoView({
+          behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
+            ? "instant"
+            : "smooth",
+        });
+        history.replaceState(null, "", "#" + id);
       });
-      history.replaceState(null, "", "#" + id);
-    });
+    if (modalRef.current) modalRef.current.dismiss(go);
+    else go();
   };
   const moveGallery = (direction) =>
     setOverlay((old) => ({
@@ -237,17 +258,14 @@ export default function App() {
               ))}
             </nav>
             <div className="header__actions">
-              <button
-                className="button button--urgent header__urgent"
-                aria-label="Срочно — открыть запись"
-                onClick={urgentBook}
-              >
-                Срочно
-              </button>
+              <UrgentAction
+                className="header__urgent"
+                onUnavailable={urgentHelp}
+              />
               <button
                 className="icon-button header__phone"
                 aria-label="Показать контакты клиники"
-                onClick={() => setOverlay({ kind: "contact" })}
+                onClick={() => openOverlay({ kind: "contact" })}
               >
                 <Icon name="phone" size={20} />
               </button>
@@ -261,7 +279,7 @@ export default function App() {
                 className="icon-button header__menu"
                 aria-label="Открыть меню"
                 aria-haspopup="dialog"
-                onClick={() => setOverlay({ kind: "menu" })}
+                onClick={() => openOverlay({ kind: "menu" })}
               >
                 <Icon name="menu" />
               </button>
@@ -288,8 +306,8 @@ export default function App() {
                   <em>кто вам дорог.</em>
                 </h1>
                 <p className="hero__lead">
-                  Осмотры, диагностика и лечение кошек и собак. Начните с
-                  консультации — поможем разобраться в следующих шагах.
+                  Осмотры, диагностика и лечение кошек и собак. Обсудим, что
+                  беспокоит, и поможем разобраться в следующих шагах.
                 </p>
                 <div className="hero__actions">
                   <button
@@ -302,6 +320,14 @@ export default function App() {
                     Услуги и цены <Icon name="arrow" size={18} />
                   </a>
                 </div>
+                <div className="hero__signature">
+                  <ThreadMark />
+                  <span>
+                    Вы рядом.
+                    <br />
+                    Дальше разберёмся вместе.
+                  </span>
+                </div>
                 <div className="hero__location">
                   <Icon name="pin" size={18} />
                   <span>Вязёлье · рядом с Лесным парком</span>
@@ -313,36 +339,46 @@ export default function App() {
               Ежедневно · 09:00–21:00
             </div>
           </section>
-          <div className="principles">
-            <div className="container principles__grid">
-              <div>
-                <Icon name="heart" size={25} />
-                <p>
-                  <strong>Первичный приём</strong>
-                  <span>История, осмотр и дальнейшие шаги</span>
-                </p>
+          <div className="principles care-path">
+            <div className="container">
+              <MobileDisclosure label="Как проходит приём · 3 шага" className="care-path__disclosure">
+              <div className="care-path__inner">
+              <p className="care-path__title">
+                От знакомства
+                <br /> <em>к понятному плану.</em>
+              </p>
+              <ol className="care-path__steps">
+                <li>
+                  <span className="care-path__number">01</span>
+                  <div>
+                    <strong>Знакомимся</strong>
+                    <p>Вы рассказываете, что беспокоит.</p>
+                  </div>
+                </li>
+                <li>
+                  <span className="care-path__number">02</span>
+                  <div>
+                    <strong>Разбираемся</strong>
+                    <p>Осмотр и обсуждение следующих шагов.</p>
+                  </div>
+                </li>
+                <li>
+                  <span className="care-path__number">03</span>
+                  <div>
+                    <strong>Берём с собой</strong>
+                    <p>Рекомендации для заботы дома.</p>
+                  </div>
+                </li>
+              </ol>
               </div>
-              <div>
-                <Icon name="shield" size={25} />
-                <p>
-                  <strong>Обсуждаем назначения</strong>
-                  <span>Что нужно сделать и для чего</span>
-                </p>
-              </div>
-              <div>
-                <Icon name="leaf" size={25} />
-                <p>
-                  <strong>Рекомендации с собой</strong>
-                  <span>Уход дома и повторный визит</span>
-                </p>
-              </div>
+              </MobileDisclosure>
             </div>
           </div>
           <section className="section services" id="services">
             <div className="container">
               <SectionTitle
                 label="Направления помощи"
-                text="Сравните направления и цены. Состав услуги — в подробностях."
+                text="С чего начать и сколько это стоит. Подробности — в каждом направлении."
               >
                 Услуги и цены
               </SectionTitle>
@@ -365,26 +401,7 @@ export default function App() {
                       <strong>от {money(service.price)}</strong>
                       <span>{service.priceLabel}</span>
                     </div>
-                    <details className="service-card__details">
-                      <summary>
-                        Что входит <Icon name="plus" size={17} />
-                      </summary>
-                      <div className="service-card__expanded">
-                        <p>{service.description}</p>
-                        <ul className="check-list">
-                          {service.includes.map((text) => (
-                            <li key={text}>
-                              <Icon name="check" size={17} />
-                              {text}
-                            </li>
-                          ))}
-                        </ul>
-                        <p className="service-card__duration">
-                          <Icon name="clock" size={16} />
-                          {service.duration}
-                        </p>
-                      </div>
-                    </details>
+                    <ServiceDetails service={service} />
                     <button
                       className="service-card__book"
                       onClick={() => book(service.id)}
@@ -395,9 +412,18 @@ export default function App() {
                   </article>
                 ))}
               </div>
+              <div className="service-guidance">
+                <div>
+                  <strong>Не знаете, что выбрать?</strong>
+                  <p>Начните с консультации терапевта.</p>
+                </div>
+                <button className="text-button" onClick={() => book("therapy")}>
+                  Начать с консультации <Icon name="arrow" size={18} />
+                </button>
+              </div>
               <p className="section-note">
-                Состав и стоимость лечения зависят от осмотра и согласованного
-                плана.
+                Указаны стартовые цены. Состав и стоимость лечения зависят от
+                осмотра и согласованного плана.
               </p>
             </div>
           </section>
@@ -406,7 +432,7 @@ export default function App() {
             <div className="container">
               <SectionTitle
                 label="Команда"
-                text="Выберите врача по направлению работы."
+                text="У каждого — своё направление. Познакомьтесь перед визитом."
               >
                 Кто ведёт приём
               </SectionTitle>
@@ -416,7 +442,7 @@ export default function App() {
                     <button
                       className="doctor-card__image"
                       onClick={() =>
-                        setOverlay({ kind: "doctor", id: doctor.id })
+                        openOverlay({ kind: "doctor", id: doctor.id })
                       }
                       aria-label={"Подробнее о враче " + doctor.name}
                     >
@@ -434,11 +460,11 @@ export default function App() {
                         <h3>{doctor.name}</h3>
                         <p>{doctor.role}</p>
                       </div>
-                      <p className="doctor-card__scope">{doctor.focus}</p>
+                      <p className="doctor-card__scope">{doctor.summary}</p>
                       <button
                         className="text-button"
                         onClick={() =>
-                          setOverlay({ kind: "doctor", id: doctor.id })
+                          openOverlay({ kind: "doctor", id: doctor.id })
                         }
                       >
                         О специалисте <Icon name="arrow" size={17} />
@@ -454,17 +480,22 @@ export default function App() {
               <div className="reviews__intro">
                 <p className="eyebrow">Обратная связь</p>
                 <h2>После приёма.</h2>
+                <p className="reviews__aside">
+                  Важен не только осмотр. Важно понимать, что дальше.
+                </p>
+                <ThreadMark />
               </div>
               <div className="review-card">
                 <span className="review-card__quote" aria-hidden="true">
                   “
                 </span>
                 <div
+                  ref={reviewRef}
                   className="review-live"
                   aria-live="polite"
                   aria-atomic="true"
                 >
-                  <blockquote key={reviewIndex}>{review.text}</blockquote>
+                  <blockquote>{review.text}</blockquote>
                   <div className="review-person">
                     <span className="review-person__avatar" aria-hidden="true">
                       {review.initial}
@@ -513,7 +544,7 @@ export default function App() {
             <div className="container">
               <SectionTitle
                 label="Клиника"
-                text="Приёмная, осмотр и ожидание визита — познакомьтесь с пространством."
+                text="Не только пространство. Моменты, из которых складывается знакомство."
               >
                 Внутри «Лесной»
               </SectionTitle>
@@ -522,7 +553,7 @@ export default function App() {
                   <button
                     className={"gallery-item gallery-item--" + i}
                     key={g.image}
-                    onClick={() => setOverlay({ kind: "gallery", index: i })}
+                    onClick={() => openOverlay({ kind: "gallery", index: i })}
                     aria-label={"Открыть фото: " + g.title}
                   >
                     <div className="gallery-item__image">
@@ -555,14 +586,14 @@ export default function App() {
               <div className="faq__intro">
                 <p className="eyebrow">Вопросы и ответы</p>
                 <h2>
-                  Важное
+                  Ещё пара
                   <br />
-                  перед визитом.
+                  важных вопросов.
                 </h2>
-                <p>Подготовка, выбор услуги и стоимость — коротко о главном.</p>
+                <p>О том, что может волновать перед встречей.</p>
                 <button
                   className="text-link"
-                  onClick={() => setOverlay({ kind: "contact" })}
+                  onClick={() => openOverlay({ kind: "contact" })}
                 >
                   Остался вопрос? <Icon name="northeast" size={18} />
                 </button>
@@ -585,15 +616,15 @@ export default function App() {
                         <Icon name="plus" size={20} />
                       </button>
                     </h3>
-                    <div
+                    <MotionCollapse
+                      open={faqOpen === i}
                       className="faq-answer"
                       id={"faq-answer-" + i}
                       role="region"
                       aria-labelledby={"faq-question-" + i}
-                      hidden={faqOpen !== i}
                     >
                       <p>{a}</p>
-                    </div>
+                    </MotionCollapse>
                   </article>
                 ))}
               </div>
@@ -622,25 +653,56 @@ export default function App() {
                         <strong>{clinic.hours}</strong>
                       </span>
                     </div>
-                    <button onClick={() => setOverlay({ kind: "contact" })}>
+                    <a
+                      href={clinic.phoneHref || undefined}
+                      role={clinic.phoneHref ? undefined : "button"}
+                      tabIndex={0}
+                      onClick={
+                        clinic.phoneHref
+                          ? undefined
+                          : () => openOverlay({ kind: "contact" })
+                      }
+                      onKeyDown={(e) => {
+                        if (
+                          !clinic.phoneHref &&
+                          (e.key === "Enter" || e.key === " ")
+                        ) {
+                          e.preventDefault();
+                          openOverlay({ kind: "contact" });
+                        }
+                      }}
+                    >
                       <Icon name="phone" size={20} />
                       <span>
                         <small>Телефон клиники</small>
                         <strong>{clinic.phone}</strong>
                       </span>
                       <Icon name="northeast" size={18} />
-                    </button>
+                    </a>
                   </div>
                   <button
                     className="button button--amber"
                     onClick={() => book()}
                   >
-                    Выбрать время приёма <Icon name="northeast" size={18} />
+                    Оставить заявку на приём <Icon name="northeast" size={18} />
                   </button>
                 </div>
                 <div className="map-card">
-                  <MapIllustration mode={mapMode} />
+                  <div className="map-stage">
+                    {["walk", "car"].map((mode) => (
+                      <div
+                        key={mode}
+                        className={mapMode === mode ? "is-active" : ""}
+                        aria-hidden={mapMode !== mode}
+                      >
+                        <MapIllustration mode={mode} />
+                      </div>
+                    ))}
+                  </div>
                   <div className="map-card__content">
+                    <span className="map-card__eyebrow">
+                      Ориентиры рядом с клиникой
+                    </span>
                     <div
                       className="route-toggle"
                       role="group"
@@ -663,11 +725,21 @@ export default function App() {
                         На машине
                       </button>
                     </div>
-                    <p aria-live="polite">
+                    <p ref={routeRef} aria-live="polite">
                       {mapMode === "walk"
                         ? "От входа в парк по набережной до здания с зелёной стойкой приёмной."
                         : "Со стороны Лесной улицы — к парковке у входа."}
                     </p>
+                    {clinic.mapUrl && (
+                      <a
+                        className="text-button"
+                        href={clinic.mapUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Построить маршрут <Icon name="northeast" size={17} />
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
@@ -693,7 +765,7 @@ export default function App() {
                 <a href="#services">Услуги и цены</a>
                 <a href="#team">Наши врачи</a>
                 <a href="#faq">Вопросы и ответы</a>
-                <button onClick={() => setOverlay({ kind: "privacy" })}>
+                <button onClick={() => openOverlay({ kind: "privacy" })}>
                   О данных
                 </button>
               </div>
@@ -720,23 +792,18 @@ export default function App() {
       <div
         className="mobile-actions is-visible"
         role="group"
-        aria-label="Быстрая запись"
+        aria-label="Срочный звонок и плановая запись"
       >
-        <button
-          className="button button--urgent"
-          aria-label="Срочно — открыть запись"
-          onClick={urgentBook}
-        >
-          Срочно
-        </button>
+        <UrgentAction onUnavailable={urgentHelp} />
         <button className="button button--amber" onClick={() => book()}>
           Записаться <Icon name="northeast" size={17} />
         </button>
       </div>
       {overlay && (
         <Modal
+          ref={modalRef}
           key={overlay.kind}
-          onClose={close}
+          onClose={() => setOverlay(null)}
           titleId={
             overlay.kind === "booking" ? "booking-title" : "overlay-title"
           }
@@ -783,12 +850,11 @@ export default function App() {
               <button className="button button--dark" onClick={() => book()}>
                 Записаться на приём <Icon name="arrow" size={18} />
               </button>
-              <button
-                className="button button--urgent menu-urgent"
-                onClick={urgentBook}
-              >
-                Срочно — открыть запись
-              </button>
+              <UrgentAction
+                className="menu-urgent"
+                onUnavailable={urgentHelp}
+                expanded
+              />
             </>
           )}
           {overlay.kind === "doctor" &&
@@ -807,6 +873,7 @@ export default function App() {
                     <h2 id="overlay-title">{d.name}</h2>
                     <p className="doctor-profile__role">{d.role}</p>
 
+                    <p className="doctor-profile__summary">{d.summary}</p>
                     <p>{d.description}</p>
                     <h3>Направления работы</h3>
                     <ul className="check-list">
@@ -832,12 +899,19 @@ export default function App() {
               <h2 id="overlay-title" className="sr-only">
                 {gallery[overlay.index].title}
               </h2>
-              <img
-                src={img(gallery[overlay.index].image)}
-                alt={gallery[overlay.index].alt}
-                width="1264"
-                height="848"
-              />
+              <div className="lightbox__stage">
+                {gallery.map((item, i) => (
+                  <img
+                    key={item.image}
+                    src={img(item.image)}
+                    alt={i === overlay.index ? item.alt : ""}
+                    aria-hidden={i !== overlay.index}
+                    className={i === overlay.index ? "is-active" : ""}
+                    width="1264"
+                    height="848"
+                  />
+                ))}
+              </div>
               <div className="lightbox__bottom">
                 <div>
                   <h3>{gallery[overlay.index].title}</h3>
@@ -865,6 +939,55 @@ export default function App() {
               </div>
             </div>
           )}
+          {overlay.kind === "urgent" && (
+            <div className="urgent-dialog">
+              <span className="urgent-dialog__symbol">
+                <Icon name="phone" size={26} />
+              </span>
+              <p className="eyebrow">Срочная помощь · только по телефону</p>
+              <h2 id="overlay-title" tabIndex={-1} data-autofocus>
+                Не ждите. Позвоните.
+              </h2>
+              <p className="urgent-dialog__lead">
+                Возможность срочного приёма нужно уточнить звонком, а не
+                заявкой.
+              </p>
+              {clinic.phoneHref ? (
+                <a
+                  className="button button--urgent urgent-dialog__call"
+                  href={clinic.phoneHref}
+                >
+                  <Icon name="phone" size={22} />
+                  <span>
+                    <strong>{clinic.phone}</strong>
+                    <span>Позвонить в «Лесную»</span>
+                  </span>
+                </a>
+              ) : (
+                <div className="urgent-dialog__unavailable" role="note">
+                  <Icon name="phone" size={22} />
+                  <div>
+                    <strong>Телефон клиники пока не подключён</strong>
+                    <p>
+                      В макете нет подтверждённого номера. Для срочной помощи
+                      позвоните в ближайшую работающую ветклинику.
+                    </p>
+                  </div>
+                </div>
+              )}
+              <p className="urgent-dialog__hours">
+                «Лесная»: {clinic.hours.toLowerCase()}. Не круглосуточно.
+              </p>
+              <div className="urgent-notice" role="note">
+                <Icon name="urgent" size={22} />
+                <p>
+                  <strong>При угрозе жизни не ждите открытия клиники.</strong>
+                  Сразу свяжитесь с ближайшей работающей ветклиникой.
+                  Онлайн-заявка не заменяет экстренную помощь.
+                </p>
+              </div>
+            </div>
+          )}
           {overlay.kind === "contact" && (
             <div className="contact-dialog">
               <span className="dialog-symbol">
@@ -883,6 +1006,19 @@ export default function App() {
                 </span>
               </div>
 
+              {clinic.phoneHref ? (
+                <a
+                  className="button button--dark contact-call"
+                  href={clinic.phoneHref}
+                >
+                  <Icon name="phone" size={18} /> Позвонить в клинику
+                </a>
+              ) : (
+                <p className="contact-unavailable">
+                  Прямой звонок пока недоступен: подтверждённый телефон клиники
+                  не подключён.
+                </p>
+              )}
               <button className="button button--dark" onClick={() => book()}>
                 Перейти к записи <Icon name="arrow" size={18} />
               </button>
@@ -904,6 +1040,13 @@ export default function App() {
                 Нет. Здесь нет аналитики, рекламных трекеров, внешних шрифтов,
                 платёжных систем, карты стороннего сервиса или CRM. Все
                 изображения и интерфейс включены в проект.
+              </p>
+              <h3>Контакты и материалы</h3>
+              <p>
+                Текущие адрес, телефон, профили и отзывы — примеры для
+                презентации. Перед публикацией их нужно заменить подтверждёнными
+                сведениями. Прямой звонок и внешний маршрут включаются только
+                после настройки реальных контактов.
               </p>
               <button className="button button--dark" onClick={close}>
                 Всё понятно <Icon name="check" size={18} />

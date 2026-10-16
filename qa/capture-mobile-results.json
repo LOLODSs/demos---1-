@@ -1,0 +1,45 @@
+{
+  "browser": "chromium",
+  "captureMethod": "cdp",
+  "captureSize": [
+    390,
+    844
+  ],
+  "consoleErrors": [],
+  "document": {
+    "diagnostics": {
+      "clippedOverflow": [],
+      "overlayIntersections": [],
+      "viewportOverflow": {
+        "horizontal": false,
+        "vertical": false
+      }
+    },
+    "documentSize": [
+      390,
+      844
+    ],
+    "fontStatus": "loaded",
+    "title": "\u041b\u0435\u0441\u043d\u0430\u044f \u2014 \u0431\u0435\u0440\u0435\u0436\u043d\u043e \u043a \u0442\u0435\u043c, \u043a\u0442\u043e \u0432\u0430\u043c \u0434\u043e\u0440\u043e\u0433",
+    "viewportSize": [
+      390,
+      844
+    ]
+  },
+  "exceptions": [],
+  "failedResources": [],
+  "frames": [],
+  "fullPage": false,
+  "input": "/data/lesnaya-v192/preview.html",
+  "output": "/data/lesnaya-v192/qa/mobile-final.png",
+  "reducedMotion": true,
+  "byteLength": 203956,
+  "sha256": "30fcca2d3a1c6563d141f29029ffb93d6b818ab32e590d346db758313b0ce8f4",
+  "dimensions": [
+    390,
+    844
+  ],
+  "pixelSha256": "144bccd4428253a8562ad2b052930935adad5a1074092c8c683cb9a8dcf8a1e8",
+  "renderedFrameCount": 0,
+  "distinctFrameCount": 0
+}

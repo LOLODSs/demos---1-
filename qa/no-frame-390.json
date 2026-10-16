@@ -1,0 +1,212 @@
+{
+  "browser": "chromium",
+  "captureMethod": "cdp",
+  "captureSize": [
+    390,
+    1000
+  ],
+  "consoleErrors": [],
+  "document": {
+    "diagnostics": {
+      "clippedOverflow": [],
+      "overlayIntersections": [],
+      "viewportOverflow": {
+        "horizontal": false,
+        "vertical": false
+      }
+    },
+    "documentSize": [
+      390,
+      1000
+    ],
+    "fontStatus": "loaded",
+    "title": "\u041b\u0435\u0441\u043d\u0430\u044f \u2014 \u0431\u0435\u0440\u0435\u0436\u043d\u043e \u043a \u0442\u0435\u043c, \u043a\u0442\u043e \u0432\u0430\u043c \u0434\u043e\u0440\u043e\u0433",
+    "viewportSize": [
+      390,
+      1000
+    ]
+  },
+  "exceptions": [],
+  "failedResources": [],
+  "frameSelector": ".visit-builder__left",
+  "frames": [
+    {
+      "element": "div.visit-builder__left.is-revealed",
+      "fitsViewport": true,
+      "index": 1,
+      "rect": [
+        20,
+        2427,
+        350,
+        478
+      ],
+      "actualScroll": [
+        0,
+        0
+      ],
+      "clippingAncestors": [],
+      "finalRect": [
+        20,
+        276,
+        350,
+        478
+      ],
+      "fullyVisible": true,
+      "scrollAncestors": [
+        {
+          "element": "div.site-scroll",
+          "before": [
+            0,
+            0
+          ],
+          "after": [
+            0,
+            2151
+          ]
+        }
+      ],
+      "viewportSize": [
+        390,
+        1000
+      ],
+      "byteLength": 104911,
+      "diagnostics": {
+        "clippedOverflow": [],
+        "overlayIntersections": [
+          {
+            "content": "li",
+            "overlay": "a.skip-link",
+            "overlap": [
+              205,
+              23
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "a.skip-link",
+            "overlap": [
+              17,
+              17
+            ]
+          },
+          {
+            "content": "li",
+            "overlay": "a.skip-link",
+            "overlap": [
+              205,
+              11
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "a.skip-link",
+            "overlap": [
+              17,
+              8
+            ]
+          },
+          {
+            "content": "span",
+            "overlay": "a.skip-link",
+            "overlap": [
+              71,
+              22
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "a.skip-link",
+            "overlap": [
+              17,
+              17
+            ]
+          },
+          {
+            "content": "li",
+            "overlay": "header.header",
+            "overlap": [
+              350,
+              23
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              17,
+              17
+            ]
+          },
+          {
+            "content": "p.service-card__duration",
+            "overlay": "header.header",
+            "overlap": [
+              350,
+              17
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              16,
+              13
+            ]
+          },
+          {
+            "content": "p",
+            "overlay": "header.header",
+            "overlap": [
+              350,
+              72
+            ]
+          },
+          {
+            "content": "strong",
+            "overlay": "header.header",
+            "overlap": [
+              196,
+              17
+            ]
+          },
+          {
+            "content": "p",
+            "overlay": "header.header",
+            "overlap": [
+              231,
+              22
+            ]
+          }
+        ],
+        "viewportOverflow": {
+          "horizontal": false,
+          "vertical": false
+        }
+      },
+      "output": "/data/lesnaya-v1911/qa/no-frame-390-frame-001.png",
+      "screenshotSize": [
+        390,
+        1000
+      ],
+      "sha256": "2bbd694b4c02cefd787b5d4720b77c68f10b43c98abc20d70431c44fb391827f",
+      "dimensions": [
+        390,
+        1000
+      ],
+      "pixelSha256": "b7c68f5961c3ef39ab8b4369c67f59e81b0db4ee363416ac2d55a8ae4a178c32"
+    }
+  ],
+  "fullPage": false,
+  "input": "/data/lesnaya-v1911/preview.html",
+  "output": "/data/lesnaya-v1911/qa/no-frame-390.png",
+  "reducedMotion": true,
+  "byteLength": 219139,
+  "sha256": "40d784fd6a95d1f93c47a333df0553d07467c8d89d51a5b7b413de3cd9258262",
+  "dimensions": [
+    390,
+    1000
+  ],
+  "pixelSha256": "036170e9211806b83ba28dced470f451917baa95c3245c109bce8a76618c9ec2",
+  "renderedFrameCount": 1,
+  "distinctFrameCount": 1
+}

@@ -1,0 +1,8 @@
+const {chromium}=await import(process.env.PLAYWRIGHT_MODULE||'playwright');
+import fs from 'node:fs/promises';
+const b=await chromium.launch({executablePath:'/usr/local/bin/chromium',args:['--no-sandbox']});const result={passed:false,checks:[],errors:[]};
+const p=await b.newPage({viewport:{width:390,height:844},reducedMotion:'reduce'});p.on('pageerror',e=>result.errors.push(e.message));
+try{await p.goto('file:///data/lesnaya-v198/preview.html');await p.locator('.mobile-actions .button--amber').click();await p.locator('#booking-name').fill('Проверка');await p.locator('#booking-phone').fill('+7 900 123 45 67');await p.locator('#booking-pet').selectOption({label:'Кошка'});await p.locator('.booking-options summary').click();
+for(const [width,height] of [[844,390],[320,568],[768,1024],[1440,900],[760,600],[761,600],[390,844]]){await p.setViewportSize({width,height});await p.locator('.form-submit').scrollIntoViewIfNeeded();const ok=await p.locator('.dialog__close').evaluate(e=>{const r=e.getBoundingClientRect();return r.top>=0&&r.bottom<=innerHeight&&document.querySelector('dialog').scrollWidth<=document.querySelector('dialog').clientWidth+1;});result.checks.push({width,height,passed:ok});}
+await p.locator('.form-submit').click();result.checks.push({name:'form keeps data after rotation',passed:await p.locator('.booking-success').isVisible()});await p.keyboard.press('Escape');result.passed=result.checks.every(x=>x.passed)&&!result.errors.length;
+}finally{await b.close();await fs.writeFile('qa/adaptive-rotation-results.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result));}

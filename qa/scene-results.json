@@ -1,0 +1,226 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "hosted-cat-first: correct artwork",
+      "passed": true
+    },
+    {
+      "name": "hosted-cat-first: only one image visible",
+      "passed": true
+    },
+    {
+      "name": "hosted-cat-first: matching caption",
+      "passed": true
+    },
+    {
+      "name": "hosted-cat-first: matching visit",
+      "passed": true
+    },
+    {
+      "name": "hosted-cat-first: export created",
+      "passed": true
+    },
+    {
+      "name": "hosted-cat-first: no export error",
+      "passed": true
+    },
+    {
+      "name": "hosted-cat-repeat: correct artwork",
+      "passed": true
+    },
+    {
+      "name": "hosted-cat-repeat: only one image visible",
+      "passed": true
+    },
+    {
+      "name": "hosted-cat-repeat: matching caption",
+      "passed": true
+    },
+    {
+      "name": "hosted-cat-repeat: matching visit",
+      "passed": true
+    },
+    {
+      "name": "hosted-cat-repeat: export created",
+      "passed": true
+    },
+    {
+      "name": "hosted-cat-repeat: no export error",
+      "passed": true
+    },
+    {
+      "name": "hosted-dog-first: correct artwork",
+      "passed": true
+    },
+    {
+      "name": "hosted-dog-first: only one image visible",
+      "passed": true
+    },
+    {
+      "name": "hosted-dog-first: matching caption",
+      "passed": true
+    },
+    {
+      "name": "hosted-dog-first: matching visit",
+      "passed": true
+    },
+    {
+      "name": "hosted-dog-first: export created",
+      "passed": true
+    },
+    {
+      "name": "hosted-dog-first: no export error",
+      "passed": true
+    },
+    {
+      "name": "hosted-dog-repeat: correct artwork",
+      "passed": true
+    },
+    {
+      "name": "hosted-dog-repeat: only one image visible",
+      "passed": true
+    },
+    {
+      "name": "hosted-dog-repeat: matching caption",
+      "passed": true
+    },
+    {
+      "name": "hosted-dog-repeat: matching visit",
+      "passed": true
+    },
+    {
+      "name": "hosted-dog-repeat: export created",
+      "passed": true
+    },
+    {
+      "name": "hosted-dog-repeat: no export error",
+      "passed": true
+    },
+    {
+      "name": "status resets after selection",
+      "passed": true
+    },
+    {
+      "name": "reduced motion: no transition",
+      "passed": true
+    },
+    {
+      "name": "scene excluded from print",
+      "passed": true
+    },
+    {
+      "name": "offline-cat-first: correct artwork",
+      "passed": true
+    },
+    {
+      "name": "offline-cat-first: only one image visible",
+      "passed": true
+    },
+    {
+      "name": "offline-cat-first: matching caption",
+      "passed": true
+    },
+    {
+      "name": "offline-cat-first: matching visit",
+      "passed": true
+    },
+    {
+      "name": "offline-cat-first: export created",
+      "passed": true
+    },
+    {
+      "name": "offline-cat-first: no export error",
+      "passed": true
+    },
+    {
+      "name": "offline-cat-repeat: correct artwork",
+      "passed": true
+    },
+    {
+      "name": "offline-cat-repeat: only one image visible",
+      "passed": true
+    },
+    {
+      "name": "offline-cat-repeat: matching caption",
+      "passed": true
+    },
+    {
+      "name": "offline-cat-repeat: matching visit",
+      "passed": true
+    },
+    {
+      "name": "offline-cat-repeat: export created",
+      "passed": true
+    },
+    {
+      "name": "offline-cat-repeat: no export error",
+      "passed": true
+    },
+    {
+      "name": "offline-dog-first: correct artwork",
+      "passed": true
+    },
+    {
+      "name": "offline-dog-first: only one image visible",
+      "passed": true
+    },
+    {
+      "name": "offline-dog-first: matching caption",
+      "passed": true
+    },
+    {
+      "name": "offline-dog-first: matching visit",
+      "passed": true
+    },
+    {
+      "name": "offline-dog-first: export created",
+      "passed": true
+    },
+    {
+      "name": "offline-dog-first: no export error",
+      "passed": true
+    },
+    {
+      "name": "offline-dog-repeat: correct artwork",
+      "passed": true
+    },
+    {
+      "name": "offline-dog-repeat: only one image visible",
+      "passed": true
+    },
+    {
+      "name": "offline-dog-repeat: matching caption",
+      "passed": true
+    },
+    {
+      "name": "offline-dog-repeat: matching visit",
+      "passed": true
+    },
+    {
+      "name": "offline-dog-repeat: export created",
+      "passed": true
+    },
+    {
+      "name": "offline-dog-repeat: no export error",
+      "passed": true
+    },
+    {
+      "name": "status resets after selection",
+      "passed": true
+    },
+    {
+      "name": "reduced motion: no transition",
+      "passed": true
+    },
+    {
+      "name": "scene excluded from print",
+      "passed": true
+    },
+    {
+      "name": "no JS errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

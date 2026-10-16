@@ -1,4 +1,9 @@
 const paths = {
+  download: (
+    <>
+      <path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5" />
+    </>
+  ),
   pause: <path d="M9 5v14M15 5v14" />,
   play: <path d="m8 5 11 7-11 7V5Z" />,
   urgent: (

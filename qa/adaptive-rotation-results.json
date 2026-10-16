@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "width": 844,
+      "height": 390,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "passed": true
+    },
+    {
+      "width": 760,
+      "height": 600,
+      "passed": true
+    },
+    {
+      "width": 761,
+      "height": 600,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "passed": true
+    },
+    {
+      "name": "form keeps data after rotation",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

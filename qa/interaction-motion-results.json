@@ -1,0 +1,182 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "390: FAQ closes through intermediate height",
+      "passed": true
+    },
+    {
+      "name": "390: FAQ hides after closing",
+      "passed": true
+    },
+    {
+      "name": "390: FAQ opening animates",
+      "passed": true
+    },
+    {
+      "name": "390: switching FAQ settles one answer",
+      "passed": true
+    },
+    {
+      "name": "390: rapid FAQ leaves no frozen heights",
+      "passed": true
+    },
+    {
+      "name": "390: review transition runs",
+      "passed": true
+    },
+    {
+      "name": "390: map crossfade starts",
+      "passed": true
+    },
+    {
+      "name": "390: map has one visible layer",
+      "passed": true
+    },
+    {
+      "name": "390: gallery crossfades instead of replaces",
+      "passed": true
+    },
+    {
+      "name": "390: dialog exit still mounted mid-motion",
+      "passed": true
+    },
+    {
+      "name": "390: dialog removed after exit",
+      "passed": true
+    },
+    {
+      "name": "390: form options open smoothly",
+      "passed": true
+    },
+    {
+      "name": "390: form options close smoothly",
+      "passed": true
+    },
+    {
+      "name": "390: options hidden after exit",
+      "passed": true
+    },
+    {
+      "name": "390: result change animated",
+      "passed": true
+    },
+    {
+      "name": "390: local form honesty preserved",
+      "passed": true
+    },
+    {
+      "name": "390: focus restored to opener",
+      "passed": true
+    },
+    {
+      "name": "menu to booking transition works",
+      "passed": true
+    },
+    {
+      "name": "390: reduced motion closes without exit wait",
+      "passed": true
+    },
+    {
+      "name": "390: reduced motion FAQ immediate",
+      "passed": true
+    },
+    {
+      "name": "390: no viewport overflow",
+      "passed": true
+    },
+    {
+      "name": "1440: FAQ closes through intermediate height",
+      "passed": true
+    },
+    {
+      "name": "1440: FAQ hides after closing",
+      "passed": true
+    },
+    {
+      "name": "1440: FAQ opening animates",
+      "passed": true
+    },
+    {
+      "name": "1440: switching FAQ settles one answer",
+      "passed": true
+    },
+    {
+      "name": "1440: rapid FAQ leaves no frozen heights",
+      "passed": true
+    },
+    {
+      "name": "1440: review transition runs",
+      "passed": true
+    },
+    {
+      "name": "1440: map crossfade starts",
+      "passed": true
+    },
+    {
+      "name": "1440: map has one visible layer",
+      "passed": true
+    },
+    {
+      "name": "1440: gallery crossfades instead of replaces",
+      "passed": true
+    },
+    {
+      "name": "1440: dialog exit still mounted mid-motion",
+      "passed": true
+    },
+    {
+      "name": "1440: dialog removed after exit",
+      "passed": true
+    },
+    {
+      "name": "1440: form options open smoothly",
+      "passed": true
+    },
+    {
+      "name": "1440: form options close smoothly",
+      "passed": true
+    },
+    {
+      "name": "1440: options hidden after exit",
+      "passed": true
+    },
+    {
+      "name": "1440: result change animated",
+      "passed": true
+    },
+    {
+      "name": "1440: local form honesty preserved",
+      "passed": true
+    },
+    {
+      "name": "1440: focus restored to opener",
+      "passed": true
+    },
+    {
+      "name": "1440: reduced motion closes without exit wait",
+      "passed": true
+    },
+    {
+      "name": "1440: reduced motion FAQ immediate",
+      "passed": true
+    },
+    {
+      "name": "1440: no viewport overflow",
+      "passed": true
+    },
+    {
+      "name": "fallback dialog closes",
+      "passed": true
+    },
+    {
+      "name": "fallback FAQ works",
+      "passed": true
+    },
+    {
+      "name": "no JS errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

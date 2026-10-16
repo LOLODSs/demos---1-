@@ -1,0 +1,180 @@
+{
+  "browser": "chromium",
+  "captureMethod": "cdp",
+  "captureSize": [
+    712,
+    900
+  ],
+  "consoleErrors": [],
+  "document": {
+    "diagnostics": {
+      "clippedOverflow": [],
+      "overlayIntersections": [],
+      "viewportOverflow": {
+        "horizontal": false,
+        "vertical": false
+      }
+    },
+    "documentSize": [
+      712,
+      900
+    ],
+    "fontStatus": "loaded",
+    "title": "\u041b\u0435\u0441\u043d\u0430\u044f \u2014 \u0431\u0435\u0440\u0435\u0436\u043d\u043e \u043a \u0442\u0435\u043c, \u043a\u0442\u043e \u0432\u0430\u043c \u0434\u043e\u0440\u043e\u0433",
+    "viewportSize": [
+      712,
+      900
+    ]
+  },
+  "exceptions": [],
+  "failedResources": [],
+  "frameSelector": ".visit-builder__left",
+  "frames": [
+    {
+      "element": "div.visit-builder__left.is-revealed",
+      "fitsViewport": true,
+      "index": 1,
+      "rect": [
+        20,
+        3010,
+        672,
+        534
+      ],
+      "actualScroll": [
+        0,
+        0
+      ],
+      "clippingAncestors": [],
+      "finalRect": [
+        20,
+        198,
+        672,
+        534
+      ],
+      "fullyVisible": true,
+      "scrollAncestors": [
+        {
+          "element": "div.site-scroll",
+          "before": [
+            0,
+            0
+          ],
+          "after": [
+            0,
+            2812
+          ]
+        }
+      ],
+      "viewportSize": [
+        712,
+        900
+      ],
+      "byteLength": 145908,
+      "diagnostics": {
+        "clippedOverflow": [],
+        "overlayIntersections": [
+          {
+            "content": "p",
+            "overlay": "a.skip-link",
+            "overlap": [
+              184,
+              48
+            ]
+          },
+          {
+            "content": "strong",
+            "overlay": "a.skip-link",
+            "overlap": [
+              196,
+              17
+            ]
+          },
+          {
+            "content": "li",
+            "overlay": "header.header",
+            "overlap": [
+              630,
+              23
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              17,
+              17
+            ]
+          },
+          {
+            "content": "li",
+            "overlay": "header.header",
+            "overlap": [
+              630,
+              23
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              17,
+              17
+            ]
+          },
+          {
+            "content": "p",
+            "overlay": "header.header",
+            "overlap": [
+              231,
+              17
+            ]
+          },
+          {
+            "content": "button.text-button",
+            "overlay": "header.header",
+            "overlap": [
+              180,
+              44
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              18,
+              18
+            ]
+          }
+        ],
+        "viewportOverflow": {
+          "horizontal": false,
+          "vertical": false
+        }
+      },
+      "output": "/data/lesnaya-v199/qa/scene-fix-712-frame-001.png",
+      "screenshotSize": [
+        712,
+        900
+      ],
+      "sha256": "a19b4b6cb8e3c57dffeae8dc8c4c63e282ba3dcc82c1bcdb20a1350a325285bc",
+      "dimensions": [
+        712,
+        900
+      ],
+      "pixelSha256": "ca4e381428c9c4010313217233e329527bb07e7e16bab54a8061e80f844ffa44"
+    }
+  ],
+  "fullPage": false,
+  "input": "/data/lesnaya-v199/preview.html",
+  "output": "/data/lesnaya-v199/qa/scene-fix-712.png",
+  "reducedMotion": true,
+  "byteLength": 299031,
+  "sha256": "563e61c35c096380600af34bac43ea4d5a431c1f5bc357650a29fabb386f26fc",
+  "dimensions": [
+    712,
+    900
+  ],
+  "pixelSha256": "582f60cf5315cd4f3e397eb111a2dfb5bcf16e9bdab933af37716d5e914a031e",
+  "renderedFrameCount": 1,
+  "distinctFrameCount": 1
+}

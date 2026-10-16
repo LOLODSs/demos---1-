@@ -1,0 +1,272 @@
+{
+  "browser": "chromium",
+  "captureMethod": "cdp",
+  "captureSize": [
+    1440,
+    1200
+  ],
+  "consoleErrors": [],
+  "document": {
+    "diagnostics": {
+      "clippedOverflow": [],
+      "overlayIntersections": [],
+      "viewportOverflow": {
+        "horizontal": false,
+        "vertical": true
+      }
+    },
+    "documentSize": [
+      1440,
+      7393
+    ],
+    "fontStatus": "loaded",
+    "title": "\u041b\u0435\u0441\u043d\u0430\u044f \u2014 \u0431\u0435\u0440\u0435\u0436\u043d\u043e \u043a \u0442\u0435\u043c, \u043a\u0442\u043e \u0432\u0430\u043c \u0434\u043e\u0440\u043e\u0433",
+    "viewportSize": [
+      1440,
+      1200
+    ]
+  },
+  "exceptions": [],
+  "failedResources": [],
+  "frameSelector": "#about",
+  "frames": [
+    {
+      "element": "section#about.section.about.visit-builder",
+      "fitsViewport": true,
+      "index": 1,
+      "rect": [
+        0,
+        2043,
+        1440,
+        1019
+      ],
+      "actualScroll": [
+        0,
+        1900
+      ],
+      "clippingAncestors": [],
+      "finalRect": [
+        0,
+        143,
+        1440,
+        1019
+      ],
+      "fullyVisible": true,
+      "scrollAncestors": [],
+      "viewportSize": [
+        1440,
+        1200
+      ],
+      "byteLength": 329181,
+      "diagnostics": {
+        "clippedOverflow": [],
+        "overlayIntersections": [
+          {
+            "content": "p",
+            "overlay": "a.skip-link",
+            "overlap": [
+              72,
+              45
+            ]
+          },
+          {
+            "content": "strong",
+            "overlay": "a.skip-link",
+            "overlap": [
+              97,
+              16
+            ]
+          },
+          {
+            "content": "p",
+            "overlay": "a.skip-link",
+            "overlap": [
+              97,
+              23
+            ]
+          },
+          {
+            "content": "li",
+            "overlay": "header.header",
+            "overlap": [
+              334,
+              23
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              17,
+              17
+            ]
+          },
+          {
+            "content": "li",
+            "overlay": "header.header",
+            "overlap": [
+              334,
+              23
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              17,
+              17
+            ]
+          },
+          {
+            "content": "li",
+            "overlay": "header.header",
+            "overlap": [
+              334,
+              16
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              17,
+              13
+            ]
+          },
+          {
+            "content": "li",
+            "overlay": "header.header",
+            "overlap": [
+              334,
+              23
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              17,
+              17
+            ]
+          },
+          {
+            "content": "li",
+            "overlay": "header.header",
+            "overlap": [
+              334,
+              23
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              17,
+              17
+            ]
+          },
+          {
+            "content": "li",
+            "overlay": "header.header",
+            "overlap": [
+              334,
+              16
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              17,
+              13
+            ]
+          },
+          {
+            "content": "li",
+            "overlay": "header.header",
+            "overlap": [
+              334,
+              23
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              17,
+              17
+            ]
+          },
+          {
+            "content": "li",
+            "overlay": "header.header",
+            "overlap": [
+              334,
+              23
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              17,
+              17
+            ]
+          },
+          {
+            "content": "li",
+            "overlay": "header.header",
+            "overlap": [
+              334,
+              16
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              17,
+              13
+            ]
+          },
+          {
+            "content": "p.section-note",
+            "overlay": "header.header",
+            "overlap": [
+              760,
+              22
+            ]
+          }
+        ],
+        "viewportOverflow": {
+          "horizontal": false,
+          "vertical": true
+        }
+      },
+      "output": "/data/lesnaya-v194/qa/notebook-desktop-frame-001.png",
+      "screenshotSize": [
+        1440,
+        1200
+      ],
+      "sha256": "50d1da545bf8fac7bc45ca922ff584b14d777d9fe97b18e69ec999f14c3e5cf7",
+      "dimensions": [
+        1440,
+        1200
+      ],
+      "pixelSha256": "54242f569e708661b58fbf23a657a602d46084d2cfe1f05f423e792d37fa95c5"
+    }
+  ],
+  "fullPage": false,
+  "input": "/data/lesnaya-v194/preview.html",
+  "output": "/data/lesnaya-v194/qa/notebook-desktop.png",
+  "reducedMotion": true,
+  "byteLength": 515795,
+  "sha256": "620d148f53b3e088f04b150c1033b00e0dc27b69c7b45b11b38d0142b9ffa442",
+  "dimensions": [
+    1440,
+    1200
+  ],
+  "pixelSha256": "5a72c927495e8efed057fe19e61245a48da6fd034899a705ea20a4a90052e567",
+  "renderedFrameCount": 1,
+  "distinctFrameCount": 1
+}

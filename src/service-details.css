@@ -1,0 +1,17 @@
+/* A compact disclosure label, with symmetric open/close motion. */
+.service-card__details > summary {
+  width: fit-content;
+  justify-content: flex-start;
+  gap: 8px;
+  min-height: 44px;
+}
+.service-card__details > summary > svg {
+  flex: none;
+  transform: rotate(0deg);
+  transition: transform 240ms cubic-bezier(.22,1,.36,1);
+}
+.service-card__details[open] > summary[aria-expanded="false"] > svg { transform: rotate(0deg); }
+.service-card__details > summary[aria-expanded="true"] > svg { transform: rotate(45deg); }
+@media (prefers-reduced-motion: reduce) {
+  .service-card__details > summary > svg { transition: none; }
+}

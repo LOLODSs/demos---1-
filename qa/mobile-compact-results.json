@@ -1,0 +1,706 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "320 compact scroll",
+      "passed": true
+    },
+    {
+      "name": "320 closed initially",
+      "passed": true
+    },
+    {
+      "name": "320 expands",
+      "passed": true
+    },
+    {
+      "name": "320 keyboard collapses",
+      "passed": true
+    },
+    {
+      "name": "320 closed initially",
+      "passed": true
+    },
+    {
+      "name": "320 expands",
+      "passed": true
+    },
+    {
+      "name": "320 keyboard collapses",
+      "passed": true
+    },
+    {
+      "name": "320 all service prices visible",
+      "passed": true
+    },
+    {
+      "name": "320 safety advice always visible",
+      "passed": true
+    },
+    {
+      "name": "390 compact scroll",
+      "passed": true
+    },
+    {
+      "name": "390 closed initially",
+      "passed": true
+    },
+    {
+      "name": "390 expands",
+      "passed": true
+    },
+    {
+      "name": "390 keyboard collapses",
+      "passed": true
+    },
+    {
+      "name": "390 closed initially",
+      "passed": true
+    },
+    {
+      "name": "390 expands",
+      "passed": true
+    },
+    {
+      "name": "390 keyboard collapses",
+      "passed": true
+    },
+    {
+      "name": "390 all service prices visible",
+      "passed": true
+    },
+    {
+      "name": "390 safety advice always visible",
+      "passed": true
+    },
+    {
+      "name": "print includes collapsed advice",
+      "passed": true
+    },
+    {
+      "name": "expanded advice follows pet selection",
+      "passed": true
+    },
+    {
+      "name": "desktop expanded automatically",
+      "passed": true
+    },
+    {
+      "name": "mobile disclosure state retained",
+      "passed": true
+    },
+    {
+      "name": "600 compact scroll",
+      "passed": true
+    },
+    {
+      "name": "600 closed initially",
+      "passed": true
+    },
+    {
+      "name": "600 expands",
+      "passed": true
+    },
+    {
+      "name": "600 keyboard collapses",
+      "passed": true
+    },
+    {
+      "name": "600 closed initially",
+      "passed": true
+    },
+    {
+      "name": "600 expands",
+      "passed": true
+    },
+    {
+      "name": "600 keyboard collapses",
+      "passed": true
+    },
+    {
+      "name": "600 all service prices visible",
+      "passed": true
+    },
+    {
+      "name": "600 safety advice always visible",
+      "passed": true
+    },
+    {
+      "name": "760 compact scroll",
+      "passed": true
+    },
+    {
+      "name": "760 closed initially",
+      "passed": true
+    },
+    {
+      "name": "760 expands",
+      "passed": true
+    },
+    {
+      "name": "760 keyboard collapses",
+      "passed": true
+    },
+    {
+      "name": "760 closed initially",
+      "passed": true
+    },
+    {
+      "name": "760 expands",
+      "passed": true
+    },
+    {
+      "name": "760 keyboard collapses",
+      "passed": true
+    },
+    {
+      "name": "760 all service prices visible",
+      "passed": true
+    },
+    {
+      "name": "760 safety advice always visible",
+      "passed": true
+    },
+    {
+      "name": "768 desktop sections unchanged",
+      "passed": true
+    },
+    {
+      "name": "768 all service prices visible",
+      "passed": true
+    },
+    {
+      "name": "768 safety advice always visible",
+      "passed": true
+    },
+    {
+      "name": "1440 desktop sections unchanged",
+      "passed": true
+    },
+    {
+      "name": "1440 all service prices visible",
+      "passed": true
+    },
+    {
+      "name": "1440 safety advice always visible",
+      "passed": true
+    },
+    {
+      "name": "no runtime errors",
+      "passed": true
+    }
+  ],
+  "sizes": [
+    {
+      "width": 320,
+      "before": {
+        "total": 9300,
+        "sections": [
+          {
+            "id": "home",
+            "height": 825
+          },
+          {
+            "id": "care-path",
+            "height": 333
+          },
+          {
+            "id": "services",
+            "height": 1613
+          },
+          {
+            "id": "about",
+            "height": 1735
+          },
+          {
+            "id": "team",
+            "height": 914
+          },
+          {
+            "id": "reviews",
+            "height": 743
+          },
+          {
+            "id": "gallery",
+            "height": 774
+          },
+          {
+            "id": "faq",
+            "height": 932
+          },
+          {
+            "id": "contacts",
+            "height": 1060
+          }
+        ]
+      },
+      "after": {
+        "total": 8146,
+        "sections": [
+          {
+            "id": "home",
+            "height": 809
+          },
+          {
+            "id": "care-path",
+            "height": 65
+          },
+          {
+            "id": "services",
+            "height": 1507
+          },
+          {
+            "id": "about",
+            "height": 1446
+          },
+          {
+            "id": "team",
+            "height": 654
+          },
+          {
+            "id": "reviews",
+            "height": 705
+          },
+          {
+            "id": "gallery",
+            "height": 744
+          },
+          {
+            "id": "faq",
+            "height": 860
+          },
+          {
+            "id": "contacts",
+            "height": 993
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "before": {
+        "total": 8896,
+        "sections": [
+          {
+            "id": "home",
+            "height": 786
+          },
+          {
+            "id": "care-path",
+            "height": 313
+          },
+          {
+            "id": "services",
+            "height": 1581
+          },
+          {
+            "id": "about",
+            "height": 1570
+          },
+          {
+            "id": "team",
+            "height": 899
+          },
+          {
+            "id": "reviews",
+            "height": 722
+          },
+          {
+            "id": "gallery",
+            "height": 817
+          },
+          {
+            "id": "faq",
+            "height": 786
+          },
+          {
+            "id": "contacts",
+            "height": 1050
+          }
+        ]
+      },
+      "after": {
+        "total": 7795,
+        "sections": [
+          {
+            "id": "home",
+            "height": 770
+          },
+          {
+            "id": "care-path",
+            "height": 65
+          },
+          {
+            "id": "services",
+            "height": 1475
+          },
+          {
+            "id": "about",
+            "height": 1283
+          },
+          {
+            "id": "team",
+            "height": 654
+          },
+          {
+            "id": "reviews",
+            "height": 684
+          },
+          {
+            "id": "gallery",
+            "height": 787
+          },
+          {
+            "id": "faq",
+            "height": 714
+          },
+          {
+            "id": "contacts",
+            "height": 1000
+          }
+        ]
+      }
+    },
+    {
+      "width": 600,
+      "before": {
+        "total": 9278,
+        "sections": [
+          {
+            "id": "home",
+            "height": 956
+          },
+          {
+            "id": "care-path",
+            "height": 285
+          },
+          {
+            "id": "services",
+            "height": 1590
+          },
+          {
+            "id": "about",
+            "height": 1596
+          },
+          {
+            "id": "team",
+            "height": 864
+          },
+          {
+            "id": "reviews",
+            "height": 634
+          },
+          {
+            "id": "gallery",
+            "height": 1036
+          },
+          {
+            "id": "faq",
+            "height": 759
+          },
+          {
+            "id": "contacts",
+            "height": 1187
+          }
+        ]
+      },
+      "after": {
+        "total": 7965,
+        "sections": [
+          {
+            "id": "home",
+            "height": 940
+          },
+          {
+            "id": "care-path",
+            "height": 65
+          },
+          {
+            "id": "services",
+            "height": 1484
+          },
+          {
+            "id": "about",
+            "height": 1025
+          },
+          {
+            "id": "team",
+            "height": 662
+          },
+          {
+            "id": "reviews",
+            "height": 596
+          },
+          {
+            "id": "gallery",
+            "height": 1006
+          },
+          {
+            "id": "faq",
+            "height": 687
+          },
+          {
+            "id": "contacts",
+            "height": 1137
+          }
+        ]
+      }
+    },
+    {
+      "width": 760,
+      "before": {
+        "total": 10136,
+        "sections": [
+          {
+            "id": "home",
+            "height": 1121
+          },
+          {
+            "id": "care-path",
+            "height": 285
+          },
+          {
+            "id": "services",
+            "height": 1903
+          },
+          {
+            "id": "about",
+            "height": 1703
+          },
+          {
+            "id": "team",
+            "height": 867
+          },
+          {
+            "id": "reviews",
+            "height": 637
+          },
+          {
+            "id": "gallery",
+            "height": 1215
+          },
+          {
+            "id": "faq",
+            "height": 732
+          },
+          {
+            "id": "contacts",
+            "height": 1304
+          }
+        ]
+      },
+      "after": {
+        "total": 8706,
+        "sections": [
+          {
+            "id": "home",
+            "height": 1105
+          },
+          {
+            "id": "care-path",
+            "height": 65
+          },
+          {
+            "id": "services",
+            "height": 1773
+          },
+          {
+            "id": "about",
+            "height": 1039
+          },
+          {
+            "id": "team",
+            "height": 665
+          },
+          {
+            "id": "reviews",
+            "height": 599
+          },
+          {
+            "id": "gallery",
+            "height": 1185
+          },
+          {
+            "id": "faq",
+            "height": 660
+          },
+          {
+            "id": "contacts",
+            "height": 1254
+          }
+        ]
+      }
+    },
+    {
+      "width": 768,
+      "before": {
+        "total": 7936,
+        "sections": [
+          {
+            "id": "home",
+            "height": 997
+          },
+          {
+            "id": "care-path",
+            "height": 190
+          },
+          {
+            "id": "services",
+            "height": 1416
+          },
+          {
+            "id": "about",
+            "height": 1282
+          },
+          {
+            "id": "team",
+            "height": 733
+          },
+          {
+            "id": "reviews",
+            "height": 723
+          },
+          {
+            "id": "gallery",
+            "height": 746
+          },
+          {
+            "id": "faq",
+            "height": 709
+          },
+          {
+            "id": "contacts",
+            "height": 816
+          }
+        ]
+      },
+      "after": {
+        "total": 7936,
+        "sections": [
+          {
+            "id": "home",
+            "height": 997
+          },
+          {
+            "id": "care-path",
+            "height": 190
+          },
+          {
+            "id": "services",
+            "height": 1416
+          },
+          {
+            "id": "about",
+            "height": 1282
+          },
+          {
+            "id": "team",
+            "height": 733
+          },
+          {
+            "id": "reviews",
+            "height": 723
+          },
+          {
+            "id": "gallery",
+            "height": 746
+          },
+          {
+            "id": "faq",
+            "height": 709
+          },
+          {
+            "id": "contacts",
+            "height": 816
+          }
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "before": {
+        "total": 7393,
+        "sections": [
+          {
+            "id": "home",
+            "height": 687
+          },
+          {
+            "id": "care-path",
+            "height": 155
+          },
+          {
+            "id": "services",
+            "height": 1117
+          },
+          {
+            "id": "about",
+            "height": 1019
+          },
+          {
+            "id": "team",
+            "height": 875
+          },
+          {
+            "id": "reviews",
+            "height": 601
+          },
+          {
+            "id": "gallery",
+            "height": 918
+          },
+          {
+            "id": "faq",
+            "height": 655
+          },
+          {
+            "id": "contacts",
+            "height": 1019
+          }
+        ]
+      },
+      "after": {
+        "total": 7393,
+        "sections": [
+          {
+            "id": "home",
+            "height": 687
+          },
+          {
+            "id": "care-path",
+            "height": 155
+          },
+          {
+            "id": "services",
+            "height": 1117
+          },
+          {
+            "id": "about",
+            "height": 1019
+          },
+          {
+            "id": "team",
+            "height": 875
+          },
+          {
+            "id": "reviews",
+            "height": 601
+          },
+          {
+            "id": "gallery",
+            "height": 918
+          },
+          {
+            "id": "faq",
+            "height": 655
+          },
+          {
+            "id": "contacts",
+            "height": 1019
+          }
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

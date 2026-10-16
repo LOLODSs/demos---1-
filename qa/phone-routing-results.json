@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "320: urgent is native telephone link",
+      "passed": true
+    },
+    {
+      "name": "320: phone action instead of form",
+      "passed": true
+    },
+    {
+      "name": "320: menu urgent calls",
+      "passed": true
+    },
+    {
+      "name": "390: urgent is native telephone link",
+      "passed": true
+    },
+    {
+      "name": "390: phone action instead of form",
+      "passed": true
+    },
+    {
+      "name": "390: menu urgent calls",
+      "passed": true
+    },
+    {
+      "name": "768: urgent is native telephone link",
+      "passed": true
+    },
+    {
+      "name": "768: phone action instead of form",
+      "passed": true
+    },
+    {
+      "name": "768: menu urgent calls",
+      "passed": true
+    },
+    {
+      "name": "1440: urgent is native telephone link",
+      "passed": true
+    },
+    {
+      "name": "1440: phone action instead of form",
+      "passed": true
+    }
+  ]
+}

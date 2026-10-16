@@ -1,0 +1,156 @@
+{
+  "browser": "chromium",
+  "captureMethod": "cdp",
+  "captureSize": [
+    715,
+    600
+  ],
+  "consoleErrors": [],
+  "document": {
+    "diagnostics": {
+      "clippedOverflow": [],
+      "overlayIntersections": [],
+      "viewportOverflow": {
+        "horizontal": false,
+        "vertical": false
+      }
+    },
+    "documentSize": [
+      715,
+      600
+    ],
+    "fontStatus": "loaded",
+    "title": "\u041b\u0435\u0441\u043d\u0430\u044f \u2014 \u0431\u0435\u0440\u0435\u0436\u043d\u043e \u043a \u0442\u0435\u043c, \u043a\u0442\u043e \u0432\u0430\u043c \u0434\u043e\u0440\u043e\u0433",
+    "viewportSize": [
+      715,
+      600
+    ]
+  },
+  "exceptions": [],
+  "failedResources": [],
+  "frameSelector": "#service-diagnostics",
+  "frames": [
+    {
+      "element": "article#service-diagnostics.service-card.is-revealed",
+      "fitsViewport": true,
+      "index": 1,
+      "rect": [
+        20,
+        1898,
+        675,
+        228
+      ],
+      "actualScroll": [
+        0,
+        0
+      ],
+      "clippingAncestors": [],
+      "finalRect": [
+        20,
+        201,
+        675,
+        228
+      ],
+      "fullyVisible": true,
+      "scrollAncestors": [
+        {
+          "element": "div.site-scroll",
+          "before": [
+            0,
+            0
+          ],
+          "after": [
+            0,
+            1697
+          ]
+        }
+      ],
+      "viewportSize": [
+        715,
+        600
+      ],
+      "byteLength": 36329,
+      "diagnostics": {
+        "clippedOverflow": [],
+        "overlayIntersections": [
+          {
+            "content": "svg",
+            "overlay": "a.skip-link",
+            "overlap": [
+              24,
+              6
+            ]
+          },
+          {
+            "content": "h3",
+            "overlay": "a.skip-link",
+            "overlap": [
+              94,
+              10
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              24,
+              6
+            ]
+          },
+          {
+            "content": "h3",
+            "overlay": "header.header",
+            "overlap": [
+              94,
+              10
+            ]
+          },
+          {
+            "content": "p.service-card__when",
+            "overlay": "header.header",
+            "overlap": [
+              633,
+              21
+            ]
+          },
+          {
+            "content": "strong",
+            "overlay": "header.header",
+            "overlap": [
+              633,
+              19
+            ]
+          }
+        ],
+        "viewportOverflow": {
+          "horizontal": false,
+          "vertical": false
+        }
+      },
+      "output": "/data/lesnaya-v193/qa/service-closed-final-frame-001.png",
+      "screenshotSize": [
+        715,
+        600
+      ],
+      "sha256": "4a088db518a1065c4149366362f38147aa09689f2c47a78d4d0155a2e1bcaba4",
+      "dimensions": [
+        715,
+        600
+      ],
+      "pixelSha256": "eb2cd903be9315e49f557c253fab0e977258cc414ad89c03c89cb7351ed5f63f"
+    }
+  ],
+  "fullPage": false,
+  "input": "/data/lesnaya-v193/preview.html",
+  "output": "/data/lesnaya-v193/qa/service-closed-final.png",
+  "reducedMotion": true,
+  "byteLength": 96019,
+  "sha256": "b68e13596005a0c3c8e9908fdb89bf756c9fb8c127a1621d44e9fc82a82d8507",
+  "dimensions": [
+    715,
+    600
+  ],
+  "pixelSha256": "ef2a411a9730ff94b8e1f3ad7dff0c0141ff4cb838a06c0158178e395d60a7cf",
+  "renderedFrameCount": 1,
+  "distinctFrameCount": 1
+}

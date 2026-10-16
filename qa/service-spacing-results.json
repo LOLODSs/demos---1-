@@ -1,0 +1,137 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "width": 320,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "headingInset": 0,
+      "priceInset": 198.796875,
+      "buttonInset": 0,
+      "overflow": false,
+      "whenBottom": 1566.5,
+      "priceTop": 1485.8125,
+      "actions": "passed"
+    },
+    {
+      "width": 390,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "headingInset": 0,
+      "priceInset": 254.703125,
+      "buttonInset": 0,
+      "overflow": false,
+      "whenBottom": 1485.546875,
+      "priceTop": 1402.0625,
+      "actions": "passed"
+    },
+    {
+      "width": 600,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "headingInset": 0,
+      "priceInset": 464.703125,
+      "buttonInset": 0,
+      "overflow": false,
+      "whenBottom": 1634.9375,
+      "priceTop": 1551.453125,
+      "actions": "passed"
+    },
+    {
+      "width": 601,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "headingInset": 21,
+      "priceInset": 21,
+      "buttonInset": 21,
+      "overflow": false,
+      "whenBottom": 1616.03125,
+      "priceTop": 1630.03125,
+      "actions": "passed"
+    },
+    {
+      "width": 675,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "headingInset": 21,
+      "priceInset": 21,
+      "buttonInset": 21,
+      "overflow": false,
+      "whenBottom": 1694.734375,
+      "priceTop": 1708.734375,
+      "actions": "passed"
+    },
+    {
+      "width": 715,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "headingInset": 21,
+      "priceInset": 21,
+      "buttonInset": 21,
+      "overflow": false,
+      "whenBottom": 1736.140625,
+      "priceTop": 1750.140625,
+      "actions": "passed"
+    },
+    {
+      "width": 760,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "headingInset": 21,
+      "priceInset": 21,
+      "buttonInset": 21,
+      "overflow": false,
+      "whenBottom": 1782.359375,
+      "priceTop": 1796.359375,
+      "actions": "passed"
+    },
+    {
+      "width": 761,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "headingInset": 25,
+      "priceInset": 25,
+      "buttonInset": 25,
+      "overflow": false,
+      "whenBottom": 1615.09375,
+      "priceTop": 1631.09375,
+      "actions": "passed"
+    },
+    {
+      "width": 820,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "headingInset": 25,
+      "priceInset": 25,
+      "buttonInset": 25,
+      "overflow": false,
+      "whenBottom": 1648.28125,
+      "priceTop": 1664.28125,
+      "actions": "passed"
+    },
+    {
+      "width": 1100,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "headingInset": 25,
+      "priceInset": 25,
+      "buttonInset": 25,
+      "overflow": false,
+      "whenBottom": 1262.984375,
+      "priceTop": 1278.984375,
+      "actions": "passed"
+    },
+    {
+      "width": 1440,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "headingInset": 25,
+      "priceInset": 25,
+      "buttonInset": 25,
+      "overflow": false,
+      "whenBottom": 1295.1875,
+      "priceTop": 1311.1875,
+      "actions": "passed"
+    }
+  ]
+}

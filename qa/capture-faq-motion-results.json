@@ -1,0 +1,188 @@
+{
+  "browser": "chromium",
+  "captureMethod": "cdp",
+  "captureSize": [
+    390,
+    1200
+  ],
+  "consoleErrors": [],
+  "document": {
+    "diagnostics": {
+      "clippedOverflow": [],
+      "overlayIntersections": [],
+      "viewportOverflow": {
+        "horizontal": false,
+        "vertical": false
+      }
+    },
+    "documentSize": [
+      390,
+      1200
+    ],
+    "fontStatus": "loaded",
+    "title": "\u041b\u0435\u0441\u043d\u0430\u044f \u2014 \u0431\u0435\u0440\u0435\u0436\u043d\u043e \u043a \u0442\u0435\u043c, \u043a\u0442\u043e \u0432\u0430\u043c \u0434\u043e\u0440\u043e\u0433",
+    "viewportSize": [
+      390,
+      1200
+    ]
+  },
+  "exceptions": [],
+  "failedResources": [],
+  "frameSelector": "#faq",
+  "frames": [
+    {
+      "element": "section#faq.section.faq",
+      "fitsViewport": true,
+      "index": 1,
+      "rect": [
+        0,
+        6762,
+        390,
+        786
+      ],
+      "actualScroll": [
+        0,
+        0
+      ],
+      "clippingAncestors": [],
+      "finalRect": [
+        0,
+        223,
+        390,
+        786
+      ],
+      "fullyVisible": true,
+      "scrollAncestors": [
+        {
+          "element": "div.site-scroll",
+          "before": [
+            0,
+            0
+          ],
+          "after": [
+            0,
+            6539
+          ]
+        }
+      ],
+      "viewportSize": [
+        390,
+        1200
+      ],
+      "byteLength": 88157,
+      "diagnostics": {
+        "clippedOverflow": [],
+        "overlayIntersections": [
+          {
+            "content": "button.gallery-item.gallery-item--1.is-revealed",
+            "overlay": "a.skip-link",
+            "overlap": [
+              167,
+              43
+            ]
+          },
+          {
+            "content": "img",
+            "overlay": "a.skip-link",
+            "overlap": [
+              167,
+              43
+            ]
+          },
+          {
+            "content": "button.gallery-item.gallery-item--2.is-revealed",
+            "overlay": "a.skip-link",
+            "overlap": [
+              22,
+              43
+            ]
+          },
+          {
+            "content": "img",
+            "overlay": "a.skip-link",
+            "overlap": [
+              22,
+              43
+            ]
+          },
+          {
+            "content": "button.gallery-item.gallery-item--1.is-revealed",
+            "overlay": "header.header",
+            "overlap": [
+              167,
+              72
+            ]
+          },
+          {
+            "content": "img",
+            "overlay": "header.header",
+            "overlap": [
+              167,
+              72
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              20,
+              20
+            ]
+          },
+          {
+            "content": "button.gallery-item.gallery-item--2.is-revealed",
+            "overlay": "header.header",
+            "overlap": [
+              167,
+              72
+            ]
+          },
+          {
+            "content": "img",
+            "overlay": "header.header",
+            "overlap": [
+              167,
+              72
+            ]
+          },
+          {
+            "content": "svg",
+            "overlay": "header.header",
+            "overlap": [
+              20,
+              20
+            ]
+          }
+        ],
+        "viewportOverflow": {
+          "horizontal": false,
+          "vertical": false
+        }
+      },
+      "output": "/data/lesnaya-v195/qa/faq-motion-final-frame-001.png",
+      "screenshotSize": [
+        390,
+        1200
+      ],
+      "sha256": "2048db55a40a0fd1ec593f96bc215dd85ef8b986077cd6ea4b5748e1e9986668",
+      "dimensions": [
+        390,
+        1200
+      ],
+      "pixelSha256": "2a0542e9f8137e25152b64f52265eef8001dc0014bbf7e0fd08debc867668708"
+    }
+  ],
+  "fullPage": false,
+  "input": "/data/lesnaya-v195/preview.html",
+  "output": "/data/lesnaya-v195/qa/faq-motion-final.png",
+  "reducedMotion": true,
+  "byteLength": 241247,
+  "sha256": "74c4a486af6af35b4f77dccfee081c09645cc16b3de2269e87470ce7009c97c8",
+  "dimensions": [
+    390,
+    1200
+  ],
+  "pixelSha256": "f8a56469ac79b88c53cf05accbfdca56b60c8a55b14a8913fd2cb51412c55113",
+  "renderedFrameCount": 1,
+  "distinctFrameCount": 1
+}

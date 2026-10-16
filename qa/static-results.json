@@ -1,5 +1,5 @@
 
-> lesnaya-clinic-demo@1.7.0 test
+> lesnaya-clinic-demo@1.9.6 test
 > node scripts/check.mjs
 
 {
@@ -7,11 +7,15 @@
   "data": "6 services, 3 doctors, consistent references",
   "assets": "all present",
   "network": "form has no sending or persistence",
-  "javascriptBytes": 311927,
+  "javascriptBytes": 338182,
   "contrasts": [
     {
+      "name": "Illustrated scene stage labels",
+      "ratio": 4.63
+    },
+    {
       "name": "Urgent button",
-      "ratio": 7.59
+      "ratio": 6.56
     },
     {
       "name": "Urgent note",
@@ -26,8 +30,8 @@
       "ratio": 5.08
     },
     {
-      "name": "Visit card secondary and eyebrow",
-      "ratio": 4.63
+      "name": "Notebook secondary and eyebrow",
+      "ratio": 5.44
     },
     {
       "name": "Featured service secondary",
@@ -35,11 +39,11 @@
     },
     {
       "name": "Header urgent",
-      "ratio": 7.59
+      "ratio": 6.56
     },
     {
       "name": "Mobile urgent",
-      "ratio": 7.59
+      "ratio": 6.56
     },
     {
       "name": "Light button",

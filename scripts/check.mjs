@@ -27,6 +27,8 @@ for (const image of new Set([
   "hero-pets-mobile.webp",
   "hero-pets-compact.webp",
   "hero-film-poster.webp",
+  "visit-cat-illustration.webp",
+  "visit-dog-illustration.webp",
   ...doctors.map((d) => d.image),
   ...gallery.map((g) => g.image),
 ]))
@@ -49,14 +51,15 @@ function luminance(hex) {
   return c[0] * 0.2126 + c[1] * 0.7152 + c[2] * 0.0722;
 }
 const pairs = [
-  ["Urgent button", "#74392f", "#f7ebe5"],
+  ["Illustrated scene stage labels", "#5e6c60", "#e9ecdf"],
+  ["Urgent button", "#fffaf5", "#a3342c"],
   ["Urgent note", "#692b25", "#f8ebe5"],
   ["Body", "#24372b", "#f7f5ee"],
   ["Secondary", "#5e6c60", "#f7f5ee"],
-  ["Visit card secondary and eyebrow", "#5e6c60", "#e9ecdf"],
+  ["Notebook secondary and eyebrow", "#5e6c60", "#fffdf6"],
   ["Featured service secondary", "#5e6c60", "#eaf0e4"],
-  ["Header urgent", "#74392f", "#f7ebe5"],
-  ["Mobile urgent", "#74392f", "#f7ebe5"],
+  ["Header urgent", "#fffaf5", "#a3342c"],
+  ["Mobile urgent", "#fffaf5", "#a3342c"],
   ["Light button", "#173427", "#efb86e"],
   ["Dark button", "#fffef9", "#163728"],
   ["Dark metadata", "#bcccaf", "#0e251c"],

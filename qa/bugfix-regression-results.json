@@ -1,0 +1,158 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "390: rejects +7+9001234567",
+      "passed": true
+    },
+    {
+      "name": "390: rejects 7900++1234567",
+      "passed": true
+    },
+    {
+      "name": "390: rejects ++79001234567",
+      "passed": true
+    },
+    {
+      "name": "390: rejects 7900abc1234567",
+      "passed": true
+    },
+    {
+      "name": "390: rejects 12345",
+      "passed": true
+    },
+    {
+      "name": "390: accepts valid +7 (900) 123-45-67",
+      "passed": true
+    },
+    {
+      "name": "390: accepts valid 8 900 123 45 67",
+      "passed": true
+    },
+    {
+      "name": "390: accepts valid   +7 900 123–45–67  ",
+      "passed": true
+    },
+    {
+      "name": "390: doctor banner updates",
+      "passed": true
+    },
+    {
+      "name": "390: cleared doctor has no stale banner",
+      "passed": true
+    },
+    {
+      "name": "390: form resets on reopen",
+      "passed": true
+    },
+    {
+      "name": "390: required fields announced",
+      "passed": true
+    },
+    {
+      "name": "390: direct section link works",
+      "passed": true
+    },
+    {
+      "name": "390: reload preserves section",
+      "passed": true
+    },
+    {
+      "name": "390: malformed fragment does not crash",
+      "passed": true
+    },
+    {
+      "name": "1440: rejects +7+9001234567",
+      "passed": true
+    },
+    {
+      "name": "1440: rejects 7900++1234567",
+      "passed": true
+    },
+    {
+      "name": "1440: rejects ++79001234567",
+      "passed": true
+    },
+    {
+      "name": "1440: rejects 7900abc1234567",
+      "passed": true
+    },
+    {
+      "name": "1440: rejects 12345",
+      "passed": true
+    },
+    {
+      "name": "1440: accepts valid +7 (900) 123-45-67",
+      "passed": true
+    },
+    {
+      "name": "1440: accepts valid 8 900 123 45 67",
+      "passed": true
+    },
+    {
+      "name": "1440: accepts valid   +7 900 123–45–67  ",
+      "passed": true
+    },
+    {
+      "name": "1440: doctor banner updates",
+      "passed": true
+    },
+    {
+      "name": "1440: cleared doctor has no stale banner",
+      "passed": true
+    },
+    {
+      "name": "1440: form resets on reopen",
+      "passed": true
+    },
+    {
+      "name": "1440: required fields announced",
+      "passed": true
+    },
+    {
+      "name": "1440: direct section link works",
+      "passed": true
+    },
+    {
+      "name": "1440: reload preserves section",
+      "passed": true
+    },
+    {
+      "name": "1440: malformed fragment does not crash",
+      "passed": true
+    },
+    {
+      "name": "568: collapsed date error opens options",
+      "passed": true
+    },
+    {
+      "name": "568: invalid date focused and visible",
+      "passed": true
+    },
+    {
+      "name": "568: valid date recovers form",
+      "passed": true
+    },
+    {
+      "name": "844: collapsed date error opens options",
+      "passed": true
+    },
+    {
+      "name": "844: invalid date focused and visible",
+      "passed": true
+    },
+    {
+      "name": "844: valid date recovers form",
+      "passed": true
+    },
+    {
+      "name": "offline fragment works",
+      "passed": true
+    },
+    {
+      "name": "no JS errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,47 @@
+/* A detachable notebook sheet, not another UI panel. */
+.visit-ticket {
+  --paper: #fffdf6;
+  background: var(--paper);
+  border: 1px solid #d4cfbd;
+  border-bottom: 0;
+  border-radius: 4px 6px 0 0;
+  padding: 28px 28px 28px 56px;
+  box-shadow: 0 2px 0 -1px #e2dece, 0 5px 0 -2px #f4f0e4, 0 8px 14px #26382b08;
+  isolation: isolate;
+}
+.visit-ticket::before {
+  content: "";
+  position: absolute;
+  top: 18px; bottom: 18px; left: 12px;
+  width: 21px;
+  border-right: 1px dashed #d5c9b3;
+  background: radial-gradient(circle at 5px 8px, #d9dfce 0 3px, #b8c1ac 3.3px 4px, transparent 4.4px) 0 0 / 14px 36px repeat-y;
+  pointer-events: none;
+}
+.visit-ticket::after {
+  content: "";
+  position: absolute;
+  left: -1px; right: -1px; bottom: -6px; height: 7px;
+  background: var(--paper);
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 99% 100%, 98% 45%, 97% 100%, 96% 45%, 95% 100%, 94% 45%, 93% 100%, 92% 45%, 91% 100%, 90% 45%, 89% 100%, 88% 45%, 87% 100%, 86% 45%, 85% 100%, 84% 45%, 83% 100%, 82% 45%, 81% 100%, 80% 45%, 79% 100%, 78% 45%, 77% 100%, 76% 45%, 75% 100%, 74% 45%, 73% 100%, 72% 45%, 71% 100%, 70% 45%, 69% 100%, 68% 45%, 67% 100%, 66% 45%, 65% 100%, 64% 45%, 63% 100%, 62% 45%, 61% 100%, 60% 45%, 59% 100%, 58% 45%, 57% 100%, 56% 45%, 55% 100%, 54% 45%, 53% 100%, 52% 45%, 51% 100%, 50% 45%, 49% 100%, 48% 45%, 47% 100%, 46% 45%, 45% 100%, 44% 45%, 43% 100%, 42% 45%, 41% 100%, 40% 45%, 39% 100%, 38% 45%, 37% 100%, 36% 45%, 35% 100%, 34% 45%, 33% 100%, 32% 45%, 31% 100%, 30% 45%, 29% 100%, 28% 45%, 27% 100%, 26% 45%, 25% 100%, 24% 45%, 23% 100%, 22% 45%, 21% 100%, 20% 45%, 19% 100%, 18% 45%, 17% 100%, 16% 45%, 15% 100%, 14% 45%, 13% 100%, 12% 45%, 11% 100%, 10% 45%, 9% 100%, 8% 45%, 7% 100%, 6% 45%, 5% 100%, 4% 45%, 3% 100%, 2% 45%, 1% 100%, 0% 45%);
+  pointer-events: none;
+}
+.visit-ticket__masthead { border-bottom-color: #ded8c7; }
+.visit-ticket h3 { border-bottom: 1px solid #ded8c7; padding-bottom: 18px; }
+.visit-ticket__preparation,
+.visit-ticket__actions { border-top-color: #ded8c7; }
+.visit-ticket__body > section { margin-top: 20px; }
+.visit-ticket__body li::marker { color: #8c7756; }
+@media (max-width: 760px) {
+  .visit-ticket { padding: 24px 20px 24px 42px; }
+  .visit-ticket::before { left: 8px; width: 17px; background-size: 12px 34px; }
+}
+@media (max-width: 370px) {
+  .visit-ticket { padding: 22px 16px 22px 38px; }
+  .visit-ticket::before { left: 7px; width: 15px; }
+  .visit-ticket h3 { font-size: 23px; }
+}
+@media print {
+  .visit-ticket { padding: 24px 24px 24px 56px; border: 1px solid #d4cfbd; box-shadow: none; }
+  .visit-ticket::after { display: none; }
+}

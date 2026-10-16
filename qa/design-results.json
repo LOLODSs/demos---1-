@@ -1,0 +1,1251 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "320: no overflow",
+      "passed": true
+    },
+    {
+      "name": "320: all images loaded",
+      "passed": true
+    },
+    {
+      "name": "320: text floor",
+      "passed": true
+    },
+    {
+      "name": "320: compact dock",
+      "passed": true
+    },
+    {
+      "name": "320: dock does not overlap",
+      "passed": true
+    },
+    {
+      "name": "320: reviews single column",
+      "passed": true
+    },
+    {
+      "name": "320: care title word spacing",
+      "passed": true
+    },
+    {
+      "name": "320: services visible",
+      "passed": true
+    },
+    {
+      "name": "320: about visible",
+      "passed": true
+    },
+    {
+      "name": "320: team visible",
+      "passed": true
+    },
+    {
+      "name": "320: reviews visible",
+      "passed": true
+    },
+    {
+      "name": "320: gallery visible",
+      "passed": true
+    },
+    {
+      "name": "320: faq visible",
+      "passed": true
+    },
+    {
+      "name": "320: contacts visible",
+      "passed": true
+    },
+    {
+      "name": "360: no overflow",
+      "passed": true
+    },
+    {
+      "name": "360: all images loaded",
+      "passed": true
+    },
+    {
+      "name": "360: text floor",
+      "passed": true
+    },
+    {
+      "name": "360: compact dock",
+      "passed": true
+    },
+    {
+      "name": "360: dock does not overlap",
+      "passed": true
+    },
+    {
+      "name": "360: reviews single column",
+      "passed": true
+    },
+    {
+      "name": "360: care title word spacing",
+      "passed": true
+    },
+    {
+      "name": "360: services visible",
+      "passed": true
+    },
+    {
+      "name": "360: about visible",
+      "passed": true
+    },
+    {
+      "name": "360: team visible",
+      "passed": true
+    },
+    {
+      "name": "360: reviews visible",
+      "passed": true
+    },
+    {
+      "name": "360: gallery visible",
+      "passed": true
+    },
+    {
+      "name": "360: faq visible",
+      "passed": true
+    },
+    {
+      "name": "360: contacts visible",
+      "passed": true
+    },
+    {
+      "name": "390: no overflow",
+      "passed": true
+    },
+    {
+      "name": "390: all images loaded",
+      "passed": true
+    },
+    {
+      "name": "390: text floor",
+      "passed": true
+    },
+    {
+      "name": "390: compact dock",
+      "passed": true
+    },
+    {
+      "name": "390: dock does not overlap",
+      "passed": true
+    },
+    {
+      "name": "390: reviews single column",
+      "passed": true
+    },
+    {
+      "name": "390: care title word spacing",
+      "passed": true
+    },
+    {
+      "name": "390: services visible",
+      "passed": true
+    },
+    {
+      "name": "390: about visible",
+      "passed": true
+    },
+    {
+      "name": "390: team visible",
+      "passed": true
+    },
+    {
+      "name": "390: reviews visible",
+      "passed": true
+    },
+    {
+      "name": "390: gallery visible",
+      "passed": true
+    },
+    {
+      "name": "390: faq visible",
+      "passed": true
+    },
+    {
+      "name": "390: contacts visible",
+      "passed": true
+    },
+    {
+      "name": "390: service expands",
+      "passed": true
+    },
+    {
+      "name": "390: ticket reflects choices",
+      "passed": true
+    },
+    {
+      "name": "390: PNG saved",
+      "passed": true
+    },
+    {
+      "name": "390: review changes",
+      "passed": true
+    },
+    {
+      "name": "390: FAQ expands",
+      "passed": true
+    },
+    {
+      "name": "390: doctor profile",
+      "passed": true
+    },
+    {
+      "name": "390: gallery opens",
+      "passed": true
+    },
+    {
+      "name": "390: gallery keyboard",
+      "passed": true
+    },
+    {
+      "name": "390: urgent opens short guidance",
+      "passed": true
+    },
+    {
+      "name": "390: urgent has no form",
+      "passed": true
+    },
+    {
+      "name": "390: unverified phone not callable",
+      "passed": true
+    },
+    {
+      "name": "390: urgent has no booking action",
+      "passed": true
+    },
+    {
+      "name": "390: planned booking separate from urgent",
+      "passed": true
+    },
+    {
+      "name": "390: validation",
+      "passed": true
+    },
+    {
+      "name": "390: honest local result",
+      "passed": true
+    },
+    {
+      "name": "390: mobile menu",
+      "passed": true
+    },
+    {
+      "name": "390: only ticket prints",
+      "passed": true
+    },
+    {
+      "name": "480: no overflow",
+      "passed": true
+    },
+    {
+      "name": "480: all images loaded",
+      "passed": true
+    },
+    {
+      "name": "480: text floor",
+      "passed": true
+    },
+    {
+      "name": "480: compact dock",
+      "passed": true
+    },
+    {
+      "name": "480: dock does not overlap",
+      "passed": true
+    },
+    {
+      "name": "480: reviews single column",
+      "passed": true
+    },
+    {
+      "name": "480: care title word spacing",
+      "passed": true
+    },
+    {
+      "name": "480: services visible",
+      "passed": true
+    },
+    {
+      "name": "480: about visible",
+      "passed": true
+    },
+    {
+      "name": "480: team visible",
+      "passed": true
+    },
+    {
+      "name": "480: reviews visible",
+      "passed": true
+    },
+    {
+      "name": "480: gallery visible",
+      "passed": true
+    },
+    {
+      "name": "480: faq visible",
+      "passed": true
+    },
+    {
+      "name": "480: contacts visible",
+      "passed": true
+    },
+    {
+      "name": "600: no overflow",
+      "passed": true
+    },
+    {
+      "name": "600: all images loaded",
+      "passed": true
+    },
+    {
+      "name": "600: text floor",
+      "passed": true
+    },
+    {
+      "name": "600: compact dock",
+      "passed": true
+    },
+    {
+      "name": "600: dock does not overlap",
+      "passed": true
+    },
+    {
+      "name": "600: reviews single column",
+      "passed": true
+    },
+    {
+      "name": "600: care title word spacing",
+      "passed": true
+    },
+    {
+      "name": "600: services visible",
+      "passed": true
+    },
+    {
+      "name": "600: about visible",
+      "passed": true
+    },
+    {
+      "name": "600: team visible",
+      "passed": true
+    },
+    {
+      "name": "600: reviews visible",
+      "passed": true
+    },
+    {
+      "name": "600: gallery visible",
+      "passed": true
+    },
+    {
+      "name": "600: faq visible",
+      "passed": true
+    },
+    {
+      "name": "600: contacts visible",
+      "passed": true
+    },
+    {
+      "name": "760: no overflow",
+      "passed": true
+    },
+    {
+      "name": "760: all images loaded",
+      "passed": true
+    },
+    {
+      "name": "760: text floor",
+      "passed": true
+    },
+    {
+      "name": "760: compact dock",
+      "passed": true
+    },
+    {
+      "name": "760: dock does not overlap",
+      "passed": true
+    },
+    {
+      "name": "760: reviews single column",
+      "passed": true
+    },
+    {
+      "name": "760: care title word spacing",
+      "passed": true
+    },
+    {
+      "name": "760: services visible",
+      "passed": true
+    },
+    {
+      "name": "760: about visible",
+      "passed": true
+    },
+    {
+      "name": "760: team visible",
+      "passed": true
+    },
+    {
+      "name": "760: reviews visible",
+      "passed": true
+    },
+    {
+      "name": "760: gallery visible",
+      "passed": true
+    },
+    {
+      "name": "760: faq visible",
+      "passed": true
+    },
+    {
+      "name": "760: contacts visible",
+      "passed": true
+    },
+    {
+      "name": "768: no overflow",
+      "passed": true
+    },
+    {
+      "name": "768: all images loaded",
+      "passed": true
+    },
+    {
+      "name": "768: text floor",
+      "passed": true
+    },
+    {
+      "name": "768: services visible",
+      "passed": true
+    },
+    {
+      "name": "768: about visible",
+      "passed": true
+    },
+    {
+      "name": "768: team visible",
+      "passed": true
+    },
+    {
+      "name": "768: reviews visible",
+      "passed": true
+    },
+    {
+      "name": "768: gallery visible",
+      "passed": true
+    },
+    {
+      "name": "768: faq visible",
+      "passed": true
+    },
+    {
+      "name": "768: contacts visible",
+      "passed": true
+    },
+    {
+      "name": "820: no overflow",
+      "passed": true
+    },
+    {
+      "name": "820: all images loaded",
+      "passed": true
+    },
+    {
+      "name": "820: text floor",
+      "passed": true
+    },
+    {
+      "name": "820: services visible",
+      "passed": true
+    },
+    {
+      "name": "820: about visible",
+      "passed": true
+    },
+    {
+      "name": "820: team visible",
+      "passed": true
+    },
+    {
+      "name": "820: reviews visible",
+      "passed": true
+    },
+    {
+      "name": "820: gallery visible",
+      "passed": true
+    },
+    {
+      "name": "820: faq visible",
+      "passed": true
+    },
+    {
+      "name": "820: contacts visible",
+      "passed": true
+    },
+    {
+      "name": "1024: no overflow",
+      "passed": true
+    },
+    {
+      "name": "1024: all images loaded",
+      "passed": true
+    },
+    {
+      "name": "1024: text floor",
+      "passed": true
+    },
+    {
+      "name": "1024: services visible",
+      "passed": true
+    },
+    {
+      "name": "1024: about visible",
+      "passed": true
+    },
+    {
+      "name": "1024: team visible",
+      "passed": true
+    },
+    {
+      "name": "1024: reviews visible",
+      "passed": true
+    },
+    {
+      "name": "1024: gallery visible",
+      "passed": true
+    },
+    {
+      "name": "1024: faq visible",
+      "passed": true
+    },
+    {
+      "name": "1024: contacts visible",
+      "passed": true
+    },
+    {
+      "name": "1280: no overflow",
+      "passed": true
+    },
+    {
+      "name": "1280: all images loaded",
+      "passed": true
+    },
+    {
+      "name": "1280: text floor",
+      "passed": true
+    },
+    {
+      "name": "1280: services visible",
+      "passed": true
+    },
+    {
+      "name": "1280: about visible",
+      "passed": true
+    },
+    {
+      "name": "1280: team visible",
+      "passed": true
+    },
+    {
+      "name": "1280: reviews visible",
+      "passed": true
+    },
+    {
+      "name": "1280: gallery visible",
+      "passed": true
+    },
+    {
+      "name": "1280: faq visible",
+      "passed": true
+    },
+    {
+      "name": "1280: contacts visible",
+      "passed": true
+    },
+    {
+      "name": "1440: no overflow",
+      "passed": true
+    },
+    {
+      "name": "1440: all images loaded",
+      "passed": true
+    },
+    {
+      "name": "1440: text floor",
+      "passed": true
+    },
+    {
+      "name": "1440: services visible",
+      "passed": true
+    },
+    {
+      "name": "1440: about visible",
+      "passed": true
+    },
+    {
+      "name": "1440: team visible",
+      "passed": true
+    },
+    {
+      "name": "1440: reviews visible",
+      "passed": true
+    },
+    {
+      "name": "1440: gallery visible",
+      "passed": true
+    },
+    {
+      "name": "1440: faq visible",
+      "passed": true
+    },
+    {
+      "name": "1440: contacts visible",
+      "passed": true
+    },
+    {
+      "name": "1440: service expands",
+      "passed": true
+    },
+    {
+      "name": "1440: ticket reflects choices",
+      "passed": true
+    },
+    {
+      "name": "1440: PNG saved",
+      "passed": true
+    },
+    {
+      "name": "1440: review changes",
+      "passed": true
+    },
+    {
+      "name": "1440: FAQ expands",
+      "passed": true
+    },
+    {
+      "name": "1440: doctor profile",
+      "passed": true
+    },
+    {
+      "name": "1440: gallery opens",
+      "passed": true
+    },
+    {
+      "name": "1440: gallery keyboard",
+      "passed": true
+    },
+    {
+      "name": "1440: urgent opens short guidance",
+      "passed": true
+    },
+    {
+      "name": "1440: urgent has no form",
+      "passed": true
+    },
+    {
+      "name": "1440: unverified phone not callable",
+      "passed": true
+    },
+    {
+      "name": "1440: urgent has no booking action",
+      "passed": true
+    },
+    {
+      "name": "1440: planned booking separate from urgent",
+      "passed": true
+    },
+    {
+      "name": "1440: validation",
+      "passed": true
+    },
+    {
+      "name": "1440: honest local result",
+      "passed": true
+    },
+    {
+      "name": "1440: only ticket prints",
+      "passed": true
+    },
+    {
+      "name": "1920: no overflow",
+      "passed": true
+    },
+    {
+      "name": "1920: all images loaded",
+      "passed": true
+    },
+    {
+      "name": "1920: text floor",
+      "passed": true
+    },
+    {
+      "name": "1920: services visible",
+      "passed": true
+    },
+    {
+      "name": "1920: about visible",
+      "passed": true
+    },
+    {
+      "name": "1920: team visible",
+      "passed": true
+    },
+    {
+      "name": "1920: reviews visible",
+      "passed": true
+    },
+    {
+      "name": "1920: gallery visible",
+      "passed": true
+    },
+    {
+      "name": "1920: faq visible",
+      "passed": true
+    },
+    {
+      "name": "1920: contacts visible",
+      "passed": true
+    },
+    {
+      "name": "standalone urgent works",
+      "passed": true
+    },
+    {
+      "name": "No JS errors",
+      "passed": true
+    },
+    {
+      "name": "No external requests",
+      "passed": true
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "overflow": false,
+      "height": 9300,
+      "sections": [
+        {
+          "id": "home",
+          "height": 825
+        },
+        {
+          "id": "services",
+          "height": 1613
+        },
+        {
+          "id": "about",
+          "height": 1735
+        },
+        {
+          "id": "team",
+          "height": 914
+        },
+        {
+          "id": "reviews",
+          "height": 743
+        },
+        {
+          "id": "gallery",
+          "height": 774
+        },
+        {
+          "id": "faq",
+          "height": 932
+        },
+        {
+          "id": "contacts",
+          "height": 1060
+        }
+      ],
+      "dock": {
+        "height": 57,
+        "overlap": false
+      },
+      "broken": 0,
+      "small": []
+    },
+    {
+      "width": 360,
+      "overflow": false,
+      "height": 9077,
+      "sections": [
+        {
+          "id": "home",
+          "height": 813
+        },
+        {
+          "id": "services",
+          "height": 1587
+        },
+        {
+          "id": "about",
+          "height": 1686
+        },
+        {
+          "id": "team",
+          "height": 892
+        },
+        {
+          "id": "reviews",
+          "height": 713
+        },
+        {
+          "id": "gallery",
+          "height": 814
+        },
+        {
+          "id": "faq",
+          "height": 857
+        },
+        {
+          "id": "contacts",
+          "height": 1034
+        }
+      ],
+      "dock": {
+        "height": 57,
+        "overlap": false
+      },
+      "broken": 0,
+      "small": []
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "height": 8896,
+      "sections": [
+        {
+          "id": "home",
+          "height": 786
+        },
+        {
+          "id": "services",
+          "height": 1581
+        },
+        {
+          "id": "about",
+          "height": 1570
+        },
+        {
+          "id": "team",
+          "height": 899
+        },
+        {
+          "id": "reviews",
+          "height": 722
+        },
+        {
+          "id": "gallery",
+          "height": 817
+        },
+        {
+          "id": "faq",
+          "height": 786
+        },
+        {
+          "id": "contacts",
+          "height": 1050
+        }
+      ],
+      "dock": {
+        "height": 57,
+        "overlap": false
+      },
+      "broken": 0,
+      "small": []
+    },
+    {
+      "width": 480,
+      "overflow": false,
+      "height": 8968,
+      "sections": [
+        {
+          "id": "home",
+          "height": 865
+        },
+        {
+          "id": "services",
+          "height": 1581
+        },
+        {
+          "id": "about",
+          "height": 1563
+        },
+        {
+          "id": "team",
+          "height": 856
+        },
+        {
+          "id": "reviews",
+          "height": 658
+        },
+        {
+          "id": "gallery",
+          "height": 917
+        },
+        {
+          "id": "faq",
+          "height": 759
+        },
+        {
+          "id": "contacts",
+          "height": 1115
+        }
+      ],
+      "dock": {
+        "height": 57,
+        "overlap": false
+      },
+      "broken": 0,
+      "small": []
+    },
+    {
+      "width": 600,
+      "overflow": false,
+      "height": 9278,
+      "sections": [
+        {
+          "id": "home",
+          "height": 956
+        },
+        {
+          "id": "services",
+          "height": 1590
+        },
+        {
+          "id": "about",
+          "height": 1596
+        },
+        {
+          "id": "team",
+          "height": 864
+        },
+        {
+          "id": "reviews",
+          "height": 634
+        },
+        {
+          "id": "gallery",
+          "height": 1036
+        },
+        {
+          "id": "faq",
+          "height": 759
+        },
+        {
+          "id": "contacts",
+          "height": 1187
+        }
+      ],
+      "dock": {
+        "height": 57,
+        "overlap": false
+      },
+      "broken": 0,
+      "small": []
+    },
+    {
+      "width": 760,
+      "overflow": false,
+      "height": 10136,
+      "sections": [
+        {
+          "id": "home",
+          "height": 1121
+        },
+        {
+          "id": "services",
+          "height": 1903
+        },
+        {
+          "id": "about",
+          "height": 1703
+        },
+        {
+          "id": "team",
+          "height": 867
+        },
+        {
+          "id": "reviews",
+          "height": 637
+        },
+        {
+          "id": "gallery",
+          "height": 1215
+        },
+        {
+          "id": "faq",
+          "height": 732
+        },
+        {
+          "id": "contacts",
+          "height": 1304
+        }
+      ],
+      "dock": {
+        "height": 57,
+        "overlap": false
+      },
+      "broken": 0,
+      "small": []
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "height": 0,
+      "sections": [
+        {
+          "id": "home",
+          "height": 997
+        },
+        {
+          "id": "services",
+          "height": 1416
+        },
+        {
+          "id": "about",
+          "height": 1282
+        },
+        {
+          "id": "team",
+          "height": 733
+        },
+        {
+          "id": "reviews",
+          "height": 723
+        },
+        {
+          "id": "gallery",
+          "height": 746
+        },
+        {
+          "id": "faq",
+          "height": 709
+        },
+        {
+          "id": "contacts",
+          "height": 816
+        }
+      ],
+      "dock": null,
+      "broken": 0,
+      "small": []
+    },
+    {
+      "width": 820,
+      "overflow": false,
+      "height": 0,
+      "sections": [
+        {
+          "id": "home",
+          "height": 1027
+        },
+        {
+          "id": "services",
+          "height": 1416
+        },
+        {
+          "id": "about",
+          "height": 1282
+        },
+        {
+          "id": "team",
+          "height": 748
+        },
+        {
+          "id": "reviews",
+          "height": 723
+        },
+        {
+          "id": "gallery",
+          "height": 765
+        },
+        {
+          "id": "faq",
+          "height": 682
+        },
+        {
+          "id": "contacts",
+          "height": 837
+        }
+      ],
+      "dock": null,
+      "broken": 0,
+      "small": []
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "height": 0,
+      "sections": [
+        {
+          "id": "home",
+          "height": 1162
+        },
+        {
+          "id": "services",
+          "height": 1423
+        },
+        {
+          "id": "about",
+          "height": 1010
+        },
+        {
+          "id": "team",
+          "height": 792
+        },
+        {
+          "id": "reviews",
+          "height": 641
+        },
+        {
+          "id": "gallery",
+          "height": 824
+        },
+        {
+          "id": "faq",
+          "height": 655
+        },
+        {
+          "id": "contacts",
+          "height": 929
+        }
+      ],
+      "dock": null,
+      "broken": 0,
+      "small": []
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "height": 0,
+      "sections": [
+        {
+          "id": "home",
+          "height": 670
+        },
+        {
+          "id": "services",
+          "height": 1115
+        },
+        {
+          "id": "about",
+          "height": 1008
+        },
+        {
+          "id": "team",
+          "height": 873
+        },
+        {
+          "id": "reviews",
+          "height": 601
+        },
+        {
+          "id": "gallery",
+          "height": 915
+        },
+        {
+          "id": "faq",
+          "height": 655
+        },
+        {
+          "id": "contacts",
+          "height": 1017
+        }
+      ],
+      "dock": null,
+      "broken": 0,
+      "small": []
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "height": 0,
+      "sections": [
+        {
+          "id": "home",
+          "height": 687
+        },
+        {
+          "id": "services",
+          "height": 1117
+        },
+        {
+          "id": "about",
+          "height": 1019
+        },
+        {
+          "id": "team",
+          "height": 875
+        },
+        {
+          "id": "reviews",
+          "height": 601
+        },
+        {
+          "id": "gallery",
+          "height": 918
+        },
+        {
+          "id": "faq",
+          "height": 655
+        },
+        {
+          "id": "contacts",
+          "height": 1019
+        }
+      ],
+      "dock": null,
+      "broken": 0,
+      "small": []
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "height": 0,
+      "sections": [
+        {
+          "id": "home",
+          "height": 690
+        },
+        {
+          "id": "services",
+          "height": 1117
+        },
+        {
+          "id": "about",
+          "height": 1019
+        },
+        {
+          "id": "team",
+          "height": 875
+        },
+        {
+          "id": "reviews",
+          "height": 601
+        },
+        {
+          "id": "gallery",
+          "height": 918
+        },
+        {
+          "id": "faq",
+          "height": 655
+        },
+        {
+          "id": "contacts",
+          "height": 1019
+        }
+      ],
+      "dock": null,
+      "broken": 0,
+      "small": []
+    }
+  ],
+  "errors": [],
+  "external": []
+}

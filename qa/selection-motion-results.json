@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "390: idle scene is still",
+      "passed": true
+    },
+    {
+      "name": "390: selection starts finite accent",
+      "passed": true
+    },
+    {
+      "name": "390: redundant journey hidden",
+      "passed": true
+    },
+    {
+      "name": "390: all accents stop",
+      "passed": true
+    },
+    {
+      "name": "390: no forced scrolling",
+      "passed": true
+    },
+    {
+      "name": "390: runner disappears",
+      "passed": true
+    },
+    {
+      "name": "390: matching pet content",
+      "passed": true
+    },
+    {
+      "name": "390: no overflow",
+      "passed": true
+    },
+    {
+      "name": "390: repeat visit starts feedback",
+      "passed": true
+    },
+    {
+      "name": "390: live reduced-motion cancels animations",
+      "passed": true
+    },
+    {
+      "name": "390: reduced mode stays still",
+      "passed": true
+    },
+    {
+      "name": "390: rapid choices do not queue",
+      "passed": true
+    },
+    {
+      "name": "390: rapid choices settle",
+      "passed": true
+    },
+    {
+      "name": "390: print cancels scene animations",
+      "passed": true
+    },
+    {
+      "name": "1440: idle scene is still",
+      "passed": true
+    },
+    {
+      "name": "1440: selection starts finite accent",
+      "passed": true
+    },
+    {
+      "name": "1440: runner visibly travels",
+      "passed": true
+    },
+    {
+      "name": "1440: all accents stop",
+      "passed": true
+    },
+    {
+      "name": "1440: no forced scrolling",
+      "passed": true
+    },
+    {
+      "name": "1440: runner disappears",
+      "passed": true
+    },
+    {
+      "name": "1440: matching pet content",
+      "passed": true
+    },
+    {
+      "name": "1440: no overflow",
+      "passed": true
+    },
+    {
+      "name": "1440: repeat visit starts feedback",
+      "passed": true
+    },
+    {
+      "name": "1440: live reduced-motion cancels animations",
+      "passed": true
+    },
+    {
+      "name": "1440: reduced mode stays still",
+      "passed": true
+    },
+    {
+      "name": "1440: rapid choices do not queue",
+      "passed": true
+    },
+    {
+      "name": "1440: rapid choices settle",
+      "passed": true
+    },
+    {
+      "name": "1440: print cancels scene animations",
+      "passed": true
+    },
+    {
+      "name": "fallback without Web Animations",
+      "passed": true
+    },
+    {
+      "name": "no JS errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "320: paper fits viewport",
+      "passed": true
+    },
+    {
+      "name": "320: decorative rail separate from content",
+      "passed": true
+    },
+    {
+      "name": "320: actions fit paper",
+      "passed": true
+    },
+    {
+      "name": "320: print hides interactive controls",
+      "passed": true
+    },
+    {
+      "name": "320: print keeps memo text",
+      "passed": true
+    },
+    {
+      "name": "390: paper fits viewport",
+      "passed": true
+    },
+    {
+      "name": "390: decorative rail separate from content",
+      "passed": true
+    },
+    {
+      "name": "390: actions fit paper",
+      "passed": true
+    },
+    {
+      "name": "390: print hides interactive controls",
+      "passed": true
+    },
+    {
+      "name": "390: print keeps memo text",
+      "passed": true
+    },
+    {
+      "name": "715: paper fits viewport",
+      "passed": true
+    },
+    {
+      "name": "715: decorative rail separate from content",
+      "passed": true
+    },
+    {
+      "name": "715: actions fit paper",
+      "passed": true
+    },
+    {
+      "name": "715: print hides interactive controls",
+      "passed": true
+    },
+    {
+      "name": "715: print keeps memo text",
+      "passed": true
+    },
+    {
+      "name": "820: paper fits viewport",
+      "passed": true
+    },
+    {
+      "name": "820: decorative rail separate from content",
+      "passed": true
+    },
+    {
+      "name": "820: actions fit paper",
+      "passed": true
+    },
+    {
+      "name": "820: print hides interactive controls",
+      "passed": true
+    },
+    {
+      "name": "820: print keeps memo text",
+      "passed": true
+    },
+    {
+      "name": "1024: paper fits viewport",
+      "passed": true
+    },
+    {
+      "name": "1024: decorative rail separate from content",
+      "passed": true
+    },
+    {
+      "name": "1024: actions fit paper",
+      "passed": true
+    },
+    {
+      "name": "1024: print hides interactive controls",
+      "passed": true
+    },
+    {
+      "name": "1024: print keeps memo text",
+      "passed": true
+    },
+    {
+      "name": "1440: paper fits viewport",
+      "passed": true
+    },
+    {
+      "name": "1440: decorative rail separate from content",
+      "passed": true
+    },
+    {
+      "name": "1440: actions fit paper",
+      "passed": true
+    },
+    {
+      "name": "1440: print hides interactive controls",
+      "passed": true
+    },
+    {
+      "name": "1440: print keeps memo text",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,1387 @@
+{
+  "checks": [
+    {
+      "name": "320x568 overflow",
+      "passed": true
+    },
+    {
+      "name": "320 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "320 header collision",
+      "passed": true
+    },
+    {
+      "name": "320 dock",
+      "passed": true
+    },
+    {
+      "name": "320 images",
+      "passed": true
+    },
+    {
+      "name": "320x568 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "320 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "320 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "320x568 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "320 menu fits",
+      "passed": true
+    },
+    {
+      "name": "320 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "360x640 overflow",
+      "passed": true
+    },
+    {
+      "name": "360 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "360 header collision",
+      "passed": true
+    },
+    {
+      "name": "360 dock",
+      "passed": true
+    },
+    {
+      "name": "360 images",
+      "passed": true
+    },
+    {
+      "name": "360x640 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "360 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "360 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "360x640 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "360 menu fits",
+      "passed": true
+    },
+    {
+      "name": "360 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "370x812 overflow",
+      "passed": true
+    },
+    {
+      "name": "370 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "370 header collision",
+      "passed": true
+    },
+    {
+      "name": "370 dock",
+      "passed": true
+    },
+    {
+      "name": "370 images",
+      "passed": true
+    },
+    {
+      "name": "370x812 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "370 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "370 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "370x812 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "370 menu fits",
+      "passed": true
+    },
+    {
+      "name": "370 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "371x812 overflow",
+      "passed": true
+    },
+    {
+      "name": "371 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "371 header collision",
+      "passed": true
+    },
+    {
+      "name": "371 dock",
+      "passed": true
+    },
+    {
+      "name": "371 images",
+      "passed": true
+    },
+    {
+      "name": "371x812 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "371 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "371 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "371x812 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "371 menu fits",
+      "passed": true
+    },
+    {
+      "name": "371 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "375x667 overflow",
+      "passed": true
+    },
+    {
+      "name": "375 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "375 header collision",
+      "passed": true
+    },
+    {
+      "name": "375 dock",
+      "passed": true
+    },
+    {
+      "name": "375 images",
+      "passed": true
+    },
+    {
+      "name": "375x667 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "375 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "375 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "375x667 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "375 menu fits",
+      "passed": true
+    },
+    {
+      "name": "375 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "390x844 overflow",
+      "passed": true
+    },
+    {
+      "name": "390 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "390 header collision",
+      "passed": true
+    },
+    {
+      "name": "390 dock",
+      "passed": true
+    },
+    {
+      "name": "390 images",
+      "passed": true
+    },
+    {
+      "name": "390x844 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "390 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "390 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "390x844 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "390 menu fits",
+      "passed": true
+    },
+    {
+      "name": "390 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "414x896 overflow",
+      "passed": true
+    },
+    {
+      "name": "414 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "414 header collision",
+      "passed": true
+    },
+    {
+      "name": "414 dock",
+      "passed": true
+    },
+    {
+      "name": "414 images",
+      "passed": true
+    },
+    {
+      "name": "414x896 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "414 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "414 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "414x896 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "414 menu fits",
+      "passed": true
+    },
+    {
+      "name": "414 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "480x800 overflow",
+      "passed": true
+    },
+    {
+      "name": "480 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "480 header collision",
+      "passed": true
+    },
+    {
+      "name": "480 dock",
+      "passed": true
+    },
+    {
+      "name": "480 images",
+      "passed": true
+    },
+    {
+      "name": "480x800 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "480 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "480 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "480x800 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "480 menu fits",
+      "passed": true
+    },
+    {
+      "name": "480 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "568x320 overflow",
+      "passed": true
+    },
+    {
+      "name": "568 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "568 header collision",
+      "passed": true
+    },
+    {
+      "name": "568 dock",
+      "passed": true
+    },
+    {
+      "name": "568 images",
+      "passed": true
+    },
+    {
+      "name": "568x320 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "568 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "568 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "568x320 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "568 menu fits",
+      "passed": true
+    },
+    {
+      "name": "568 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "600x900 overflow",
+      "passed": true
+    },
+    {
+      "name": "600 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "600 header collision",
+      "passed": true
+    },
+    {
+      "name": "600 dock",
+      "passed": true
+    },
+    {
+      "name": "600 images",
+      "passed": true
+    },
+    {
+      "name": "600x900 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "600 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "600 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "600x900 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "600 menu fits",
+      "passed": true
+    },
+    {
+      "name": "600 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "601x900 overflow",
+      "passed": true
+    },
+    {
+      "name": "601 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "601 header collision",
+      "passed": true
+    },
+    {
+      "name": "601 dock",
+      "passed": true
+    },
+    {
+      "name": "601 images",
+      "passed": true
+    },
+    {
+      "name": "601x900 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "601 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "601 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "601x900 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "601 menu fits",
+      "passed": true
+    },
+    {
+      "name": "601 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "715x900 overflow",
+      "passed": true
+    },
+    {
+      "name": "715 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "715 header collision",
+      "passed": true
+    },
+    {
+      "name": "715 dock",
+      "passed": true
+    },
+    {
+      "name": "715 images",
+      "passed": true
+    },
+    {
+      "name": "715x900 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "715 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "715 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "715x900 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "715 menu fits",
+      "passed": true
+    },
+    {
+      "name": "715 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "759x900 overflow",
+      "passed": true
+    },
+    {
+      "name": "759 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "759 header collision",
+      "passed": true
+    },
+    {
+      "name": "759 dock",
+      "passed": true
+    },
+    {
+      "name": "759 images",
+      "passed": true
+    },
+    {
+      "name": "759x900 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "759 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "759 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "759x900 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "759 menu fits",
+      "passed": true
+    },
+    {
+      "name": "759 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "760x900 overflow",
+      "passed": true
+    },
+    {
+      "name": "760 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "760 header collision",
+      "passed": true
+    },
+    {
+      "name": "760 dock",
+      "passed": true
+    },
+    {
+      "name": "760 images",
+      "passed": true
+    },
+    {
+      "name": "760x900 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "760 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "760 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "760x900 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "760 menu fits",
+      "passed": true
+    },
+    {
+      "name": "760 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "761x900 overflow",
+      "passed": true
+    },
+    {
+      "name": "761 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "761 header collision",
+      "passed": true
+    },
+    {
+      "name": "761 dock",
+      "passed": true
+    },
+    {
+      "name": "761 images",
+      "passed": true
+    },
+    {
+      "name": "761x900 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "761 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "761 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "761x900 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "761 menu fits",
+      "passed": true
+    },
+    {
+      "name": "761 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "768x1024 overflow",
+      "passed": true
+    },
+    {
+      "name": "768 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "768 header collision",
+      "passed": true
+    },
+    {
+      "name": "768 dock",
+      "passed": true
+    },
+    {
+      "name": "768 images",
+      "passed": true
+    },
+    {
+      "name": "768x1024 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "768 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "768 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "768x1024 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "768 menu fits",
+      "passed": true
+    },
+    {
+      "name": "768 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "820x1180 overflow",
+      "passed": true
+    },
+    {
+      "name": "820 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "820 header collision",
+      "passed": true
+    },
+    {
+      "name": "820 dock",
+      "passed": true
+    },
+    {
+      "name": "820 images",
+      "passed": true
+    },
+    {
+      "name": "820x1180 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "820 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "820 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "820x1180 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "820 menu fits",
+      "passed": true
+    },
+    {
+      "name": "820 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "844x390 overflow",
+      "passed": true
+    },
+    {
+      "name": "844 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "844 header collision",
+      "passed": true
+    },
+    {
+      "name": "844 dock",
+      "passed": true
+    },
+    {
+      "name": "844 images",
+      "passed": true
+    },
+    {
+      "name": "844x390 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "844 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "844 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "844x390 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "844 menu fits",
+      "passed": true
+    },
+    {
+      "name": "844 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "900x600 overflow",
+      "passed": true
+    },
+    {
+      "name": "900 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "900 header collision",
+      "passed": true
+    },
+    {
+      "name": "900 dock",
+      "passed": true
+    },
+    {
+      "name": "900 images",
+      "passed": true
+    },
+    {
+      "name": "900x600 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "900 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "900 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "900x600 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "900 menu fits",
+      "passed": true
+    },
+    {
+      "name": "900 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "999x800 overflow",
+      "passed": true
+    },
+    {
+      "name": "999 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "999 header collision",
+      "passed": true
+    },
+    {
+      "name": "999 dock",
+      "passed": true
+    },
+    {
+      "name": "999 images",
+      "passed": true
+    },
+    {
+      "name": "999x800 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "999 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "999 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "999x800 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "999 menu fits",
+      "passed": true
+    },
+    {
+      "name": "999 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "1000x800 overflow",
+      "passed": true
+    },
+    {
+      "name": "1000 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "1000 header collision",
+      "passed": true
+    },
+    {
+      "name": "1000 dock",
+      "passed": true
+    },
+    {
+      "name": "1000 images",
+      "passed": true
+    },
+    {
+      "name": "1000x800 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1000 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "1000 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "1000x800 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1000 menu fits",
+      "passed": true
+    },
+    {
+      "name": "1000 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "1001x800 overflow",
+      "passed": true
+    },
+    {
+      "name": "1001 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "1001 header collision",
+      "passed": true
+    },
+    {
+      "name": "1001 dock",
+      "passed": true
+    },
+    {
+      "name": "1001 images",
+      "passed": true
+    },
+    {
+      "name": "1001x800 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1001 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "1001 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "1001x800 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1001 menu fits",
+      "passed": true
+    },
+    {
+      "name": "1001 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "1024x768 overflow",
+      "passed": true
+    },
+    {
+      "name": "1024 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "1024 header collision",
+      "passed": true
+    },
+    {
+      "name": "1024 dock",
+      "passed": true
+    },
+    {
+      "name": "1024 images",
+      "passed": true
+    },
+    {
+      "name": "1024x768 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1024 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "1024 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "1024x768 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1024 menu fits",
+      "passed": true
+    },
+    {
+      "name": "1024 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "1030x800 overflow",
+      "passed": true
+    },
+    {
+      "name": "1030 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "1030 header collision",
+      "passed": true
+    },
+    {
+      "name": "1030 dock",
+      "passed": true
+    },
+    {
+      "name": "1030 images",
+      "passed": true
+    },
+    {
+      "name": "1030x800 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1030 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "1030 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "1030x800 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1030 menu fits",
+      "passed": true
+    },
+    {
+      "name": "1030 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "1031x800 overflow",
+      "passed": true
+    },
+    {
+      "name": "1031 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "1031 header collision",
+      "passed": true
+    },
+    {
+      "name": "1031 dock",
+      "passed": true
+    },
+    {
+      "name": "1031 images",
+      "passed": true
+    },
+    {
+      "name": "1031x800 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1031 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "1031 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "1031x800 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1031 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "1100x800 overflow",
+      "passed": true
+    },
+    {
+      "name": "1100 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "1100 header collision",
+      "passed": true
+    },
+    {
+      "name": "1100 dock",
+      "passed": true
+    },
+    {
+      "name": "1100 images",
+      "passed": true
+    },
+    {
+      "name": "1100x800 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1100 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "1100 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "1100x800 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1100 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "1200x900 overflow",
+      "passed": true
+    },
+    {
+      "name": "1200 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "1200 header collision",
+      "passed": true
+    },
+    {
+      "name": "1200 dock",
+      "passed": true
+    },
+    {
+      "name": "1200 images",
+      "passed": true
+    },
+    {
+      "name": "1200x900 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1200 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "1200 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "1200x900 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1200 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "1201x900 overflow",
+      "passed": true
+    },
+    {
+      "name": "1201 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "1201 header collision",
+      "passed": true
+    },
+    {
+      "name": "1201 dock",
+      "passed": true
+    },
+    {
+      "name": "1201 images",
+      "passed": true
+    },
+    {
+      "name": "1201x900 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1201 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "1201 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "1201x900 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1201 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "1280x720 overflow",
+      "passed": true
+    },
+    {
+      "name": "1280 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "1280 header collision",
+      "passed": true
+    },
+    {
+      "name": "1280 dock",
+      "passed": true
+    },
+    {
+      "name": "1280 images",
+      "passed": true
+    },
+    {
+      "name": "1280x720 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1280 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "1280 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "1280x720 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1280 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "1440x900 overflow",
+      "passed": true
+    },
+    {
+      "name": "1440 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "1440 header collision",
+      "passed": true
+    },
+    {
+      "name": "1440 dock",
+      "passed": true
+    },
+    {
+      "name": "1440 images",
+      "passed": true
+    },
+    {
+      "name": "1440x900 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1440 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "1440 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "1440x900 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1440 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 overflow",
+      "passed": true
+    },
+    {
+      "name": "1920 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "1920 header collision",
+      "passed": true
+    },
+    {
+      "name": "1920 dock",
+      "passed": true
+    },
+    {
+      "name": "1920 images",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1920 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "1920 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "1920 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "2560x1440 overflow",
+      "passed": true
+    },
+    {
+      "name": "2560 text/controls fit",
+      "passed": true
+    },
+    {
+      "name": "2560 header collision",
+      "passed": true
+    },
+    {
+      "name": "2560 dock",
+      "passed": true
+    },
+    {
+      "name": "2560 images",
+      "passed": true
+    },
+    {
+      "name": "2560x1440 booking dialog fit",
+      "passed": true
+    },
+    {
+      "name": "2560 close reachable at bottom",
+      "passed": true
+    },
+    {
+      "name": "2560 submit reachable",
+      "passed": true
+    },
+    {
+      "name": "2560x1440 urgent dialog fit",
+      "passed": true
+    },
+    {
+      "name": "2560 expanded panels fit",
+      "passed": true
+    },
+    {
+      "name": "no runtime errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "details": [],
+  "passed": true
+}

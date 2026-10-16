@@ -1,0 +1,35 @@
+[
+  {
+    "case": "phone",
+    "phone": "+7+9001234567",
+    "accepted": false
+  },
+  {
+    "case": "phone",
+    "phone": "7900++1234567",
+    "accepted": false
+  },
+  {
+    "case": "phone",
+    "phone": "+7 (900) 123-45-67",
+    "accepted": true
+  },
+  {
+    "case": "doctor banner",
+    "selected": "elena",
+    "banner": "Специалист: Елена Соколова"
+  },
+  {
+    "case": "hidden date error focus",
+    "active": true,
+    "visible": true,
+    "field": [
+      261.28125,
+      307.28125
+    ],
+    "dialog": [
+      12,
+      556
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "doctor summary available in profile",
+      "passed": true
+    },
+    {
+      "name": "rapid advice toggles settle",
+      "passed": true
+    }
+  ]
+}

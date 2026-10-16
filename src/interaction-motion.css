@@ -1,0 +1,117 @@
+/* v1.9.5 — complete state transitions, not perpetual decoration. */
+.faq-answer:not([hidden]),
+.review-live blockquote {
+  animation: none;
+}
+.faq-answer[hidden] {
+  display: none;
+}
+.faq-question svg {
+  transition: transform 220ms ease-out;
+}
+.booking-options > summary svg {
+  transition: transform 220ms ease-out;
+}
+.booking-options[open] > summary[aria-expanded="false"] svg {
+  transform: rotate(0deg);
+}
+.booking-options > summary[aria-expanded="true"] svg {
+  transform: rotate(45deg);
+}
+.booking-screen {
+  display: flow-root;
+}
+.dialog.is-closing {
+  pointer-events: none;
+}
+@keyframes backdrop-leave {
+  to {
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .dialog[open].is-closing::backdrop {
+    animation: backdrop-leave 140ms ease-in both;
+  }
+}
+.lightbox__stage {
+  display: grid;
+  overflow: hidden;
+  background: #0e251c;
+}
+.lightbox__stage > img {
+  grid-area: 1 / 1;
+  width: 100%;
+  height: 65dvh;
+  max-height: 680px;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 240ms ease-out;
+  pointer-events: none;
+}
+.lightbox__stage > img.is-active {
+  opacity: 1;
+}
+.map-stage {
+  display: grid;
+}
+.map-stage > div {
+  grid-area: 1 / 1;
+  opacity: 0;
+  transition: opacity 240ms ease-out;
+  pointer-events: none;
+}
+.map-stage > .is-active {
+  opacity: 1;
+}
+.route-toggle button,
+.visit-choice-group button {
+  transition:
+    background-color 180ms ease-out,
+    color 180ms ease-out;
+}
+@media (max-width: 760px) {
+  .lightbox__stage > img {
+    height: auto;
+    min-height: 220px;
+    max-height: 65dvh;
+    aspect-ratio: 3 / 2;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lightbox__stage > img,
+  .map-stage > div,
+  .faq-question svg,
+  .booking-options > summary svg,
+  .route-toggle button,
+  .visit-choice-group button {
+    transition: none;
+  }
+}
+@media print {
+  .lightbox__stage > img,
+  .map-stage > div {
+    transition: none;
+  }
+}
+/* Animate a zero-padding shell, so the final 18–25px never snap shut. */
+.faq-answer {
+  padding: 0;
+}
+.faq-answer > .motion-collapse__inner {
+  padding: 0 35px 25px 0;
+}
+@media (max-width: 760px) {
+  .faq-answer > .motion-collapse__inner {
+    padding: 0 0 18px;
+  }
+}
+.visit-ticket__body {
+  animation: none;
+}
+.visit-ticket__actions > .button {
+  min-width: 212px;
+}
+.visit-ticket__body {
+  display: flow-root;
+}
